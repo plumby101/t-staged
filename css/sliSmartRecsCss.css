@@ -1,0 +1,17 @@
+#undefined {
+   display: inline-block;
+   text-align: center;
+   float: none;
+}
+
+#searchpage_popularproducts {
+   vertical-align: bottom;
+}
+
+.basket-recommendations .range-product {
+   display: inline-block !important;
+   text-align: center !important;
+   float: none !important;
+   vertical-align: bottom;
+   position: relative;
+}

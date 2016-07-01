@@ -1,0 +1,60 @@
+.imageSlider {
+  position: relative;
+  width: 100%;
+  height: 1500px;
+  overflow: hidden;    max-width: 1080px; margin-bottom: 20px }
+
+.imageSlides {
+  width: 300%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: block;
+  overflow: hidden; }
+                   
+.imageSlider img {display:block;max-width:100%;height:auto }
+
+.imageSlider ul {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+.imageSlider li {
+  margin: 0;
+  padding: 0;
+  float: left;
+  display: block;}
+
+.carouselText {
+  position: absolute;
+  z-index: 10;
+  color: #ffffff;
+  font-weight: 200;
+  text-align: center;
+  width: 100%;
+  font-size: 32px;
+  margin-top: 200px; }
+
+.sliderCTA {text-transform: uppercase; font-size:20px; letter-spacing: 2px; line-height: 150px}
+.sliderTitleText {font-size: 28px; letter-spacing: 2px}
+.sliderSubText {font-size:40px; letter-spacing: 2px; line-height: 8px}
+
+
+@media only screen and (min-width: 768px) {
+  .carouselText { font-size: 32px; margin-top: 35%}   
+    
+}
+
+@media only screen and (max-width: 767px) {
+  .imageSlider {margin-bottom:10px}
+    .carouselText {margin-top:120px }
+ 
+}
+
+@media only screen and (max-width: 400px) {
+     .sliderCTA {text-transform: uppercase; font-size:16px; letter-spacing: 2px; line-height: 50px}
+    .sliderTitleText {font-size: 20px; letter-spacing: 2px}
+    .sliderSubText {font-size:28px; letter-spacing: 2px; line-height: 2px}
+    .imageSlider {margin-bottom:10px}
+  
+    .carouselText {margin-top:80px }
+}
