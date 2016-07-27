@@ -187,6 +187,12 @@ html,button,input,select,textarea{color:#222}#noscript{display:none;background-c
     /*making of landing page*/
     .molpTileTitle{top:70%;}
     .molp_2{margin-bottom: 20px;}
+
+    .subTitleBorderLeft, .subTitleBorderRight {padding:0;margin: 0;font-size: 16px;letter-spacing: 2px; color:#ffffff; display: block}
+    .subTitleBorderLeft {float: none; margin-bottom: 10px}
+	.subTitleBorderRight {float: none; }
+	.borderLinkHolder {width: 80%; margin: 0 auto;}
+	.linkContainer {margin-top: 4%}
 }
 
 @media only screen and (max-width: 700px) 
