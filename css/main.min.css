@@ -31,13 +31,20 @@ html,button,input,select,textarea{color:#222}#noscript{display:none;background-c
 
 .portraitTile {width: 100%; display: block; width: 100%;padding-top: 128%;  margin-bottom: 10px; background-size: 100% 100%; position: relative}
 
-             .wl_1{background-image: url('http://d117fiyhpld8f9.cloudfront.net/content-images/aw16/750/WEB_EarlyAutumn_Women_1.jpg');margin-top: 10px}
-             .wl_1 .sansBook{font-size:20px;padding-top: 20px;}
-             .wl_2{background-image: url('http://d117fiyhpld8f9.cloudfront.net/content-images/aw16/750/WEB_EarlyAutumn_Women_2.jpg');margin-top: 10px}
-             .wl_3{background-image: url('http://d117fiyhpld8f9.cloudfront.net/content-images/aw16/750/WEB_EarlyAutumn_Women_3.jpg');margin-top: 10px}
-             .wl_4{background-image: url('http://d117fiyhpld8f9.cloudfront.net/content-images/aw16/750/WEB_EarlyAutumn_Women_4.jpg');margin-top: 10px}
-             .wl_5{background-image: url('http://d117fiyhpld8f9.cloudfront.net/content-images/aw16/750/WEB_EarlyAutumn_Women_5.jpg');margin-top: 10px}
-             .wl_6{background-image: url('http://d117fiyhpld8f9.cloudfront.net/content-images/aw16/750/WEB_EarlyAutumn_Women_6.jpg');margin-top: 10px}
+/*.wl_1{background-image: url('http://d117fiyhpld8f9.cloudfront.net/content-images/aw16/750/WEB_EarlyAutumn_Women_1.jpg')}
+.wl_1 .sansBook{font-size:20px;padding-top: 20px;}
+.wl_2{background-image: url('http://d117fiyhpld8f9.cloudfront.net/content-images/aw16/750/WEB_EarlyAutumn_Women_2.jpg');margin-top: 10px}
+.wl_3{background-image: url('http://d117fiyhpld8f9.cloudfront.net/content-images/aw16/750/WEB_EarlyAutumn_Women_3.jpg');margin-top: 10px}
+.wl_4{background-image: url('http://d117fiyhpld8f9.cloudfront.net/content-images/aw16/750/WEB_EarlyAutumn_Women_4.jpg');margin-top: 10px}
+.wl_5{background-image: url('http://d117fiyhpld8f9.cloudfront.net/content-images/aw16/750/WEB_EarlyAutumn_Women_5.jpg');margin-top: 10px}
+.wl_6{background-image: url('http://d117fiyhpld8f9.cloudfront.net/content-images/aw16/750/WEB_EarlyAutumn_Women_6.jpg');margin-top: 10px}*/
+
+.wl_1 {background-image: url(http://d117fiyhpld8f9.cloudfront.net/content-images/aw16/750/AW16_PreCollection_Women2a.jpg)}
+.wl_2 {background-image: url(http://d117fiyhpld8f9.cloudfront.net/content-images/lookbook/950/AW16_PreCollection_Lookbook_5.jpg)}
+.wl_3 {background-image: url(http://d117fiyhpld8f9.cloudfront.net/content-images/aw16/750/AW16_PreCollection_Women3.jpg); margin-top: 10px}
+.wl_4 {background-image: url(http://d117fiyhpld8f9.cloudfront.net/content-images/aw16/750/AW16_PreCollection_Women4.jpg); margin-top: 10px}
+.wl_5 {background-image: url(http://d117fiyhpld8f9.cloudfront.net/content-images/aw16/750/AW16_PreCollection_Women6a.jpg); margin-top: 10px}
+.wl_6 {background-image: url(http://d117fiyhpld8f9.cloudfront.net/content-images/aw16/750/AW16_PreCollection_Women8.jpg); margin-top: 10px}
 
 
 .tileTitle {position: absolute; top:80%; width: 100%; text-align: center; color: #ffffff }
@@ -78,15 +85,15 @@ html,button,input,select,textarea{color:#222}#noscript{display:none;background-c
 .molp_1{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/1080/WEB_MakingOf_Landing_1.jpg');padding-top: 100%;margin-bottom: 20px;}
 .molp_2{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/530/WEB_MakingOf_Landing_2.jpg');}
 .molp_3{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/530/WEB_MakingOf_Landing_3.jpg');}
-.landingBSIntro{text-align: center;margin-top: 30px;}
-.landingBSIntro h1{font-size: 26px;font-family: "freight-text-pro", serif;font-weight: 400;}
+.landingBSIntro{text-align: center;margin: 30px 0;}
+.landingBSIntro h1{font-size: 26px;font-family: "freight-text-pro", serif;font-weight: 600;}
 .landingBSIntro p{font-size: 18px;font-family: "freight-text-pro", serif;letter-spacing: 1px;}
-.landingBS p {font-size: 16px; font-family: "freight-text-pro", serif}
+.landingBS p {font-size: 16px; font-family: "freight-text-pro", serif; letter-spacing: 1px;}
 
 /*Khadi specific*/
 .greyButton {float: right; padding: 5px; margin:0; background-color: #e9e9e9; border: none}
 .bottom20 {margin-bottom: 20px}
-.khadiContentPad {margin: 20px 20px 90px 20px;}
+.khadiContentPad {margin: 20px 20px 46px 20px;}
 .khadiCTA {text-align: center; text-transform: uppercase; margin-bottom: 20px}
 .shopKhadi {width: 100%; background-image: url(//d117fiyhpld8f9.cloudfront.net/content-images/aw16/400/MakingOf_Khadi_4.jpg); padding-top: 121.484375%; position: relative; color: #ffffff ; background-size: 100% 100%; display: block; margin-bottom: 10px }
 .quarterWidthPanelText {width: 100%; text-align: center; font-size: 18px; position: absolute; bottom: 10%; letter-spacing: 2px; font-size: 26px; display: block}
@@ -101,7 +108,7 @@ html,button,input,select,textarea{color:#222}#noscript{display:none;background-c
 .hlTile3{margin-top:10px;background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/750/WEB_EarlyAutumn_Homepage_3.jpg');padding-top: 121.120%;}
 .hlTile4{margin-top:10px;background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/750/WEB_EarlyAutumn_Homepage_4.jpg');padding-top: 121.120%;}
 .hlTile5{margin-top:10px;background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/750/WEB_EarlyAutumn_Homepage_5.jpg');}
-.hlTile6{background-color: #e9e9e9;color:black;margin-top:10px;}
+.hlTile6{background-color: #e9e9e9;color:black;}
 .signuptile{text-align: center;}
 .signuptile p{color: black;width: 100%;top: 0px;}
 .signuptile button{padding-top: 8%;border-width: 0px;font-size: 16px;color: black;letter-spacing:1px;font-family: 'freight-sans-pro' sans-serif;background: transparent;}
