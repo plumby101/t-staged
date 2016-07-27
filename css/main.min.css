@@ -29,6 +29,10 @@ html,button,input,select,textarea{color:#222}#noscript{display:none;background-c
 .leftPadding-0 {padding-left: 0px!important}
 .rightPadding-0 {padding-right: 0px!important}
 
+.tileTitle {position: absolute; top:80%; width: 100%; text-align: center; color: #ffffff }
+.tileTitle .mainTitle {width: 100%;  font-size: 28px; float: left; letter-spacing: 3px}
+.tileTitle .subTitle {width: 100%;  text-transform: uppercase; padding-top: 12px; float: left; font-size: 16px; letter-spacing: 2px}
+
 .portraitTile {width: 100%; display: block; width: 100%;padding-top: 128%;  margin-bottom: 20px; background-size: 100% 100%; position: relative}
 
 /* Womens landing tiles */
@@ -51,10 +55,6 @@ html,button,input,select,textarea{color:#222}#noscript{display:none;background-c
 /* Lookbook landing tiles */
 .lb_1{background-image: url('https://d117fiyhpld8f9.cloudfront.net/content-images/aw16/550/Lookbook_autumn.jpg')}
 .lb_2{background-image: url('https://d117fiyhpld8f9.cloudfront.net/content-images/aw16/550/Lookbook_pre.jpg')}
-
-.tileTitle {position: absolute; top:80%; width: 100%; text-align: center; color: #ffffff }
-.tileTitle .mainTitle {width: 100%;  font-size: 28px; float: left; letter-spacing: 3px}
-.tileTitle .subTitle {width: 100%;  text-transform: uppercase; padding-top: 12px; float: left; font-size: 16px; letter-spacing: 2px}
 
 /*.layerings and wrappings*/
 .wnltile1 {text-align: center; max-height: 600px}
@@ -143,7 +143,7 @@ html,button,input,select,textarea{color:#222}#noscript{display:none;background-c
 /*miscellaneous*/
 .accordion-a section .content {padding: 0}
 .you-may-also-like .sale { color: red; text-decoration: line-through; padding-right: 10px;}
-
+.shopTxt{font-size: 16px;letter-spacing: 2px;}
 @media only screen and (max-width: 1024px) 
 {
 	.category-product-items .product {height: 450px}  
