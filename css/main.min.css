@@ -125,15 +125,15 @@ html,button,input,select,textarea{color:#222}#noscript{display:none;background-c
 .borderLinkHolder {width: 100%;}
 
 /*house and home landing page*/
-.hhlTile1{background-image: url('http://d117fiyhpld8f9.cloudfront.net/content-images/aw16/750/WEB_EarlyAutumn_HouseandHome_1.jpg')}
-.hhlTile2{background-image: url('http://d117fiyhpld8f9.cloudfront.net/content-images/aw16/750/WEB_EarlyAutumn_HouseandHome_2.jpg')}
+.hhlTile1{background-image: url('http://d117fiyhpld8f9.cloudfront.net/content-images/aw16/750/WEB_EarlyAutumn_HouseandHome_1.jpg'); margin-top: 10px;}
+.hhlTile2{background-image: url('http://d117fiyhpld8f9.cloudfront.net/content-images/aw16/750/WEB_EarlyAutumn_HouseandHome_2.jpg'); margin-top: 10px;}
 .hhlTile2 .sansBook{font-size:20px;padding-top: 20px;}
 .hhlTile2 .tileTitle{top: 75%;}
-.hhlTile3{background-image: url('http://d117fiyhpld8f9.cloudfront.net/content-images/aw16/750/WEB_EarlyAutumn_HouseandHome_3.jpg')}
+.hhlTile3{background-image: url('http://d117fiyhpld8f9.cloudfront.net/content-images/aw16/750/WEB_EarlyAutumn_HouseandHome_3.jpg'); margin-top: 10px;}
 .hhlTile3 .sansBook{font-size:20px;padding-top: 20px;}
-.hhlTile4{background-image: url('http://d117fiyhpld8f9.cloudfront.net/content-images/aw16/750/WEB_EarlyAutumn_HouseandHome_4.jpg')}
-.hhlTile5{background-image: url('http://d117fiyhpld8f9.cloudfront.net/content-images/aw16/750/WEB_EarlyAutumn_HouseandHome_5.jpg')}
-.hhlTile6{background-image: url('http://d117fiyhpld8f9.cloudfront.net/content-images/aw16/750/WEB_EarlyAutumn_HouseandHome_6.jpg')}
+.hhlTile4{background-image: url('http://d117fiyhpld8f9.cloudfront.net/content-images/aw16/750/WEB_EarlyAutumn_HouseandHome_4.jpg'); margin-top: 10px;}
+.hhlTile5{background-image: url('http://d117fiyhpld8f9.cloudfront.net/content-images/aw16/750/WEB_EarlyAutumn_HouseandHome_5.jpg'); margin-top: 10px;}
+.hhlTile6{background-image: url('http://d117fiyhpld8f9.cloudfront.net/content-images/aw16/750/WEB_EarlyAutumn_HouseandHome_6.jpg'); margin-top: 10px;}
 
 /*miscellaneous*/
 .accordion-a section .content {padding: 0}
