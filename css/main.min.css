@@ -13,7 +13,7 @@ html,button,input,select,textarea{color:#222}#noscript{display:none;background-c
 
 .saleBannerTitle {font-size: 44px; text-transform: uppercase; width: 100%; padding-top:9%; color: #ffffff !important; font-family: HelveticaNeueLT-MediumCond, pragmatica-web-condensed, arial, sans-serif;letter-spacing: 3px}
 .saleBannerSubTitle {font-size: 32px;  color: #ffffff !important; font-family: HelveticaNeueLT-LightCond, pragmatica-web-condensed, arial, sans-serif; padding-top:3%; letter-spacing: 3px}           
-.saleBanner { width:100%; background: url(//d117fiyhpld8f9.cloudfront.net/content-images/aw16/1080/AW16_PreCollection_Homepage_2_60pc.jpg); background-size:100% 100%; height: 210px; display: block; margin: 10px 0;text-align: center; font-family: 'HelveticaNeueLT-LightCond','pragmatica-web-condensed',arial,sans-serif !important; 
+.saleBanner { width:100%; background: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/1080/AW16_PreCollection_Homepage_2_60pc.jpg'); background-size:100% 100%; height: 210px; display: block; margin: 10px 0;text-align: center; font-family: 'HelveticaNeueLT-LightCond','pragmatica-web-condensed',arial,sans-serif !important; 
 }
 .category-header-description { background-color: #f5f5f5}
 .category-product-items .product {    height: 390px}
@@ -37,13 +37,13 @@ html,button,input,select,textarea{color:#222}#noscript{display:none;background-c
 
 /* Womens landing tiles */
 
-.wl_1{background-image: url('http://d117fiyhpld8f9.cloudfront.net/content-images/aw16/750/WEB_EarlyAutumn_Women_1.jpg')}
+.wl_1{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/750/WEB_EarlyAutumn_Women_1.jpg')}
 .wl_1 .sansBook{font-size:16px;padding-top: 12px;letter-spacing: 2px;}
-.wl_2{background-image: url('http://d117fiyhpld8f9.cloudfront.net/content-images/aw16/750/WEB_EarlyAutumn_Women_2.jpg')}
-.wl_3{background-image: url('http://d117fiyhpld8f9.cloudfront.net/content-images/aw16/750/WEB_EarlyAutumn_Women_3.jpg')}
-.wl_4{background-image: url('http://d117fiyhpld8f9.cloudfront.net/content-images/aw16/750/WEB_EarlyAutumn_Women_4.jpg')}
-.wl_5{background-image: url('http://d117fiyhpld8f9.cloudfront.net/content-images/aw16/750/WEB_EarlyAutumn_Women_5.jpg')}
-.wl_6{background-image: url('http://d117fiyhpld8f9.cloudfront.net/content-images/aw16/750/WEB_EarlyAutumn_Women_6.jpg')}
+.wl_2{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/750/WEB_EarlyAutumn_Women_2.jpg')}
+.wl_3{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/750/WEB_EarlyAutumn_Women_3.jpg')}
+.wl_4{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/750/WEB_EarlyAutumn_Women_4.jpg')}
+.wl_5{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/750/WEB_EarlyAutumn_Women_5.jpg')}
+.wl_6{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/750/WEB_EarlyAutumn_Women_6.jpg')}
 
 /*.wl_1 {background-image: url(http://d117fiyhpld8f9.cloudfront.net/content-images/aw16/750/AW16_PreCollection_Women2a.jpg)}
 .wl_2 {background-image: url(http://d117fiyhpld8f9.cloudfront.net/content-images/lookbook/950/AW16_PreCollection_Lookbook_5.jpg)}
@@ -53,8 +53,8 @@ html,button,input,select,textarea{color:#222}#noscript{display:none;background-c
 .wl_6 {background-image: url(http://d117fiyhpld8f9.cloudfront.net/content-images/aw16/750/AW16_PreCollection_Women8.jpg);margin-top: 10px;}*/
 
 /* Lookbook landing tiles */
-.lb_1{background-image: url('https://d117fiyhpld8f9.cloudfront.net/content-images/aw16/550/Lookbook_autumn.jpg')}
-.lb_2{background-image: url('https://d117fiyhpld8f9.cloudfront.net/content-images/aw16/550/Lookbook_pre.jpg')}
+.lb_1{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/550/Lookbook_autumn.jpg')}
+.lb_2{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/550/Lookbook_pre.jpg')}
 
 /*.layerings and wrappings*/
 .wnltile1 {text-align: center; max-height: 600px}
@@ -100,14 +100,14 @@ html,button,input,select,textarea{color:#222}#noscript{display:none;background-c
 .bottom20 {margin-bottom: 20px}
 .khadiContentPad {margin: 20px 20px 46px 20px;}
 .khadiCTA {text-align: center; text-transform: uppercase; margin-bottom: 20px}
-.shopKhadi {width: 100%; background-image: url(//d117fiyhpld8f9.cloudfront.net/content-images/aw16/400/MakingOf_Khadi_4.jpg); padding-top: 121.484375%; position: relative; color: #ffffff ; background-size: 100% 100%; display: block; margin-bottom: 10px }
+.shopKhadi {width: 100%; background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/400/MakingOf_Khadi_4.jpg'); padding-top: 121.484375%; position: relative; color: #ffffff ; background-size: 100% 100%; display: block; margin-bottom: 10px }
 .quarterWidthPanelText {width: 100%; text-align: center; font-size: 18px; position: absolute; bottom: 10%; letter-spacing: 2px; font-size: 26px; display: block}
 
-.toastMagazineQuarter {width: 100%; background-image: url(//d117fiyhpld8f9.cloudfront.net/content-images/aw16/400/MakingOf_Khadi_5.jpg); padding-top: 121.484375%; position: relative; color: #ffffff ; background-size: 100% 100%; display: block }
+.toastMagazineQuarter {width: 100%; background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/400/MakingOf_Khadi_5.jpg'); padding-top: 121.484375%; position: relative; color: #ffffff ; background-size: 100% 100%; display: block }
 
 
 /*homepage*/
-.tileTitleMid{color: white;position: absolute;top: 40%;width: 100%;text-align: center;font-size: 28px;line-height: 45px;}
+.tileTitleMid{color: white;position: absolute;top: 33%;width: 100%;text-align: center;font-size: 28px;line-height: 45px;}
 .hlTile1{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/1200/WEB_EarlyAutumn_Homepage_1.jpg');padding-top: 120.54%;}
 .hlTile1 .textSemibold {font-size: 40px; letter-spacing: 3px}
 .hlTile2{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/750/WEB_EarlyAutumn_Homepage_2.jpg');padding-top: 121.120%;}
@@ -131,21 +131,21 @@ html,button,input,select,textarea{color:#222}#noscript{display:none;background-c
 .borderLinkHolder {width: 100%;}
 
 /*house and home landing page*/
-.hhlTile1{background-image: url('http://d117fiyhpld8f9.cloudfront.net/content-images/aw16/750/WEB_EarlyAutumn_HouseandHome_1.jpg'); margin-bottom: 20px;}
-.hhlTile2{background-image: url('http://d117fiyhpld8f9.cloudfront.net/content-images/aw16/750/WEB_EarlyAutumn_HouseandHome_2.jpg'); margin-bottom: 20px;}
+.hhlTile1{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/750/WEB_EarlyAutumn_HouseandHome_1.jpg'); margin-bottom: 20px;}
+.hhlTile2{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/750/WEB_EarlyAutumn_HouseandHome_2.jpg'); margin-bottom: 20px;}
 .hhlTile2 .sansBook{font-size:16px;padding-top: 16px;letter-spacing: 2px;}
 .hhlTile2 .tileTitle{top: 75%;}
-.hhlTile3{background-image: url('http://d117fiyhpld8f9.cloudfront.net/content-images/aw16/750/WEB_EarlyAutumn_HouseandHome_3.jpg'); margin-bottom: 20px;}
+.hhlTile3{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/750/WEB_EarlyAutumn_HouseandHome_3.jpg'); margin-bottom: 20px;}
 .hhlTile3 .sansBook{font-size:16px;padding-top: 16px;letter-spacing: 2px;}
-.hhlTile4{background-image: url('http://d117fiyhpld8f9.cloudfront.net/content-images/aw16/750/WEB_EarlyAutumn_HouseandHome_4.jpg'); margin-bottom: 20px;}
-.hhlTile5{background-image: url('http://d117fiyhpld8f9.cloudfront.net/content-images/aw16/750/WEB_EarlyAutumn_HouseandHome_5.jpg');}
-.hhlTile6{background-image: url('http://d117fiyhpld8f9.cloudfront.net/content-images/aw16/750/WEB_EarlyAutumn_HouseandHome_6.jpg'); margin-bottom: 20px;}
+.hhlTile4{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/750/WEB_EarlyAutumn_HouseandHome_4.jpg'); margin-bottom: 20px;}
+.hhlTile5{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/750/WEB_EarlyAutumn_HouseandHome_5.jpg');}
+.hhlTile6{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/750/WEB_EarlyAutumn_HouseandHome_6.jpg'); margin-bottom: 20px;}
 
 /*miscellaneous*/
 .accordion-a section .content {padding: 0}
 .you-may-also-like .sale { color: red; text-decoration: line-through; padding-right: 10px;}
 .shopTxt {font-size: 16px;letter-spacing: 2px;}
-.tileTitle .landingTileTxt {font-size:24px}
+.tileTitle .landingTileTxt {font-size:24px; letter-spacing: 2px;}
 
 @media only screen and (max-width: 1024px) 
 {
