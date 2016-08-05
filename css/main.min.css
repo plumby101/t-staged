@@ -53,9 +53,11 @@ html,button,input,select,textarea{color:#222}#noscript{display:none;background-c
 .wl_6 {background-image: url(http://d117fiyhpld8f9.cloudfront.net/content-images/aw16/750/AW16_PreCollection_Women8.jpg);margin-top: 10px;}*/
 
 /* Lookbook landing tiles */
-.lb_1{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/550/Lookbook_autumn.jpg')}
-.lb_2{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/550/Lookbook_pre.jpg')}
-.lb_3{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/550/TOAST_EarlyAutumn_HH_Lookbook_1.jpg')}
+.lb_1{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/730/Lookbook_autumn.jpg')}
+.lb_2{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/730/Lookbook_pre.jpg')}
+.lb_3{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/730/TOAST_EarlyAutumn_HH_Lookbook_1.jpg')}
+
+.lb_1 .mainTitle, .lb_2 .mainTitle, .lb_3 .mainTitle {font-size: 22px}
 
 /*.layerings and wrappings*/
 .wnltile1 {text-align: center; max-height: 600px}
