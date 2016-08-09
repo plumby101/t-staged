@@ -59,6 +59,20 @@ html,button,input,select,textarea{color:#222}#noscript{display:none;background-c
 
 .lb_1 .mainTitle, .lb_2 .mainTitle, .lb_3 .mainTitle {font-size: 22px}
 
+/*accessories landing page*/
+               .aLpSpc{text-align: center;}
+               .accLp > h1{font-size: 28px;}
+               .accLp > h2{font-size: 38px;}
+               .accLp > p{font-size: 18px;letter-spacing: 1px;}
+               .look{font-size: 18px; font-weight:600;}
+               .alpLt1{margin-bottom: 20px;}
+               .alpRow{padding-top: 50px;}
+               .alpLt3desc{font-size: 18px; letter-spacing: 1px;}
+               .wnlh2{font-weight: 600;}
+               .alTextTile{margin-top: 25%;}
+               .alpTile9{font-size: 18px; margin-top: 80%; letter-spacing: 1px;}
+           @media screen and (max-width: 1025px){}
+
 /*.layerings and wrappings*/
 .wnltile1 {text-align: center; max-height: 600px}
 .wnltile1 p { font-size: 28px; position: relative; margin-top: 40%}
@@ -173,10 +187,13 @@ html,button,input,select,textarea{color:#222}#noscript{display:none;background-c
     .wnltile9 h2 {margin-top: 0px}
     .wnltile10 {margin-top: 40px}
     .wnltile13 {text-align: center;margin-bottom: 40px}
-
     .khadiContentPad {margin: 20px;}
-
     .landscapeTile {float: left; padding-top:57.7%;}
+    /*accesories landing page*/
+    .look{text-align:center;}
+    .alplth2{margin-top: 0%;}
+    .alTextTile{margin-top: 10%;text-align: center;}
+    .alpTile9{margin-top: 10%}
 }
 
 @media only screen and (max-width: 768px) 
