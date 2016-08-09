@@ -71,7 +71,6 @@ html,button,input,select,textarea{color:#222}#noscript{display:none;background-c
                .wnlh2{font-weight: 600;}
                .alTextTile{margin-top: 25%;}
                .alpTile9{font-size: 18px; margin-top: 80%; letter-spacing: 1px;}
-           @media screen and (max-width: 1025px){}
 
 /*.layerings and wrappings*/
 .wnltile1 {text-align: center; max-height: 600px}
@@ -165,8 +164,6 @@ html,button,input,select,textarea{color:#222}#noscript{display:none;background-c
 .shopTxt {font-size: 16px;letter-spacing: 2px;}
 .tileTitle .landingTileTxt {font-size:24px; letter-spacing: 2px;}
 
-@media only screen and (max-width: 1024px) 
-{
 	.category-product-items .product {height: 450px}  
  	.primaryLandingTile h1 {font: 24px}
  	.primaryLandingTile p {font: 12px } 
