@@ -144,8 +144,9 @@ html,button,input,select,textarea{color:#222}#noscript{display:none;background-c
 /*miscellaneous*/
 .accordion-a section .content {padding: 0}
 .you-may-also-like .sale { color: red; text-decoration: line-through; padding-right: 10px;}
-.shopTxt{font-size: 16px;letter-spacing: 2px;}
-.landingTileTxt{font-size:24px}
+.shopTxt {font-size: 16px;letter-spacing: 2px;}
+.tileTitle .landingTileTxt {font-size:24px}
+
 @media only screen and (max-width: 1024px) 
 {
 	.category-product-items .product {height: 450px}  
