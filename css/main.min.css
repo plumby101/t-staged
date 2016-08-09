@@ -55,14 +55,14 @@ html,button,input,select,textarea{color:#222}#noscript{display:none;background-c
 
 /*accessories landing page*/
 .aLpSpc{text-align: center;}
-.accLp h1{font-size: 28px;}
-.accLp h2{font-size: 38px;}
-.accLp p{font-size: 18px;letter-spacing: 1px;}
+.aLpSpc h1{font-size: 28px;}
+.aLpSpc h2{font-size: 38px;}
+.aLpSpc p{font-size: 18px;letter-spacing: 1px;}
 .look{font-size: 18px; font-weight:600;}
 .alpLt1{margin-bottom: 20px;}
 .alpRow{padding-top: 50px;}
 .alpLt3desc{font-size: 18px; letter-spacing: 1px;}
-.wnlh2{font-weight: 600;}
+.alplth2{font-weight: 600;font-size: 28px;}
 .alTextTile{margin-top: 25%;}
 .alpTile9{font-size: 18px; margin-top: 80%; letter-spacing: 1px;}
 
