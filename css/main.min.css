@@ -56,16 +56,16 @@ html,button,input,select,textarea{color:#222}#noscript{display:none;background-c
 /*accessories landing page*/
 .lkpgcontainer{text-align: center; margin-top: 50px;}
 .lkpgcontainer h1{font-size: 28px;}
-.lkpgcontainer h2{font-size: 38px;}
-.lkpgcontainer p{font-size: 18px;letter-spacing: 1px;}
+.lkpgcontainer h2{font-size: 20px;}
+.lkpgcontainer p{font-size: 16px;letter-spacing: 1px;}
 .look{font-size: 18px; font-weight:600;letter-spacing: 1px;}
 .lkpgLTb20{margin-bottom: 20px;}
 .lkpgRow{padding-top: 50px;}
-.lkpgLtdesc{font-size: 18px; letter-spacing: 1px;}
+.lkpgLtdesc{font-size: 16px; letter-spacing: 1px;}
 .lkpgLthead{font-weight: 600;font-size: 22px;letter-spacing: 2px;}
 .lkpgTextTile{margin-top: 25%;}
-.lkpgLtt80{font-size: 18px; margin-top: 80%; letter-spacing: 1px;}
-.lkpgLtt60{font-size: 18px; margin-top: 60%; letter-spacing: 1px;}
+.lkpgLtt80{font-size: 16px; margin-top: 80%; letter-spacing: 1px;}
+.lkpgLtt60{font-size: 16px; margin-top: 60%; letter-spacing: 1px;}
 .lkpgTopHeader{margin-top: 60px;}
 .customRow30{margin-bottom: 30px;}
 .customRow70{margin-top: 70px;}
@@ -192,7 +192,9 @@ html,button,input,select,textarea{color:#222}#noscript{display:none;background-c
 	.look{text-align:center;}
 	.lkpgLthead{margin-top: 0%;}
 	.lkpgTextTile{margin-top: 10%;text-align: center;}
-	.lkpgLtt80{margin-top: 10%}
+	.lkpgLtt80{margin-top: 10%;}
+    .lkpgLtt60{margin-top: 10%;}
+    .lkpgLT20{margin-bottom: 20px;}
 }
 
 @media only screen and (max-width: 768px) 
