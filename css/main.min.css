@@ -68,11 +68,12 @@ html,button,input,select,textarea{color:#222}#noscript{display:none;background-c
 .lkpgLtt60{font-size: 16px; margin-top: 60%; letter-spacing: 1px;}
 .lkpgTopHeader{margin-top: 60px;}
 .lkpgTopHeadertxt{font-size:40px !important;}
-.customRow30{margin-bottom: 30px;}
-.customRow70{margin-top: 70px;}
+.customRow5pc{margin-top: 5%;}
+.customRow7pc{margin-top: 7%;}
 .customRow90{margin-top: 90px;}
 .customPara40{margin-top: 40px; margin-bottom: 40px;}
-.customRow40{margin-top:40px;}
+.customRow3pc{margin-top:40px;}
+.customRow50{margin-top:50px;}
 /*.layerings and wrappings*/
 .wnltile1 {text-align: center; max-height: 600px}
 .wnltile1 p { font-size: 28px; position: relative; margin-top: 40%}
@@ -100,6 +101,9 @@ html,button,input,select,textarea{color:#222}#noscript{display:none;background-c
 .wnltile13 h2 {margin-top: 50px; font-size: 20px}
 .wnltile14{text-align: center}
 .wnlShopBTN{letter-spacing: 1px;text-decoration: underline;font-size: 22px;letter-spacing: 2px;text-align: center;margin-top: 60px;margin-bottom:60px;}
+
+/*soft colours look page */
+.centerTextRow{text-align: center; font-size: 16px;letter-spacing: 1px;}
 
 /*making of landing page*/
 .molpTileTitle{left: 10%; right:10%; width: 80%;}
