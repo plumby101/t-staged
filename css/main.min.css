@@ -74,6 +74,7 @@ html,button,input,select,textarea{color:#222}#noscript{display:none;background-c
 .customPara40{margin-top: 40px; margin-bottom: 40px;}
 .customRow3pc{margin-top:40px;}
 .customRow50{margin-top:50px;}
+.customRow60pc{margin-top: 60%;}
 /*.layerings and wrappings*/
 .wnltile1 {text-align: center; max-height: 600px}
 .wnltile1 p { font-size: 28px; position: relative; margin-top: 40%}
@@ -104,7 +105,10 @@ html,button,input,select,textarea{color:#222}#noscript{display:none;background-c
 
 /*soft colours look page */
 .centerTextRow{text-align: center; font-size: 16px;letter-spacing: 1px;}
-
+.scLPtile1{background-size: 100%; background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/1553/TOAST_SoftColours_1.jpg'); padding-top:62.97445%;}
+.scLPtile1 h1{color: black; font-size: 28px; font-weight: 600;}
+.scLPtile1 h2{color: black; font-size: 40px; font-weight:600;}
+.soloSection {margin-top:7%; margin-bottom: 7%;}
 /*making of landing page*/
 .molpTileTitle{left: 10%; right:10%; width: 80%;}
 .molpSubTitle{font-size: 16px; letter-spacing: 2px;text-transform:none;}
