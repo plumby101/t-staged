@@ -56,16 +56,25 @@ html,button,input,select,textarea{color:#222}#noscript{display:none;background-c
 /*accessories landing page*/
 .lkpgcontainer{text-align: center; margin-top: 50px;}
 .lkpgcontainer h1{font-size: 28px;}
-.lkpgcontainer h2{font-size: 38px;}
-.lkpgcontainer p{font-size: 18px;letter-spacing: 1px;}
-.look{font-size: 18px; font-weight:600;}
+.lkpgcontainer h2{font-size: 20px;}
+.lkpgcontainer p{font-size: 16px;letter-spacing: 1px;}
+.look{font-size: 18px; font-weight:600;letter-spacing: 1px;}
 .lkpgLTb20{margin-bottom: 20px;}
 .lkpgRow{padding-top: 50px;}
-.lkpgLtdesc{font-size: 18px; letter-spacing: 1px;}
-.lkpgLthead{font-weight: 600;font-size: 22px;letter-spacing: 2px;}
+.lkpgLtdesc{font-size: 16px; letter-spacing: 1px;}
+.lkpgLthead{font-weight: 400;font-size: 20px;letter-spacing: 2px;}
 .lkpgTextTile{margin-top: 25%;}
-.lkpgLtt80{font-size: 18px; margin-top: 80%; letter-spacing: 1px;}
-
+.lkpgLtt80{font-size: 16px; margin-top: 80%; letter-spacing: 1px;}
+.lkpgLtt60{font-size: 16px; margin-top: 60%; letter-spacing: 1px;}
+.lkpgTopHeader{margin-top: 60px;}
+.lkpgTopHeadertxt{font-size:40px !important;}
+.customRow5pc{margin-top: 5%;}
+.customRow7pc{margin-top: 7%;}
+.customRow90{margin-top: 90px;}
+.customPara40{margin-top: 40px; margin-bottom: 40px;}
+.customRow3pc{margin-top:40px;}
+.customRow50{margin-top:50px;}
+.customRow60pc{margin-top: 60%;}
 /*.layerings and wrappings*/
 .wnltile1 {text-align: center; max-height: 600px}
 .wnltile1 p { font-size: 28px; position: relative; margin-top: 40%}
@@ -92,8 +101,14 @@ html,button,input,select,textarea{color:#222}#noscript{display:none;background-c
 .wnltile13 {margin-bottom: 40px}
 .wnltile13 h2 {margin-top: 50px; font-size: 20px}
 .wnltile14{text-align: center}
-.wnlShopBTN{letter-spacing: 1px;text-decoration: underline;font-size: 22px;letter-spacing: 2px;text-align: center;margin-top: 80px;}
+.wnlShopBTN{letter-spacing: 1px;text-decoration: underline;font-size: 22px;letter-spacing: 2px;text-align: center;margin-top: 60px;margin-bottom:60px;}
 
+/*soft colours look page */
+.centerTextRow{text-align: center; font-size: 16px;letter-spacing: 1px;}
+.scLPtile1{background-size: 100%; background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/1553/TOAST_SoftColours_1.jpg'); padding-top:62.97445%;}
+.scLPtile1 h1{color: black; font-size: 28px; font-weight: 600;}
+.scLPtile1 h2{color: black; font-size: 40px; font-weight:600;}
+.soloSection {margin-top:7%; margin-bottom: 7%;}
 /*making of landing page*/
 .molpTileTitle{left: 10%; right:10%; width: 80%;}
 .molpSubTitle{font-size: 16px; letter-spacing: 2px;text-transform:none;}
@@ -186,7 +201,9 @@ html,button,input,select,textarea{color:#222}#noscript{display:none;background-c
 	.look{text-align:center;}
 	.lkpgLthead{margin-top: 0%;}
 	.lkpgTextTile{margin-top: 10%;text-align: center;}
-	.lkpgLtt80{margin-top: 10%}
+	.lkpgLtt80{margin-top: 10%;}
+    .lkpgLtt60{margin-top: 10%;}
+    .lkpgLT20{margin-bottom: 20px;}
 }
 
 @media only screen and (max-width: 768px) 
