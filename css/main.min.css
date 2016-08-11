@@ -58,7 +58,7 @@ html,button,input,select,textarea{color:#222}#noscript{display:none;background-c
 .lkpgcontainer h1{font-size: 28px;}
 .lkpgcontainer h2{font-size: 20px;}
 .lkpgcontainer p{font-size: 16px;letter-spacing: 1px;}
-.look{font-size: 18px; font-weight:600;letter-spacing: 1px;}
+.look{font-size: 16px; font-weight:600;letter-spacing: 1px;}
 .lkpgLTb20{margin-bottom: 20px;}
 .lkpgRow{padding-top: 50px;}
 .lkpgLtdesc{font-size: 16px; letter-spacing: 1px;}
@@ -80,7 +80,6 @@ html,button,input,select,textarea{color:#222}#noscript{display:none;background-c
 .wnltile1 p { font-size: 28px; position: relative; margin-top: 40%}
 .wnltile1 h1 { font-size: 40px; position: relative; margin-top: 10%}
 .breaker { padding-top: 40px}
-.look { font-size: 16px}
 .wnltile2 { text-align: center; font-weight: 600;}
 .wnlh2 { font-size: 20px}
 .para { font-size: 16px}
@@ -105,7 +104,7 @@ html,button,input,select,textarea{color:#222}#noscript{display:none;background-c
 
 /*soft colours look page */
 .centerTextRow{text-align: center; font-size: 16px;letter-spacing: 1px;}
-.scLPtile1{background-size: 100%; background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/1553/TOAST_SoftColours_1.jpg'); padding-top:62.97445%;}
+.scLPtile1{background-size: 100%; background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/1553/TOAST_SoftColours_6a.jpg'); padding-top:62.97445%;}
 .scLPtile1 h1{color: black; font-size: 28px; font-weight: 600;}
 .scLPtile1 h2{color: black; font-size: 40px; font-weight:600;}
 .soloSection {margin-top:7%; margin-bottom: 7%;}
@@ -171,13 +170,16 @@ html,button,input,select,textarea{color:#222}#noscript{display:none;background-c
 .you-may-also-like .sale { color: red; text-decoration: line-through; padding-right: 10px;}
 .shopTxt {font-size: 16px;letter-spacing: 2px;}
 .tileTitle .landingTileTxt {font-size:24px; letter-spacing: 2px;}
-
-
+.mtop-10{margin-top:10%}
+.dLeftMcenter{text-align: left;}
+.mtop30m0{margin-top: 30%;}
+.top43sm33m23{top: 43%;}
+.left-0{left: 0px;}
 @media only screen and (max-width: 1024px) 
 {
 	.category-product-items .product {height: 450px}  
-	.primaryLandingTile h1 {font: 24px}
-	.primaryLandingTile p {font: 12px } 
+	.primaryLandingTile h1 {font: 24px;}
+	.primaryLandingTile p {font: 12px;} 
 	  	/*.layerings and wrappings*/
 	.textBlock {height: 450px}
 	.wnltile1 {min-height: 250px; padding-bottom: 80px}
@@ -204,6 +206,10 @@ html,button,input,select,textarea{color:#222}#noscript{display:none;background-c
 	.lkpgLtt80{margin-top: 10%;}
     .lkpgLtt60{margin-top: 10%;}
     .lkpgLT20{margin-bottom: 20px;}
+    .dLeftMcenter{text-align: center;}
+    .mtop30m0{margin-top: 0px;}
+    .mobSpacer{margin-bottom:20px;}
+    .top43sm33m23{top:33%;}
 }
 
 @media only screen and (max-width: 768px) 
@@ -232,6 +238,7 @@ html,button,input,select,textarea{color:#222}#noscript{display:none;background-c
 	.subTitleBorderRight {float: none; text-align: center; }
 	.borderLinkHolder {width: 80%; margin: 0 auto;}
 	.linkContainer {margin-top: 4%}
+    .top43sm33m23{top: 23%;}
 }
 
 @media only screen and (max-width: 700px) 
