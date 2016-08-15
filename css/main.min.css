@@ -204,6 +204,7 @@ html,button,input,select,textarea{color:#222}#noscript{display:none;background-c
 .mb-60{margin-bottom: 60px;}
 .mb-70{margin-bottom: 70px;}
 
+.mt-50pc{margin-top:50%;}
 
 @media only screen and (max-width: 1024px) 
 {
@@ -246,7 +247,7 @@ html,button,input,select,textarea{color:#222}#noscript{display:none;background-c
     .eaTile1{margin-bottom:0px;}
     .eaSpacer{margin-top: 0px;}
     /*custom styles*/
-    .customRow5pc{margin-top: 0%;}
+.customRow5pc{margin-top: 0%;}
 .mt-0{margin-top: 0px;}
 .mt-10{margin-top: 0px;}
 .mt-20{margin-top: 0px;}
@@ -297,6 +298,8 @@ html,button,input,select,textarea{color:#222}#noscript{display:none;background-c
 .mmb-50{margin-bottom: 0px;}
 .mmb-60{margin-bottom: 0px;}
 .mmb-70{margin-bottom: 0px;}
+
+.mt-50pc{margin-top:0%;}
 }
 
 @media only screen and (max-width: 768px) 
