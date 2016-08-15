@@ -114,7 +114,7 @@ html,button,input,select,textarea{color:#222}#noscript{display:none;background-c
 .scLPtile1 h2{color: black; font-size: 40px; font-weight:600;}
 .soloSection {margin-top:7%; margin-bottom: 7%;}
 .eaTile1{margin-bottom:50px;}
-
+.eaSpacer{margin-top: 50px;}
 
 /*making of landing page*/
 .molpTileTitle{left: 10%; right:10%; width: 80%;}
@@ -242,6 +242,9 @@ html,button,input,select,textarea{color:#222}#noscript{display:none;background-c
     .mobSpacer{margin-bottom:20px;}
     .top43sm33m23{top:33%;}
     
+    /*soft colours page*/
+    .eaTile1{margin-bottom:0px;}
+    .eaSpacer{margin-top: 0px;}
     /*custom styles*/
 .mt-0{margin-top: 0px;}
 .mt-10{margin-top: 0px;}
