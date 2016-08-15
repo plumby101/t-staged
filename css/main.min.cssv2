@@ -35,8 +35,6 @@ html,button,input,select,textarea{color:#222}#noscript{display:none;background-c
 
 .portraitTile {width: 100%; display: block; width: 100%;padding-top: 128%;  margin-bottom: 20px; background-size: 100% 100%; position: relative}
 
-.houseAndHomeTile {width: 100%; display: block; width: 100%;padding-top: 121%;  margin-bottom: 20px; background-size: 100% 100%; position: relative}
-
 /* Womens landing tiles */
 
 .wl_1{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/750/A1Refresh_Landing_Women_1.jpg')}
@@ -134,10 +132,11 @@ html,button,input,select,textarea{color:#222}#noscript{display:none;background-c
 
 /*homepage*/
 .tileTitleMid{color: white;position: absolute;top: 37%;width: 100%;text-align: center;font-size: 28px;line-height: 45px;}
-.hlTile1{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/1200/A1Refresh_Homepage_1.jpg');padding-top: 120.54%}
-.hlTile2{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/750/A1Refresh_Homepage_2.jpg');padding-top: 121.120%}
-.hlTile3{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/750/A1Refresh_Homepage_3.jpg');padding-top: 121.120%}
-.hlTile4{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/750/A1Refresh_Homepage_4.jpg');padding-top: 121.120%}
+.hlTile1{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/1200/WEB_EarlyAutumn_Homepage_1.jpg');padding-top: 120.54%;}
+.hlTile1 .textSemibold {font-size: 40px; letter-spacing: 3px}
+.hlTile2{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/750/WEB_EarlyAutumn_Homepage_2.jpg');padding-top: 121.120%;}
+.hlTile3{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/750/WEB_EarlyAutumn_Homepage_3.jpg');padding-top: 121.120%;}
+.hlTile4{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/750/WEB_EarlyAutumn_Homepage_4.jpg');padding-top: 121.120%;}
 .hlTile5{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/750/WEB_EarlyAutumn_Homepage_5.jpg');}
 .hlTile6{background-color: #e9e9e9;color:black;}
 .signuptile{text-align: center;}
@@ -156,17 +155,15 @@ html,button,input,select,textarea{color:#222}#noscript{display:none;background-c
 .borderLinkHolder {width: 100%;}
 
 /*house and home landing page*/
-.hhlTile1{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/1200/A1Refresh_Landing_HouseandHome_1.jpg'); margin-bottom: 20px; }
-.hhlTile2{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/750/A1Refresh_Landing_HouseandHome_2.jpg'); margin-bottom: 20px;}
+.hhlTile1{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/750/WEB_EarlyAutumn_HouseandHome_1.jpg'); margin-bottom: 20px;}
+.hhlTile2{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/750/WEB_EarlyAutumn_HouseandHome_2.jpg'); margin-bottom: 20px;}
 .hhlTile2 .sansBook{font-size:16px;padding-top: 16px;letter-spacing: 2px;}
-.hhlTile3{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/750/A1Refresh_Landing_HouseandHome_3.jpg'); margin-bottom: 20px;}
+.hhlTile2 .tileTitle{top: 75%;}
+.hhlTile3{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/750/WEB_EarlyAutumn_HouseandHome_3.jpg'); margin-bottom: 20px;}
 .hhlTile3 .sansBook{font-size:16px;padding-top: 16px;letter-spacing: 2px;}
-.hhlTile4{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/750/A1Refresh_Landing_HouseandHome_4.jpg'); margin-bottom: 20px;}
+.hhlTile4{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/750/WEB_EarlyAutumn_HouseandHome_4.jpg'); margin-bottom: 20px;}
 .hhlTile5{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/750/WEB_EarlyAutumn_HouseandHome_5.jpg');}
 .hhlTile6{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/750/WEB_EarlyAutumn_HouseandHome_6.jpg'); margin-bottom: 20px;}
-.hhTopTile {width: 100%; display: block; width: 100%; padding-top: 62.916666666667%;  margin-bottom: 20px; background-size: 100% 100%; position: relative}
-.hhlTile1 .tileTitle {top:75%;}
-.hhlTile1 .shopTxt {font-size: 16px;letter-spacing: 2px;}
 
 /*miscellaneous*/
 .accordion-a section .content {padding: 0}
@@ -179,26 +176,6 @@ html,button,input,select,textarea{color:#222}#noscript{display:none;background-c
 .top43sm33m23{top: 43%;}
 .left-0{left: 0px;}
 .lkpgLtt75{margin-top:75%;}
-
-/*Custom styles - used for custom margins etc*/
-.mt-0{margin-top: 0px;}
-.mt-10{margin-top: 10px;}
-.mt-20{margin-top: 20px;}
-.mt-30{margin-top: 30px;}
-.mt-40{margin-top: 40px;}
-.mt-50{margin-top: 50px;}
-.mt-60{margin-top: 60px;}
-.mt-70{margin-top: 70px;}
-.mb-0{margin-bottom: 0px;}
-.mb-10{margin-bottom: 10px;}
-.mb-20{margin-bottom: 20px;}
-.mb-30{margin-bottom: 30px;}
-.mb-40{margin-bottom: 40px;}
-.mb-50{margin-bottom: 50px;}
-.mb-60{margin-bottom: 60px;}
-.mb-70{margin-bottom: 70px;}
-
-
 @media only screen and (max-width: 1024px) 
 {
 	.category-product-items .product {height: 450px}  
@@ -272,7 +249,6 @@ html,button,input,select,textarea{color:#222}#noscript{display:none;background-c
 	.tileTitle .subTitle  {font-size: 14px; padding-top: 6px}
     .saleBannerTitle {padding-top: 8%; font-size: 38px}
     .saleBannerSubTitle {font-size: 18px;padding-top:2%}
-    .hhlTile1 .tileTitle {top:60%;}
 }
     
 @media only screen and (max-width: 530px) 
