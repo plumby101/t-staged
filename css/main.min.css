@@ -112,8 +112,8 @@ html,button,input,select,textarea{color:#222}#noscript{display:none;background-c
 /*Early Autumn look page */
 .centerTextRow{text-align: center; font-size: 16px;letter-spacing: 1px;}
 .scLPtile1{background-size: 100%; background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/1553/TOAST_SoftColours_6a.jpg'); padding-top:62.97445%;}
-.scLPtile1 h1{color: black; font-size: 28px; font-weight: 600;}
-.scLPtile1 h2{color: black; font-size: 40px; font-weight:600;}
+.scLPtile1 h1{color: white; font-size: 28px; font-weight: 600;}
+.scLPtile1 h2{color: white; font-size: 40px; font-weight:600;}
 .soloSection {margin-top:7%; margin-bottom: 7%;}
 .eaTile1{margin-bottom:50px;}
 .eaSpacer{margin-top: 50px;}
@@ -210,6 +210,7 @@ html,button,input,select,textarea{color:#222}#noscript{display:none;background-c
 .mb-60{margin-bottom: 60px;}
 .mb-70{margin-bottom: 70px;}
 
+.mt-50pc{margin-top:50%;}
 
 @media only screen and (max-width: 1024px) 
 {
@@ -252,7 +253,7 @@ html,button,input,select,textarea{color:#222}#noscript{display:none;background-c
     .eaTile1{margin-bottom:0px;}
     .eaSpacer{margin-top: 0px;}
     /*custom styles*/
-    .customRow5pc{margin-top: 0%;}
+.customRow5pc{margin-top: 0%;}
 .mt-0{margin-top: 0px;}
 .mt-10{margin-top: 0px;}
 .mt-20{margin-top: 0px;}
@@ -303,6 +304,8 @@ html,button,input,select,textarea{color:#222}#noscript{display:none;background-c
 .mmb-50{margin-bottom: 0px;}
 .mmb-60{margin-bottom: 0px;}
 .mmb-70{margin-bottom: 0px;}
+
+.mt-50pc{margin-top:0%;}
 }
 
 @media only screen and (max-width: 768px) 
