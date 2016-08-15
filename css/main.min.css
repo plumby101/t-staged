@@ -139,6 +139,7 @@ html,button,input,select,textarea{color:#222}#noscript{display:none;background-c
 .hlTile4{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/750/WEB_EarlyAutumn_Homepage_4.jpg');padding-top: 121.120%}
 .hlTile5{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/750/WEB_EarlyAutumn_Homepage_5.jpg')}
 .hlTile6{background-color: #e9e9e9;color:black}
+.homeSubTitle {font-size: 28px;margin: 3% 0;}
 .signuptile{text-align: center}
 .signuptile p{color: black;width: 100%;top: 0px}
 .signuptile button{margin-top: 8%;border-width: 0px;font-size: 16px;color: black;letter-spacing:1px;font-family: 'freight-sans-pro' sans-serif;background: transparent}
@@ -149,7 +150,7 @@ html,button,input,select,textarea{color:#222}#noscript{display:none;background-c
 .landscapeTile{display: block;width: 100%;padding-top: 58.46748%;margin-bottom: 10px;background-size: 100% 100%;position: relative}
 .linkContainer{width:100%;margin-top:1%}
 .linkContainer a {text-decoration: underline}
-.subTitleBorderLeft, .subTitleBorderRight {padding: 10px 0;margin: 30px 10px;font-size: 20px;letter-spacing: 2px; color:#ffffff; min-width: 150px; display: block}
+.subTitleBorderLeft, .subTitleBorderRight {padding: 10px 0;margin: 30px 10px;font-size: 18px;letter-spacing: 2px; color:#ffffff; min-width: 150px; display: block}
 .subTitleBorderLeft {float: right; text-align: left}
 .subTitleBorderRight {float: left; text-align: right}
 .borderLinkHolder {width: 100%}
