@@ -58,10 +58,11 @@ html,button,input,select,textarea{color:#222}#noscript{display:none;background-c
 .lb_1 .mainTitle, .lb_2 .mainTitle, .lb_3 .mainTitle {font-size: 22px}
 
 /*accessories landing page*/
-.lkpgcontainer{text-align: center; margin-top: 50px;}
-.lkpgcontainer h1{font-size: 28px;}
-.lkpgcontainer h2{font-size: 20px;}
-.lkpgcontainer p{font-size: 16px;letter-spacing: 1px;}
+.eacontainer{margin-top:0px;text-align: center;}
+.lkpgcontainer,{text-align: center; margin-top: 50px;}
+.lkpgcontainer h1,.eacontainer h1{margin-top:30px;}{font-size: 28px;}
+.lkpgcontainer h2,.eacontainer h2{font-size: 20px;}
+.lkpgcontainer p,.eacontainer p{font-size: 16px;letter-spacing: 1px;}
 .look{font-size: 16px; font-weight:600;letter-spacing: 1px;}
 .lkpgLTb20{margin-bottom: 20px;}
 .lkpgRow{padding-top: 50px;}
@@ -118,7 +119,8 @@ html,button,input,select,textarea{color:#222}#noscript{display:none;background-c
 .soloSection {margin-top:7%; margin-bottom: 7%;}
 .eaTile1{margin-bottom:50px;}
 .eaSpacer{margin-top: 50px;}
-
+.eaRow4{margin-top:20%;}
+.eaTile4{margin-top:30px;}
 /*making of landing page*/
 .molpTileTitle{left: 10%; right:10%; width: 80%;}
 .molpSubTitle{font-size: 16px; letter-spacing: 2px;text-transform:none;}
@@ -232,12 +234,14 @@ html,button,input,select,textarea{color:#222}#noscript{display:none;background-c
     .mobSpacer{margin-bottom:20px;}
     .top43sm33m23{top:33%;}
     .lkpgTextTile, .lkpgLthead{margin-top: 5%;}
+    .lkpgRow{padding-top:0px;}
     /*soft colours page*/
     .eaTile1{margin-bottom:0px;}
     .eaSpacer{margin-top: 0px;}
     /*custom styles*/
 .customRow5pc{margin-top: 0%;}
-
+    .eaRow4{margin-top:0%;}
+.eaTile4{margin-top:0px;}
 }
 
 @media only screen and (max-width: 768px) 
@@ -267,6 +271,7 @@ html,button,input,select,textarea{color:#222}#noscript{display:none;background-c
 	.borderLinkHolder {width: 80%; margin: 0 auto;}
 	.linkContainer {margin-top: 4%}
     .top43sm33m23{top: 23%;}
+    
 }
 
 @media only screen and (max-width: 700px) 
