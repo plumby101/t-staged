@@ -8,6 +8,8 @@ html,button,input,select,textarea{color:#222}#noscript{display:none;background-c
 .textSemibold {font-family: "freight-text-pro", serif; font-weight:400}
 .textBold {font-family: "freight-text-pro", serif; font-weight:700}
 
+.textCenter {text-align: center;}
+
 .category-description h1, .category-header-description h1 {font-family: "freight-text-pro", serif !important; font-weight: 600 !important; font-size: 24px !important; text-transform: initial !important; letter-spacing: 2px}
 .category-description p, .category-header-description p {font-family: "freight-text-pro", serif !important; font-weight:400 !important; font-size: 14px !important; line-height: 22px !important; letter-spacing: 1px}
 
@@ -133,14 +135,14 @@ html,button,input,select,textarea{color:#222}#noscript{display:none;background-c
 .toastMagazineQuarter {width: 100%; background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/400/MakingOf_Khadi_5.jpg'); padding-top: 121.484375%; position: relative; color: #ffffff ; background-size: 100% 100%; display: block }
 
 /*homepage*/
-.tileTitleMid{color: white;position: absolute;top: 37%;width: 100%;text-align: center;font-size: 28px;line-height: 45px;}
+.tileTitleMid{color: white;position: absolute;top: 21%;width: 100%;text-align: center;font-size: 28px;line-height: 45px;}
 .hlTile1{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/1200/A1Refresh_Homepage_1.jpg');padding-top: 120.54%}
 .hlTile2{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/750/A1Refresh_Homepage_2.jpg');padding-top: 121.120%}
 .hlTile3{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/750/A1Refresh_Homepage_3.jpg');padding-top: 121.120%}
 .hlTile4{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/750/A1Refresh_Homepage_4.jpg');padding-top: 121.120%}
 .hlTile5{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/750/WEB_EarlyAutumn_Homepage_5.jpg');}
 .hlTile6{background-color: #e9e9e9;color:black;}
-.signuptile{text-align: center;}
+.signuptile {text-align: center;}
 .signuptile p{color: black;width: 100%;top: 0px;}
 .signuptile button{margin-top: 8%;border-width: 0px;font-size: 16px;color: black;letter-spacing:1px;font-family: 'freight-sans-pro' sans-serif;background: transparent;}
 .centerTileTitle{position: absolute;width: 100%;top: 16%;left: 0px;text-align: center;min-height: 200px;}
@@ -148,12 +150,15 @@ html,button,input,select,textarea{color:#222}#noscript{display:none;background-c
 .centerTileTitle input{padding: 0px;text-align:center;border-width: 0px;}
 .centerTileTitle h2{padding-top: 8%;font-size:16px;letter-spacing: 1px;font-family: 'freight-sans-pro' sans-serif;}
 .landscapeTile{display: block;width: 100%;padding-top: 58.46748%;margin-bottom: 10px;background-size: 100% 100%;position: relative;}
-.linkContainer{width:100%;margin-top:1%;}
+.linkContainer{width:100%;margin-top:7%;}
 .linkContainer a {text-decoration: underline}
 .subTitleBorderLeft, .subTitleBorderRight {padding: 10px 0;margin: 30px 10px;font-size: 20px;letter-spacing: 2px; color:#ffffff; min-width: 150px; display: block}
 .subTitleBorderLeft {float: right; text-align: left}
 .subTitleBorderRight {float: left; text-align: right}
 .borderLinkHolder {width: 100%;}
+.borderLinkHolder a {color: #ffffff;font-size: 18px;letter-spacing: 3px;}
+.homeTitle { font-size: 34px; letter-spacing: 2px;margin-bottom: 2%;}
+.homeSubTitle {font-size: 28px; letter-spacing: 3px;}
 
 /*house and home landing page*/
 .hhlTile1{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/1200/A1Refresh_Landing_HouseandHome_1.jpg'); margin-bottom: 20px; }
