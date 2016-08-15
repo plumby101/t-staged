@@ -107,12 +107,15 @@ html,button,input,select,textarea{color:#222}#noscript{display:none;background-c
 .wnltile14{text-align: center}
 .wnlShopBTN{letter-spacing: 1px;text-decoration: underline;font-size: 22px;letter-spacing: 2px;text-align: center;margin-top: 60px;margin-bottom:60px;}
 
-/*soft colours look page */
+/*Early Autumn look page */
 .centerTextRow{text-align: center; font-size: 16px;letter-spacing: 1px;}
 .scLPtile1{background-size: 100%; background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/1553/TOAST_SoftColours_6a.jpg'); padding-top:62.97445%;}
 .scLPtile1 h1{color: black; font-size: 28px; font-weight: 600;}
 .scLPtile1 h2{color: black; font-size: 40px; font-weight:600;}
 .soloSection {margin-top:7%; margin-bottom: 7%;}
+.eaTile1{margin-bottom:50px;}
+
+
 /*making of landing page*/
 .molpTileTitle{left: 10%; right:10%; width: 80%;}
 .molpSubTitle{font-size: 16px; letter-spacing: 2px;text-transform:none;}
@@ -238,6 +241,58 @@ html,button,input,select,textarea{color:#222}#noscript{display:none;background-c
     .mtop30m0{margin-top: 0px;}
     .mobSpacer{margin-bottom:20px;}
     .top43sm33m23{top:33%;}
+    
+    /*custom styles*/
+.mt-0{margin-top: 0px;}
+.mt-10{margin-top: 0px;}
+.mt-20{margin-top: 0px;}
+.mt-30{margin-top: 0px;}
+.mt-40{margin-top: 0px;}
+.mt-50{margin-top: 0px;}
+.mt-60{margin-top: 0px;}
+.mt-70{margin-top: 0px;}
+.mb-0{margin-bottom: 0px;}
+.mb-10{margin-bottom: 0px;}
+.mb-20{margin-bottom: 0px;}
+.mb-30{margin-bottom: 0px;}
+.mb-40{margin-bottom: 0px;}
+.mb-50{margin-bottom: 0px;}
+.mb-60{margin-bottom: 0px;}
+.mb-70{margin-bottom: 0px;}
+    
+.tmt-0{margin-top: 0px;}
+.tmt-10{margin-top: 10px;}
+.tmt-20{margin-top: 20px;}
+.tmt-30{margin-top: 30px;}
+.tmt-40{margin-top: 40px;}
+.tmt-50{margin-top: 50px;}
+.tmt-60{margin-top: 60px;}
+.tmt-70{margin-top: 70px;}
+.tmb-0{margin-bottom: 0px;}
+.tmb-10{margin-bottom: 10px;}
+.tmb-20{margin-bottom: 20px;}
+.tmb-30{margin-bottom: 30px;}
+.tmb-40{margin-bottom: 40px;}
+.tmb-50{margin-bottom: 50px;}
+.tmb-60{margin-bottom: 60px;}
+.tmb-70{margin-bottom: 70px;}
+
+.mmt-0{margin-top: 0px;}
+.mmt-10{margin-top: 0px;}
+.mmt-20{margin-top: 0px;}
+.mmt-30{margin-top: 0px;}
+.mmt-40{margin-top: 0px;}
+.mmt-50{margin-top: 0px;}
+.mmt-60{margin-top: 0px;}
+.mmt-70{margin-top: 0px;}
+.mmb-0{margin-bottom: 0px;}
+.mmb-10{margin-bottom: 0px;}
+.mmb-20{margin-bottom: 0px;}
+.mmb-30{margin-bottom: 0px;}
+.mmb-40{margin-bottom: 0px;}
+.mmb-50{margin-bottom: 0px;}
+.mmb-60{margin-bottom: 0px;}
+.mmb-70{margin-bottom: 0px;}
 }
 
 @media only screen and (max-width: 768px) 
@@ -267,6 +322,55 @@ html,button,input,select,textarea{color:#222}#noscript{display:none;background-c
 	.borderLinkHolder {width: 80%; margin: 0 auto;}
 	.linkContainer {margin-top: 4%}
     .top43sm33m23{top: 23%;}
+/*custom styles*/
+.mt-0{margin-top: 0px;}
+.mt-10{margin-top: 0px;}
+.mt-20{margin-top: 0px;}
+.mt-30{margin-top: 0px;}
+.mt-40{margin-top: 0px;}
+.mt-50{margin-top: 0px;}
+.mt-60{margin-top: 0px;}
+.mt-70{margin-top: 0px;}
+.mb-0{margin-bottom: 0px;}
+.mb-10{margin-bottom: 0px;}
+.mb-20{margin-bottom: 0px;}
+.mb-30{margin-bottom: 0px;}
+.mb-40{margin-bottom: 0px;}
+.mb-50{margin-bottom: 0px;}
+.mb-60{margin-bottom: 0px;}
+.mb-70{margin-bottom: 0px;}
+.tmt-0{margin-top: 0px;}
+.tmt-10{margin-top: 0px;}
+.tmt-20{margin-top: 0px;}
+.tmt-30{margin-top: 0px;}
+.tmt-40{margin-top: 0px;}
+.tmt-50{margin-top: 0px;}
+.tmt-60{margin-top: 0px;}
+.tmt-70{margin-top: 0px;}
+.tmb-0{margin-bottom: 0px;}
+.tmb-10{margin-bottom: 0px;}
+.tmb-20{margin-bottom: 0px;}
+.tmb-30{margin-bottom: 0px;}
+.tmb-40{margin-bottom: 0px;}
+.tmb-50{margin-bottom: 0px;}
+.tmb-60{margin-bottom: 0px;}
+.tmb-70{margin-bottom: 0px;}
+.mmt-0{margin-top: 0px;}
+.mmt-10{margin-top: 10px;}
+.mmt-20{margin-top: 20px;}
+.mmt-30{margin-top: 30px;}
+.mmt-40{margin-top: 40px;}
+.mmt-50{margin-top: 50px;}
+.mmt-60{margin-top: 60px;}
+.mmt-70{margin-top: 70px;}
+.mmb-0{margin-bottom: 0px;}
+.mmb-10{margin-bottom: 10px;}
+.mmb-20{margin-bottom: 20px;}
+.mmb-30{margin-bottom: 30px;}
+.mmb-40{margin-bottom: 40px;}
+.mmb-50{margin-bottom: 50px;}
+.mmb-60{margin-bottom: 60px;}
+.mmb-70{margin-bottom: 70px;}
 }
 
 @media only screen and (max-width: 700px) 
