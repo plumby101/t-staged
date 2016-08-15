@@ -59,7 +59,10 @@ html,button,input,select,textarea{color:#222}#noscript{display:none;background-c
 .lkpgcontainer{text-align: center; margin-top: 50px;}
 .lkpgcontainer h1{font-size: 28px;}
 .lkpgcontainer h2{font-size: 20px;}
-.lkpgcontainer p{font-size: 16px;letter-spacing: 1px;}
+.lkpgcontainer p{font-size: 16px;}
+.lkpgFonts h1{font-size:28px;letter-spacing: 1px;}
+.lkpgFonts h2{font-size: 20px;letter-spacing: 1px;}
+.lkpgFonts p{font-size: 16px;letter-spacing: 1px;}
 .look{font-size: 16px; font-weight:600;letter-spacing: 1px;}
 .lkpgLTb20{margin-bottom: 20px;}
 .lkpgRow{padding-top: 50px;}
