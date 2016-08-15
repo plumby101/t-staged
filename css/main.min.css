@@ -119,8 +119,8 @@ html,button,input,select,textarea{color:#222}#noscript{display:none;background-c
 .soloSection {margin-top:7%; margin-bottom: 7%;}
 .eaTile1{margin-bottom:50px;}
 .eaSpacer{margin-top: 50px;}
-.eaRow4{margin-top:20%;}
-.eaTile4{margin-top:30px;}
+.eaRow4{margin-top:20px;}
+.eaTile4{margin-top:50%;}
 /*making of landing page*/
 .molpTileTitle{left: 10%; right:10%; width: 80%;}
 .molpSubTitle{font-size: 16px; letter-spacing: 2px;text-transform:none;}
