@@ -163,8 +163,8 @@ html,button,input,select,textarea{color:#222}#noscript{display:none;background-c
 .subTitleBorderRight {float: left; text-align: right}
 .borderLinkHolder {width: 100%;}
 .borderLinkHolder a {color: #ffffff;font-size: 18px;letter-spacing: 3px;}
-.homeTitle { font-size: 34px; letter-spacing: 2px;margin-bottom: 2%;}
-.homeSubTitle {font-size: 28px; letter-spacing: 3px;}
+.homeTitle { font-size: 38px; letter-spacing: 2px;margin-bottom: 2%;}
+.homeSubTitle {font-size: 26px; letter-spacing: 3px;}
 
 /*house and home landing page*/
 .hhlTile1{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/1200/A1Refresh_Landing_HouseandHome_1.jpg'); margin-bottom: 20px; }
@@ -178,6 +178,7 @@ html,button,input,select,textarea{color:#222}#noscript{display:none;background-c
 .hhTopTile {width: 100%; display: block; width: 100%; padding-top: 62.916666666667%;  margin-bottom: 20px; background-size: 100% 100%; position: relative}
 .hhlTile1 .tileTitle {top:75%;}
 .hhlTile1 .shopTxt {font-size: 16px;letter-spacing: 2px;}
+.hhShop {margin-bottom: 3%; }
 
 /*miscellaneous*/
 .accordion-a section .content {padding: 0}
