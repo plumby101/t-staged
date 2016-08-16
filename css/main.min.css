@@ -190,9 +190,9 @@ html,button,input,select,textarea{color:#222}#noscript{display:none;background-c
 .secretSaleBanner {width: 100%; margin-top:10px; padding-top: 38.82807469414%; background: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/1200/TOAST_SecretSale_1.jpg'); background-size: 100% 100%; position: relative;}
 .secretSaleBannerText {position: absolute; width: 100%; text-align: center; top:35%;}
 .secretSaleBanner h2 {font-size: 50px; letter-spacing: 2px}
-.secretSaleBanner h3 {font-size: 32px; margin-top: 10px; font-weight: normal; letter-spacing: 2px}
+.secretSaleBanner h3 {font-size: 28px; margin-top: 10px; font-weight: normal; letter-spacing: 2px}
 .secretSaleCTA {position: absolute; width: 100%; text-align: center; bottom: 15%;}
-.secretSaleCTAText {border-bottom: 1px solid #000000; padding-bottom: 3px; text-transform: uppercase; font-size: 22px; letter-spacing: 2px}
+.secretSaleCTAText {border-bottom: 1px solid #000000; padding-bottom: 3px; text-transform: uppercase; font-size: 18px; letter-spacing: 2px}
 
 /*miscellaneous*/
 .accordion-a section .content {padding: 0}
