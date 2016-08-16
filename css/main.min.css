@@ -193,10 +193,10 @@ html,button,input,select,textarea{color:#222}#noscript{display:none;background-c
 .secretSaleBanner h3 {font-size: 28px; margin-top: 10px; font-weight: normal; letter-spacing: 2px; color:#ffffff;}
 .secretSaleCTA {position: absolute; width: 100%; text-align: center; bottom: 15%;}
 .secretSaleCTAText {border-bottom: 1px solid #ffffff; padding-bottom: 3px; text-transform: uppercase; font-size: 18px; letter-spacing: 2px; color:#ffffff;}
-.secretSaleCTAText {color:#ffffff;}}
+.secretSaleCTAText {color:#ffffff;}
 
 /*calm space */
-.calmSpaceRow3 {margin: 40px 0 90px 0;}
+.calmSpaceRow3 {margin:40px 0 90px 0}
 .calmSpaceRow4 {margin-top: 70%}
 .mo-20 {margin-bottom: 0}
 
@@ -240,7 +240,7 @@ html,button,input,select,textarea{color:#222}#noscript{display:none;background-c
 	.landscapeTile {float: left; padding-top:57.7%;}
 	    /*accesories landing page*/
 	.look{text-align:center;}
-	.lkpgLthead{margin-top: 0%;}
+	.lkpgLthead{margin-top: 0%; text-align: center;}
 	.lkpgTextTile{margin-top: 10%;text-align: center;}
 	.lkpgLtt80{margin-top: 10%;}
     .lkpgLtt60{margin-top: 10%;}
@@ -262,6 +262,7 @@ html,button,input,select,textarea{color:#222}#noscript{display:none;background-c
     .mmb-20{margin-bottom:0px;}
     .mmt-20{margin-top: 0px;}
     .mbMob20 {margin-bottom: 20px}
+    .lkpgLtdesc{text-align: center}
 
 
     /* secret sale */
@@ -304,7 +305,6 @@ html,button,input,select,textarea{color:#222}#noscript{display:none;background-c
 	.linkContainer {margin-top: 4%}
     .top43sm33m23{top: 23%;}
     .eaTile4mob{margin-top:40px; margin-bottom: 20px;}
-    .lkpgLT20 {margin-bottom: 0}
     .lkpgTextTile {margin-top: 0;}
     .lkpgLthead {margin-top: 20px}
 
