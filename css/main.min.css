@@ -123,8 +123,13 @@ html,button,input,select,textarea{color:#222}#noscript{display:none;background-c
 .eaSpacer{margin-top: 50px;}
 .eaRow4{margin-top:20px;}
 .eaTile4{margin-top:30%;}
+<<<<<<< HEAD
 .m20{margin-bottom: 60px;}
 
+=======
+.eaTile3{margin-top:23%;}
+.m20{margin-bottom: 20px;}
+>>>>>>> origin/master
 /*making of landing page*/
 .molpTileTitle{left: 10%; right:10%; width: 80%;}
 .molpSubTitle{font-size: 16px; letter-spacing: 2px;text-transform:none;}
@@ -211,7 +216,8 @@ html,button,input,select,textarea{color:#222}#noscript{display:none;background-c
 .left-0{left: 0px;}
 .lkpgLtt75{margin-top:75%;}
 
-
+.tmt-40{margin-top:0px;}
+    .tmb-20{margin-bottom:0px;}
 
 @media only screen and (max-width: 1024px) 
 {
@@ -253,6 +259,7 @@ html,button,input,select,textarea{color:#222}#noscript{display:none;background-c
     .lkpgRow{padding-top:0px;}
     /*soft colours page*/
     .eaTile1{margin-bottom:0px;}
+    .eaTile4{margin-top:20px;}
     .eaSpacer{margin-top: 0px;}
     /*custom styles*/
 	.customRow5pc{margin-top: 0%;}
@@ -268,11 +275,16 @@ html,button,input,select,textarea{color:#222}#noscript{display:none;background-c
 	.secretSaleBanner h3 {font-size: 18px; margin-top: 10px; font-weight: normal;}
 	.secretSaleBannerText {position: absolute; width: 100%; text-align: center; top:30%;}
 	.secretSaleCTAText {border-bottom: 1px solid #000000; padding-bottom: 3px; text-transform: uppercase; font-size: 22px}
+<<<<<<< HEAD
 
 	/* calm space */
 	.calmSpaceRow4 {margin-top: 0%}
 	.calmSpaceRow3 {margin: 0 0 20px 0}
 	.m20{margin-bottom: 20px;}
+=======
+    .mmt-40{margin-top:0px;}
+    .mmb-20{margin-bottom:0px;}
+>>>>>>> origin/master
 }
 
 @media only screen and (max-width: 768px) 
@@ -303,7 +315,14 @@ html,button,input,select,textarea{color:#222}#noscript{display:none;background-c
 	.linkContainer {margin-top: 4%}
     .top43sm33m23{top: 23%;}
     .eaTile4mob{margin-top:40px; margin-bottom: 20px;}
+<<<<<<< HEAD
 
+=======
+    .mmb-20{margin-bottom:20px;}
+    .mmt-20{margin-top: 20px;}
+    .mmt-40{margin-top:40px;}
+    .mmb-20{margin-bottom:20px;}
+>>>>>>> origin/master
 }
 
 @media only screen and (max-width: 700px) 
