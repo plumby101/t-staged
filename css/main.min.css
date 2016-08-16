@@ -81,6 +81,8 @@ html,button,input,select,textarea{color:#222}#noscript{display:none;background-c
 .customRow50{margin-top:50px;}
 .customRow60pc{margin-top: 60%;}
 
+.lkpgFonts h2{font-size:20px;}
+.lkpgFonts p{font-size: 16px;}
 
 .underline {text-decoration: underline;}
 
@@ -184,6 +186,14 @@ html,button,input,select,textarea{color:#222}#noscript{display:none;background-c
 .hhlTile1 .shopTxt {font-size: 16px;letter-spacing: 2px;}
 .hhShop {margin-bottom: 3%; }
 
+/* secret sale */
+.secretSaleBanner {width: 100%; padding-top: 38.82807469414%; background: url(../../TOAST_SecretSale_1.jpg); background-size: 100% 100%; position: relative;}
+.secretSaleBannerText {position: absolute; width: 100%; text-align: center; top:35%;}
+.secretSaleBanner h2 {font-size: 50px}
+.secretSaleBanner h3 {font-size: 32px; margin-top: 10px; font-weight: normal;}
+.secretSaleCTA {position: absolute; width: 100%; text-align: center; bottom: 15%;}
+.secretSaleCTAText {border-bottom: 1px solid #000000; padding-bottom: 3px; text-transform: uppercase; font-size: 22px}
+
 /*miscellaneous*/
 .accordion-a section .content {padding: 0}
 .you-may-also-like .sale { color: red; text-decoration: line-through; padding-right: 10px;}
@@ -196,13 +206,7 @@ html,button,input,select,textarea{color:#222}#noscript{display:none;background-c
 .left-0{left: 0px;}
 .lkpgLtt75{margin-top:75%;}
 
-/* secret sale */
-.secretSaleBanner {width: 100%; padding-top: 38.82807469414%; background: url(../../TOAST_SecretSale_1.jpg); background-size: 100% 100%; position: relative;}
-.secretSaleBannerText {position: absolute; width: 100%; text-align: center; top:35%;}
-.secretSaleBanner h2 {font-size: 50px}
-.secretSaleBanner h3 {font-size: 32px; margin-top: 10px; font-weight: normal;}
-.secretSaleCTA {position: absolute; width: 100%; text-align: center; bottom: 15%;}
-.secretSaleCTAText {border-bottom: 1px solid #000000; padding-bottom: 3px; text-transform: uppercase; font-size: 22px}
+
 
 @media only screen and (max-width: 1024px) 
 {
@@ -246,11 +250,13 @@ html,button,input,select,textarea{color:#222}#noscript{display:none;background-c
     .eaTile1{margin-bottom:0px;}
     .eaSpacer{margin-top: 0px;}
     /*custom styles*/
-	.customRow5pc{margin-top: 0%;}
+.customRow5pc{margin-top: 0%;}
     .eaRow4{margin-top:0%;}
-	.eaTile4{margin-top:0px;}
+.eaTile4{margin-top: 40px;margin-bottom: 20px;}
+    .mmb-20{margin-bottom:0px;}
+    .mmt-20{margin-top: 0px;}
 
-	/* secret sale */
+    /* secret sale */
 	.secretSaleBanner h2 {font-size: 30px}
 	.secretSaleBanner h3 {font-size: 18px; margin-top: 10px; font-weight: normal;}
 	.secretSaleBannerText {position: absolute; width: 100%; text-align: center; top:30%;}
@@ -284,7 +290,9 @@ html,button,input,select,textarea{color:#222}#noscript{display:none;background-c
 	.borderLinkHolder {width: 80%; margin: 0 auto;}
 	.linkContainer {margin-top: 4%}
     .top43sm33m23{top: 23%;}
-    
+    .eaTile4mob{margin-top:40px; margin-bottom: 20px;}
+    .mmb-20{margin-bottom:20px;}
+    .mmt-20{margin-top: 20px;}
 }
 
 @media only screen and (max-width: 700px) 
@@ -295,7 +303,7 @@ html,button,input,select,textarea{color:#222}#noscript{display:none;background-c
     .saleBannerSubTitle {font-size: 18px;padding-top:2%}
     .hhlTile1 .tileTitle {top:60%;}
 
-    /* secret sale */
+     /* secret sale */
     .secretSaleBanner h2 {font-size: 20px}
 	.secretSaleBanner h3 {font-size: 16px; margin-top: 10px; font-weight: normal;}
     .secretSaleBannerText {position: absolute; width: 100%; text-align: center; top:20%;}
@@ -308,15 +316,17 @@ html,button,input,select,textarea{color:#222}#noscript{display:none;background-c
  	.category-product-items .product {height: 350px}   
  	 .landscapeTile { padding-top:78%;}
 
- 	 /* secret sale */
+ 	 	 /* secret sale */
  	 .secretSaleBannerText {position: absolute; width: 100%; text-align: center; top:6%;}
 }
 
 @media only screen and (max-width: 430px) 
 {
-	.category-product-items .product {height: 280px}  
-	/* secret sale */
  	.saleBannerTitle {padding-top: 5%; font-size: 20px; letter-spacing: 2px}
  	.saleBannerSubTitle {font-size: 16px; padding-top: 1%}
- 	
+ 	.category-product-items .product {height: 280px}
+
+ 		/* secret sale */
+ 	.saleBannerTitle {padding-top: 5%; font-size: 20px; letter-spacing: 2px}
+ 	.saleBannerSubTitle {font-size: 16px; padding-top: 1%}
 }  
