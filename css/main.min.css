@@ -123,7 +123,8 @@ html,button,input,select,textarea{color:#222}#noscript{display:none;background-c
 .eaSpacer{margin-top: 50px;}
 .eaRow4{margin-top:20px;}
 .eaTile4{margin-top:30%;}
-.m20{margin-bottom: 20px;}
+.m20{margin-bottom: 60px;}
+
 /*making of landing page*/
 .molpTileTitle{left: 10%; right:10%; width: 80%;}
 .molpSubTitle{font-size: 16px; letter-spacing: 2px;text-transform:none;}
@@ -143,7 +144,6 @@ html,button,input,select,textarea{color:#222}#noscript{display:none;background-c
 .khadiCTA {text-align: center; text-transform: uppercase; margin-bottom: 20px}
 .shopKhadi {width: 100%; background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/400/MakingOf_Khadi_4.jpg'); padding-top: 121.484375%; position: relative; color: #ffffff ; background-size: 100% 100%; display: block; margin-bottom: 10px }
 .quarterWidthPanelText {width: 100%; text-align: center; font-size: 18px; position: absolute; bottom: 10%; letter-spacing: 2px; font-size: 26px; display: block}
-
 .toastMagazineQuarter {width: 100%; background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/400/MakingOf_Khadi_5.jpg'); padding-top: 121.484375%; position: relative; color: #ffffff ; background-size: 100% 100%; display: block }
 
 /*homepage*/
@@ -193,6 +193,11 @@ html,button,input,select,textarea{color:#222}#noscript{display:none;background-c
 .secretSaleBanner h3 {font-size: 28px; margin-top: 10px; font-weight: normal; letter-spacing: 2px}
 .secretSaleCTA {position: absolute; width: 100%; text-align: center; bottom: 15%;}
 .secretSaleCTAText {border-bottom: 1px solid #000000; padding-bottom: 3px; text-transform: uppercase; font-size: 18px; letter-spacing: 2px}
+
+/*calm space */
+.calmSpaceRow3 {margin: 40px 0 90px 0;}
+.calmSpaceRow4 {margin-top: 70%}
+.mo-20 {margin-bottom: 0}
 
 /*miscellaneous*/
 .accordion-a section .content {padding: 0}
@@ -252,16 +257,22 @@ html,button,input,select,textarea{color:#222}#noscript{display:none;background-c
     /*custom styles*/
 	.customRow5pc{margin-top: 0%;}
     .eaRow4{margin-top:0%;}
-	.eaTile4{margin-top: 40px;margin-bottom: 20px;}
+	.eaTile4{margin-top: 20px;margin-bottom: 0px;}
     .mmb-20{margin-bottom:0px;}
     .mmt-20{margin-top: 0px;}
     .mbMob20 {margin-bottom: 20px}
+
 
     /* secret sale */
 	.secretSaleBanner h2 {font-size: 30px}
 	.secretSaleBanner h3 {font-size: 18px; margin-top: 10px; font-weight: normal;}
 	.secretSaleBannerText {position: absolute; width: 100%; text-align: center; top:30%;}
 	.secretSaleCTAText {border-bottom: 1px solid #000000; padding-bottom: 3px; text-transform: uppercase; font-size: 22px}
+
+	/* calm space */
+	.calmSpaceRow4 {margin-top: 0%}
+	.calmSpaceRow3 {margin: 0 0 20px 0}
+	.m20{margin-bottom: 20px;}
 }
 
 @media only screen and (max-width: 768px) 
@@ -292,8 +303,7 @@ html,button,input,select,textarea{color:#222}#noscript{display:none;background-c
 	.linkContainer {margin-top: 4%}
     .top43sm33m23{top: 23%;}
     .eaTile4mob{margin-top:40px; margin-bottom: 20px;}
-    .mmb-20{margin-bottom:20px;}
-    .mmt-20{margin-top: 20px;}
+
 }
 
 @media only screen and (max-width: 700px) 
@@ -315,10 +325,10 @@ html,button,input,select,textarea{color:#222}#noscript{display:none;background-c
 @media only screen and (max-width: 530px) 
 {
  	.category-product-items .product {height: 350px}   
- 	 .landscapeTile { padding-top:78%;}
+ 	.landscapeTile { padding-top:78%;}
 
  	 	 /* secret sale */
- 	 .secretSaleBannerText {position: absolute; width: 100%; text-align: center; top:6%;}
+ 	.secretSaleBannerText {position: absolute; width: 100%; text-align: center; top:6%;}
 }
 
 @media only screen and (max-width: 430px) 
