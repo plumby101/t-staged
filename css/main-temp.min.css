@@ -175,6 +175,33 @@ html,button,input,select,textarea{color:#222}#noscript{display:none;background-c
 .underline {text-decoration: underline;}
 
 
+/* secret sale banner */
+.secretSaleBanner {width: 100%; margin-top:10px; padding-top: 38.82807469414%; background: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/1200/TOAST_SecretSale_1_Dark.jpg'); background-size: 100% 100%; position: relative;}
+.secretSaleBannerText {position: absolute; width: 100%; text-align: center; top:35%;}
+.secretSaleBanner h2 {font-size: 50px; letter-spacing: 2px; color:#ffffff;}
+.secretSaleBanner h3 {font-size: 28px; margin-top: 10px; font-weight: normal; letter-spacing: 2px; color:#ffffff;}
+.secretSaleCTA {position: absolute; width: 100%; text-align: center; bottom: 15%;}
+.secretSaleCTAText {border-bottom: 1px solid #ffffff; padding-bottom: 3px; text-transform: uppercase; font-size: 18px; letter-spacing: 2px; color:#ffffff;}
+.secretSaleCTAText {color:#ffffff;}
+
+/*secret sale langing */
+.sslLanding p{font-size: 20px; letter-spacing: 1px;}
+.sslTile1{position: relative;text-align: center;background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/1200/TOAST_SecretSale_1_New.jpg');padding-top: 38.82807469414%;margin-bottom:20px;background-size: 100% 100%;}
+.sslTile1txtCont{width:100%;position:absolute;top: 43%;text-align: center;}
+.sslTile1txt{font-size: 40px;}
+.sslTile2{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/1200/TOAST_SecretSale_Landing_1_New.jpg');}
+.sslTile3{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/1200/TOAST_SecretSale_Landing_2.jpg');}
+.sslTile4{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/1200/TOAST_SecretSale_Landing_3_New.jpg');}
+.sslTile5{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/1200/TOAST_SecretSale_Landing_4.jpg');}
+.sslTile6{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/1200/TOAST_SecretSale_Landing_5_new.jpg');}
+.sslTile7{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/1200/TOAST_SecretSale_Landing_6.jpg');}
+.sslTile8{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/1200/TOAST_SecretSale_Landing_7.jpg');}
+.sslTile2,.sslTile3,.sslTile4,.sslTile5,.sslTile6,.sslTile7,.sslTile8{position:relative;padding-top:121.0833%;background-repeat: no-repeat;background-size:100% 100%;text-align:center;margin-bottom:20px;}
+.sslTile2txt,.sslTile3txt,.sslTile4txt,.sslTile5txt{position: absolute;bottom:2%;letter-spacing: 1px;width:100%;}
+.sslTile2txt p,.sslTile3txt p, .sslTile4txt p,.sslTile5txt p,.sslTile6txt p,.sslTile7txt p,.sslTile8txt p{font-size:16px;}
+.sslTile6txt,.sslTile7txt,.sslTile8txt{position: absolute;bottom:3%;width:100%;letter-spacing: 1px;}
+
+
 
 @media only screen and (max-width: 1024px) 
 {
@@ -211,6 +238,13 @@ html,button,input,select,textarea{color:#222}#noscript{display:none;background-c
     .mobSpacer{margin-bottom:20px;}
     .top43sm33m23{top:33%;}
     .lkpgTextTile, .lkpgLthead{margin-top: 5%;}
+
+     /* secret sale banner */
+	.secretSaleBanner h2 {font-size: 30px}
+	.secretSaleBanner h3 {font-size: 18px; margin-top: 10px; font-weight: normal;}
+	.secretSaleBannerText {position: absolute; width: 100%; text-align: center; top:30%;}
+	.secretSaleCTAText {border-bottom: 1px solid #000000; padding-bottom: 3px; text-transform: uppercase; font-size: 22px}
+
 }
 
 @media only screen and (max-width: 768px) 
@@ -239,6 +273,7 @@ html,button,input,select,textarea{color:#222}#noscript{display:none;background-c
 	.subTitleBorderRight {float: none; text-align: center; }
 	.borderLinkHolder {width: 80%; margin: 0 auto;}
 	.linkContainer {margin-top: 4%}
+
 }
 
 @media only screen and (max-width: 700px) 
@@ -247,12 +282,22 @@ html,button,input,select,textarea{color:#222}#noscript{display:none;background-c
 	.tileTitle .subTitle  {font-size: 14px; padding-top: 6px}
     .saleBannerTitle {padding-top: 8%; font-size: 38px}
     .saleBannerSubTitle {font-size: 18px;padding-top:2%}
+
+    /* secret sale banner */
+    .secretSaleBanner h2 {font-size: 20px}
+	.secretSaleBanner h3 {font-size: 16px; margin-top: 10px; font-weight: normal;}
+    .secretSaleBannerText {position: absolute; width: 100%; text-align: center; top:20%;}
+    .secretSaleCTAText {border-bottom: 1px solid #000000; padding-bottom: 3px; text-transform: uppercase; font-size: 14px}
+    .secretSaleCTA {position: absolute; width: 100%; text-align: center; bottom: 10%;}
 }
     
 @media only screen and (max-width: 530px) 
 {
  	.category-product-items .product {height: 350px}   
  	 .landscapeTile { padding-top:78%;}
+
+ 	 /* secret sale banner */
+ 	.secretSaleBannerText {position: absolute; width: 100%; text-align: center; top:6%;}
 }
 
 @media only screen and (max-width: 430px) 
@@ -260,4 +305,8 @@ html,button,input,select,textarea{color:#222}#noscript{display:none;background-c
  	.saleBannerTitle {padding-top: 5%; font-size: 20px; letter-spacing: 2px}
  	.saleBannerSubTitle {font-size: 16px; padding-top: 1%}
  	.category-product-items .product {height: 280px}  
+
+ 	/* secret sale banner */
+ 	.saleBannerTitle {padding-top: 5%; font-size: 20px; letter-spacing: 2px}
+ 	.saleBannerSubTitle {font-size: 16px; padding-top: 1%}
 }  
