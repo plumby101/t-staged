@@ -183,7 +183,7 @@ html,button,input,select,textarea{color:#222}#noscript{display:none;background-c
 .hhlTile6{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/750/WEB_EarlyAutumn_HouseandHome_6.jpg'); margin-bottom: 20px;}
 .hhTopTile {width: 100%; display: block; width: 100%; padding-top: 62.916666666667%;  margin-bottom: 20px; background-size: 100% 100%; position: relative}
 .hhlTile1 .tileTitle {top:75%;}
-.hhlTile1 .shopTxt {font-size: 16px;letter-spacing: 2px; border-bottom: 1px solid #ffffff;}
+.hhlTile1 .shopTxt, .hlTile1 .shopTxt {font-size: 16px;letter-spacing: 2px; border-bottom: 1px solid #ffffff;}
 .hhShop {margin-bottom: 3%; }
 
 /*calm space */
