@@ -212,8 +212,6 @@ html,button,input,select,textarea{color:#222}#noscript{display:none;background-c
 .left-0{left: 0px;}
 .lkpgLtt75{margin-top:75%;}
 
-
-
 /*remote dev styles*/
 .sslLanding p{font-size: 20px; letter-spacing: 1px;}
 .sslTile1{position: relative;text-align: center;background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/1200/TOAST_SecretSale_1_New.jpg');padding-top: 38.82807469414%;margin-bottom:20px;background-size: 100% 100%;}
@@ -228,7 +226,7 @@ html,button,input,select,textarea{color:#222}#noscript{display:none;background-c
 .sslTile8{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/1200/TOAST_SecretSale_Landing_7.jpg');}
 .sslTile2,.sslTile3,.sslTile4,.sslTile5,.sslTile6,.sslTile7,.sslTile8{position:relative;padding-top:121.0833%;background-repeat: no-repeat;background-size:100% 100%;text-align:center;margin-bottom:20px;}
 .sslTile2txt,.sslTile3txt,.sslTile4txt,.sslTile5txt{position: absolute;bottom:2%;letter-spacing: 1px;width:100%;}
-.sslTile2txt p,.sslTile4txt p, .sslTile4txt p,.sslTile5txt p,.sslTile6txt p,.sslTile7txt p,.sslTile8txt p{font-size:16px;}
+.sslTile2txt p,.sslTile3txt p,.sslTile4txt p,.sslTile5txt p,.sslTile6txt p,.sslTile7txt p,.sslTile8txt p{font-size:16px;}
 .sslTile6txt,.sslTile7txt,.sslTile8txt{position: absolute;bottom:3%;width:100%;letter-spacing: 1px;}
 
 /* Footer style */
