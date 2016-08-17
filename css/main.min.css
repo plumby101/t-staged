@@ -210,6 +210,32 @@ html,button,input,select,textarea{color:#222}#noscript{display:none;background-c
 .tmt-40{margin-top:0px;}
     .tmb-20{margin-bottom:0px;}
 
+/*remote dev styles*/
+                .sslLanding p{font-size: 20px; letter-spacing: 1px;}
+                .sslTile1{position: relative;text-align: center;background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/1200/TOAST_SecretSale_1_New.jpg');padding-top: 38.82807469414%;margin-bottom:20px;background-size: 100% 100%;}
+                .sslTile1txtCont{width:100%;position:absolute;top: 43%;text-align: center;}
+                .sslTile1txt{font-size: 40px;}
+                .sslTile2{position:relative;background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/1200/TOAST_SecretSale_Landing_1_New.jpg');padding-top:121.0833%;background-repeat: no-repeat;background-size:100% 100%;text-align:center;margin-bottom:20px;}
+                .sslTile2txt{position: absolute;bottom:2%;letter-spacing: 1px;width:100%;}
+                .sslTile2txt p{font-size:16px;}
+                .sslTile3{position: relative;background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/1200/TOAST_SecretSale_Landing_2.jpg');text-align:center;padding-top:121.0833%;background-repeat: no-repeat;background-size:100% 100%;margin-bottom:20px;}
+                .sslTile3txt {position: absolute;bottom:2%;letter-spacing: 1px;width:100%;}
+                .sslTile3txt p{font-size:16px;}
+                .sslTile4{position: relative;background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/1200/TOAST_SecretSale_Landing_3_New.jpg');text-align:center;padding-top:121.0833%;background-repeat: no-repeat;background-size:100% 100%;margin-bottom:20px;}
+                .sslTile4txt{position: absolute;width:100%;bottom:2%;letter-spacing: 1px;}
+                .sslTile4txt p{font-size:16px;}
+                .sslTile5{position:relative;background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/1200/TOAST_SecretSale_Landing_4.jpg');text-align:center;padding-top:121.0833%;background-repeat: no-repeat;background-size:100% 100%;margin-bottom:20px;}
+                .sslTile5txt {position: absolute;bottom:2%;width:100%;letter-spacing: 1px;}
+                .sslTile5txt p{font-size:16px;}
+                .sslTile6{position:relative;background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/1200/TOAST_SecretSale_Landing_5_new.jpg');text-align:center;padding-top:121.0833%;background-repeat: no-repeat;background-size:100% 100%;margin-bottom:20px;}
+                .sslTile6txt {position: absolute;bottom:12%;width:100%;letter-spacing: 1px;}
+                .sslTile6txt p{font-size:16px;}
+                .sslTile7{position:relative;background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/1200/TOAST_SecretSale_Landing_6.jpg');text-align:center;padding-top:121.0833%;background-repeat: no-repeat;background-size:100% 100%;margin-bottom:20px;}
+                .sslTile7txt {position: absolute;bottom:12%;width:100%;letter-spacing: 1px;}
+                .sslTile7txt p{font-size:16px;}
+                .sslTile8{position:relative;background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/1200/TOAST_SecretSale_Landing_7.jpg');text-align:center;padding-top:121.0833%;background-repeat: no-repeat;background-size:100% 100%; margin-bottom:20px;}          
+                .sslTile8txt {position: absolute;bottom:12%;width:100%;letter-spacing: 1px;}
+                .sslTile8txt p{font-size:16px;}
 @media only screen and (max-width: 1024px) 
 {
 	.category-product-items .product {height: 450px}  
