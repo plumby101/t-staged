@@ -59,10 +59,10 @@ html,button,input,select,textarea{color:#222}#noscript{display:none;background-c
 
 /*accessories landing page*/
 .eacontainer{margin-top:0px;text-align: center;}
-.lkpgcontainer,{text-align: center; margin-top: 50px;}
-.lkpgcontainer h1,.eacontainer h1{margin-top:30px;}{font-size: 28px;}
-.lkpgcontainer h2,.eacontainer h2{font-size: 20px;}
-.lkpgcontainer p,.eacontainer p{font-size: 16px;letter-spacing: 1px;}
+.lkpgcontainer {text-align: center; margin-top: 50px;}
+.lkpgcontainer h1, .eacontainer h1{margin-top:30px; font-size: 28px;}
+.lkpgcontainer h2, .eacontainer h2{font-size: 20px;}
+.lkpgcontainer p, .eacontainer p{font-size: 16px;letter-spacing: 1px;}
 .look{font-size: 16px; font-weight:600;letter-spacing: 1px;}
 .lkpgLTb20{margin-bottom: 20px;}
 .lkpgRow{padding-top: 50px;}
@@ -123,8 +123,8 @@ html,button,input,select,textarea{color:#222}#noscript{display:none;background-c
 .eaSpacer{margin-top: 50px;}
 .eaRow4{margin-top:20px;}
 .eaTile4{margin-top:30%;}
-.eaTile3{margin-top:23%;}
-.m20{margin-bottom: 20px;}
+.m20{margin-bottom: 60px;}
+
 /*making of landing page*/
 .molpTileTitle{left: 10%; right:10%; width: 80%;}
 .molpSubTitle{font-size: 16px; letter-spacing: 2px;text-transform:none;}
@@ -144,12 +144,11 @@ html,button,input,select,textarea{color:#222}#noscript{display:none;background-c
 .khadiCTA {text-align: center; text-transform: uppercase; margin-bottom: 20px}
 .shopKhadi {width: 100%; background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/400/MakingOf_Khadi_4.jpg'); padding-top: 121.484375%; position: relative; color: #ffffff ; background-size: 100% 100%; display: block; margin-bottom: 10px }
 .quarterWidthPanelText {width: 100%; text-align: center; font-size: 18px; position: absolute; bottom: 10%; letter-spacing: 2px; font-size: 26px; display: block}
-
 .toastMagazineQuarter {width: 100%; background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/400/MakingOf_Khadi_5.jpg'); padding-top: 121.484375%; position: relative; color: #ffffff ; background-size: 100% 100%; display: block }
 
 /*homepage*/
-.tileTitleMid{color: white;position: absolute;top: 21%;width: 100%;text-align: center;font-size: 28px;line-height: 45px;}
-.hlTile1{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/1200/A1Refresh_Homepage_1.jpg');padding-top: 120.54%}
+.tileTitleMid{color: white;position: absolute;top: 31%;width: 100%;text-align: center;font-size: 28px;line-height: 45px;}
+.hlTile1{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/1200/A1Refresh_Homepage_1_New.jpg');padding-top: 75.917578879588%}
 .hlTile2{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/750/A1Refresh_Homepage_2.jpg');padding-top: 121.120%}
 .hlTile3{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/750/A1Refresh_Homepage_3.jpg');padding-top: 121.120%}
 .hlTile4{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/750/A1Refresh_Homepage_4.jpg');padding-top: 121.120%}
@@ -188,12 +187,18 @@ html,button,input,select,textarea{color:#222}#noscript{display:none;background-c
 .hhShop {margin-bottom: 3%; }
 
 /* secret sale */
-.secretSaleBanner {width: 100%; margin-top:10px; padding-top: 38.82807469414%; background: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/1200/TOAST_SecretSale_1.jpg'); background-size: 100% 100%; position: relative;}
+.secretSaleBanner {width: 100%; margin-top:10px; padding-top: 38.82807469414%; background: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/1200/TOAST_SecretSale_1_Dark.jpg'); background-size: 100% 100%; position: relative;}
 .secretSaleBannerText {position: absolute; width: 100%; text-align: center; top:35%;}
-.secretSaleBanner h2 {font-size: 50px; letter-spacing: 2px}
-.secretSaleBanner h3 {font-size: 28px; margin-top: 10px; font-weight: normal; letter-spacing: 2px}
+.secretSaleBanner h2 {font-size: 50px; letter-spacing: 2px; color:#ffffff;}
+.secretSaleBanner h3 {font-size: 28px; margin-top: 10px; font-weight: normal; letter-spacing: 2px; color:#ffffff;}
 .secretSaleCTA {position: absolute; width: 100%; text-align: center; bottom: 15%;}
-.secretSaleCTAText {border-bottom: 1px solid #000000; padding-bottom: 3px; text-transform: uppercase; font-size: 18px; letter-spacing: 2px}
+.secretSaleCTAText {border-bottom: 1px solid #ffffff; padding-bottom: 3px; text-transform: uppercase; font-size: 18px; letter-spacing: 2px; color:#ffffff;}
+.secretSaleCTAText {color:#ffffff;}
+
+/*calm space */
+.calmSpaceRow3 {margin:40px 0 90px 0}
+.calmSpaceRow4 {margin-top: 70%}
+.mo-20 {margin-bottom: 0}
 
 /*miscellaneous*/
 .accordion-a section .content {padding: 0}
@@ -207,8 +212,7 @@ html,button,input,select,textarea{color:#222}#noscript{display:none;background-c
 .left-0{left: 0px;}
 .lkpgLtt75{margin-top:75%;}
 
-.tmt-40{margin-top:0px;}
-    .tmb-20{margin-bottom:0px;}
+
 
 /*remote dev styles*/
                 .sslLanding p{font-size: 20px; letter-spacing: 1px;}
@@ -262,7 +266,7 @@ html,button,input,select,textarea{color:#222}#noscript{display:none;background-c
 	.landscapeTile {float: left; padding-top:57.7%;}
 	    /*accesories landing page*/
 	.look{text-align:center;}
-	.lkpgLthead{margin-top: 0%;}
+	.lkpgLthead{margin-top: 0%; text-align: center;}
 	.lkpgTextTile{margin-top: 10%;text-align: center;}
 	.lkpgLtt80{margin-top: 10%;}
     .lkpgLtt60{margin-top: 10%;}
@@ -276,22 +280,27 @@ html,button,input,select,textarea{color:#222}#noscript{display:none;background-c
     .lkpgRow{padding-top:0px;}
     /*soft colours page*/
     .eaTile1{margin-bottom:0px;}
-    .eaTile4{margin-top:20px;}
     .eaSpacer{margin-top: 0px;}
     /*custom styles*/
-.customRow5pc{margin-top: 0%;}
+	.customRow5pc{margin-top: 0%;}
     .eaRow4{margin-top:0%;}
-.eaTile4{margin-top: 40px;margin-bottom: 20px;}
+	.eaTile4{margin-top: 20px;margin-bottom: 0px;}
     .mmb-20{margin-bottom:0px;}
     .mmt-20{margin-top: 0px;}
+    .mbMob20 {margin-bottom: 20px}
+    .lkpgLtdesc{text-align: center}
+
 
     /* secret sale */
 	.secretSaleBanner h2 {font-size: 30px}
 	.secretSaleBanner h3 {font-size: 18px; margin-top: 10px; font-weight: normal;}
 	.secretSaleBannerText {position: absolute; width: 100%; text-align: center; top:30%;}
 	.secretSaleCTAText {border-bottom: 1px solid #000000; padding-bottom: 3px; text-transform: uppercase; font-size: 22px}
-    .mmt-40{margin-top:0px;}
-    .mmb-20{margin-bottom:0px;}
+
+	/* calm space */
+	.calmSpaceRow4 {margin-top: 0%}
+	.calmSpaceRow3 {margin: 0 0 20px 0}
+	.m20{margin-bottom: 20px;}
 }
 
 @media only screen and (max-width: 768px) 
@@ -322,10 +331,9 @@ html,button,input,select,textarea{color:#222}#noscript{display:none;background-c
 	.linkContainer {margin-top: 4%}
     .top43sm33m23{top: 23%;}
     .eaTile4mob{margin-top:40px; margin-bottom: 20px;}
-    .mmb-20{margin-bottom:20px;}
-    .mmt-20{margin-top: 20px;}
-    .mmt-40{margin-top:40px;}
-    .mmb-20{margin-bottom:20px;}
+    .lkpgTextTile {margin-top: 0;}
+    .lkpgLthead {margin-top: 20px}
+
 }
 
 @media only screen and (max-width: 700px) 
@@ -347,10 +355,10 @@ html,button,input,select,textarea{color:#222}#noscript{display:none;background-c
 @media only screen and (max-width: 530px) 
 {
  	.category-product-items .product {height: 350px}   
- 	 .landscapeTile { padding-top:78%;}
+ 	.landscapeTile { padding-top:78%;}
 
  	 	 /* secret sale */
- 	 .secretSaleBannerText {position: absolute; width: 100%; text-align: center; top:6%;}
+ 	.secretSaleBannerText {position: absolute; width: 100%; text-align: center; top:6%;}
 }
 
 @media only screen and (max-width: 430px) 
