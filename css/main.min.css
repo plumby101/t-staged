@@ -183,17 +183,8 @@ html,button,input,select,textarea{color:#222}#noscript{display:none;background-c
 .hhlTile6{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/750/WEB_EarlyAutumn_HouseandHome_6.jpg'); margin-bottom: 20px;}
 .hhTopTile {width: 100%; display: block; width: 100%; padding-top: 62.916666666667%;  margin-bottom: 20px; background-size: 100% 100%; position: relative}
 .hhlTile1 .tileTitle {top:75%;}
-.hhlTile1 .shopTxt {font-size: 16px;letter-spacing: 2px;}
+.hhlTile1 .shopTxt, .hlTile1 .shopTxt {font-size: 16px;letter-spacing: 2px; border-bottom: 1px solid #ffffff;}
 .hhShop {margin-bottom: 3%; }
-
-/* secret sale */
-.secretSaleBanner {width: 100%; margin-top:10px; padding-top: 38.82807469414%; background: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/1200/TOAST_SecretSale_1_Dark.jpg'); background-size: 100% 100%; position: relative;}
-.secretSaleBannerText {position: absolute; width: 100%; text-align: center; top:35%;}
-.secretSaleBanner h2 {font-size: 50px; letter-spacing: 2px; color:#ffffff;}
-.secretSaleBanner h3 {font-size: 28px; margin-top: 10px; font-weight: normal; letter-spacing: 2px; color:#ffffff;}
-.secretSaleCTA {position: absolute; width: 100%; text-align: center; bottom: 15%;}
-.secretSaleCTAText {border-bottom: 1px solid #ffffff; padding-bottom: 3px; text-transform: uppercase; font-size: 18px; letter-spacing: 2px; color:#ffffff;}
-.secretSaleCTAText {color:#ffffff;}
 
 /*calm space */
 .calmSpaceRow3 {margin:40px 0 90px 0}
@@ -204,7 +195,7 @@ html,button,input,select,textarea{color:#222}#noscript{display:none;background-c
 .accordion-a section .content {padding: 0}
 .you-may-also-like .sale { color: red; text-decoration: line-through; padding-right: 10px;}
 .shopTxt {font-size: 16px;letter-spacing: 2px;}
-.tileTitle .landingTileTxt {font-size:24px; letter-spacing: 2px;}
+.tileTitle .landingTileTxt {font-size:26px; letter-spacing: 2px;}
 .mtop-10{margin-top:10%}
 .dLeftMcenter{text-align: left;}
 .mtop30m0{margin-top: 30%;}
@@ -212,9 +203,16 @@ html,button,input,select,textarea{color:#222}#noscript{display:none;background-c
 .left-0{left: 0px;}
 .lkpgLtt75{margin-top:75%;}
 
+/* secret sale banner */
+.secretSaleBanner {width: 100%; margin-top:10px; padding-top: 38.82807469414%; background: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/1200/TOAST_SecretSale_1_Dark.jpg'); background-size: 100% 100%; position: relative;}
+.secretSaleBannerText {position: absolute; width: 100%; text-align: center; top:35%;}
+.secretSaleBanner h2 {font-size: 50px; letter-spacing: 2px; color:#ffffff;}
+.secretSaleBanner h3 {font-size: 28px; margin-top: 10px; font-weight: normal; letter-spacing: 2px; color:#ffffff;}
+.secretSaleCTA {position: absolute; width: 100%; text-align: center; bottom: 15%;}
+.secretSaleCTAText {border-bottom: 1px solid #ffffff; padding-bottom: 3px; text-transform: uppercase; font-size: 18px; letter-spacing: 2px; color:#ffffff;}
+.secretSaleCTAText {color:#ffffff;}
 
-
-/*remote dev styles*/
+/*secret sale langing */
 .sslLanding p{font-size: 20px; letter-spacing: 1px;}
 .sslTile1{position: relative;text-align: center;background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/1200/TOAST_SecretSale_1_New.jpg');padding-top: 38.82807469414%;margin-bottom:20px;background-size: 100% 100%;}
 .sslTile1txtCont{width:100%;position:absolute;top: 43%;text-align: center;}
@@ -232,8 +230,10 @@ html,button,input,select,textarea{color:#222}#noscript{display:none;background-c
 .sslTile6txt,.sslTile7txt,.sslTile8txt{position: absolute;bottom:3%;width:100%;letter-spacing: 1px;}
 
 /* Footer style */
-.footerMessage {padding-top: 10px;float: left;width: 100%;}
+.footerMessage {padding-top: 10px;float: left;width: 100%; text-align: center;}
 .footerColHolder { padding-top: 20px}
+
+.marketingMessage {background-color: #dfdfdf; color: #000; width: 100%; padding:8px; text-transform: uppercase; font-family: 'HelveticaNeueLT-LightCond','pragmatica-web-condensed',arial,sans-serif; letter-spacing: 1px}
 
 
 @media only screen and (max-width: 1024px) 
@@ -260,7 +260,8 @@ html,button,input,select,textarea{color:#222}#noscript{display:none;background-c
 	.wnltile13 {text-align: center;margin-bottom: 40px}
 	.khadiContentPad {margin: 20px;}
 	.landscapeTile {float: left; padding-top:57.7%;}
-	    /*accesories landing page*/
+
+	/*accesories landing page*/
 	.look{text-align:center;}
 	.lkpgLthead{margin-top: 0%; text-align: center;}
 	.lkpgTextTile{margin-top: 10%;text-align: center;}
@@ -274,9 +275,11 @@ html,button,input,select,textarea{color:#222}#noscript{display:none;background-c
     .top43sm33m23{top:33%;}
     .lkpgTextTile, .lkpgLthead{margin-top: 5%;}
     .lkpgRow{padding-top:0px;}
+
     /*soft colours page*/
     .eaTile1{margin-bottom:0px;}
     .eaSpacer{margin-top: 0px;}
+
     /*custom styles*/
 	.customRow5pc{margin-top: 0%;}
     .eaRow4{margin-top:0%;}
@@ -287,7 +290,7 @@ html,button,input,select,textarea{color:#222}#noscript{display:none;background-c
     .lkpgLtdesc{text-align: center}
 
 
-    /* secret sale */
+    /* secret sale banner */
 	.secretSaleBanner h2 {font-size: 30px}
 	.secretSaleBanner h3 {font-size: 18px; margin-top: 10px; font-weight: normal;}
 	.secretSaleBannerText {position: absolute; width: 100%; text-align: center; top:30%;}
@@ -340,7 +343,7 @@ html,button,input,select,textarea{color:#222}#noscript{display:none;background-c
     .saleBannerSubTitle {font-size: 18px;padding-top:2%}
     .hhlTile1 .tileTitle {top:60%;}
 
-     /* secret sale */
+     /* secret sale banner */
     .secretSaleBanner h2 {font-size: 20px}
 	.secretSaleBanner h3 {font-size: 16px; margin-top: 10px; font-weight: normal;}
     .secretSaleBannerText {position: absolute; width: 100%; text-align: center; top:20%;}
@@ -353,7 +356,7 @@ html,button,input,select,textarea{color:#222}#noscript{display:none;background-c
  	.category-product-items .product {height: 350px}   
  	.landscapeTile { padding-top:78%;}
 
- 	 	 /* secret sale */
+ 	 /* secret sale banner */
  	.secretSaleBannerText {position: absolute; width: 100%; text-align: center; top:6%;}
 }
 
@@ -363,7 +366,7 @@ html,button,input,select,textarea{color:#222}#noscript{display:none;background-c
  	.saleBannerSubTitle {font-size: 16px; padding-top: 1%}
  	.category-product-items .product {height: 280px}
 
- 		/* secret sale */
+ 	/* secret sale banner */
  	.saleBannerTitle {padding-top: 5%; font-size: 20px; letter-spacing: 2px}
  	.saleBannerSubTitle {font-size: 16px; padding-top: 1%}
 }  
