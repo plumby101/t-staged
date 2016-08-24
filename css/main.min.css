@@ -182,7 +182,7 @@ html,button,input,select,textarea{color:#222}#noscript{display:none;background-c
 .hhlTile4{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/1200/TOAST_LateAutumn_HouseandHome_4.jpg'); margin-bottom: 20px;}
 .hhlTile5{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/750/WEB_EarlyAutumn_HouseandHome_5.jpg');}
 .hhlTile6{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/750/WEB_EarlyAutumn_HouseandHome_6.jpg'); margin-bottom: 20px;}
-.hhTopTile {width: 100%; display: block; width: 100%; padding-top: 62.916666666667%;  margin-bottom: 20px; background-size: 100% 100%; position: relative}
+.hhTopTile {width: 100%; display: block; width: 100%; padding-top: 120.5%;  margin-bottom: 20px; background-size: 100% 100%; position: relative}
 .hhlTile1 .tileTitle {top: 36%;line-height: 45px;}
 .hhlTile1 .shopTxt, .hlTile1 .shopTxt {font-size: 16px;letter-spacing: 2px; border-bottom: 1px solid #ffffff;}
 .hhlTile1 .shopTxt{text-transform: uppercase;font-size: 18px;}
@@ -239,11 +239,19 @@ html,button,input,select,textarea{color:#222}#noscript{display:none;background-c
 
 .marketingMessage {background-color: #dfdfdf; color: #000; width: 100%; padding:8px; text-transform: uppercase; font-family: 'HelveticaNeueLT-LightCond','pragmatica-web-condensed',arial,sans-serif; letter-spacing: 1px}
 
+/* Holy Variety Landing - TP */
+.hvTopRow { width: 100%;display: block; padding-top: 62.96296%; background-size: 100% 100%;  position: relative; background-image: url(http://toasttest.co.uk.s16804.gridserver.com/holyvariety/holy_variety__03.jpg); background-size: 100% 100%}
+.hvTopRowText {position: absolute; top: 50%; width: 100%; text-align: center; color: #ffffff}
+.hvTopRowText h2 {font-size: 36px; font-weight: normal; letter-spacing: 3px}
+.hvRow2 {margin: 70px 0 105px 0; text-align: center; font-size: 16px; line-height: 23px}
+.hvCol {text-align: center;}
+.hvCol h3 {margin: 70px 0 130px 0;; font-size: 20px; font-weight: normal; letter-spacing: 2px}
+
 
 @media only screen and (max-width: 1024px) 
 {
     /*Homepage*/
-    .hlTile1 .shopTxt{font-size: 14px;margin-left: -10px;}
+    .hlTile1 .shopTxt{font-size: 14px;margin-left: -10px;}	
     
 	.category-product-items .product {height: 450px}  
 	.primaryLandingTile h1 {font: 24px;}
@@ -307,6 +315,10 @@ html,button,input,select,textarea{color:#222}#noscript{display:none;background-c
 	.calmSpaceRow4 {margin-top: 0%}
 	.calmSpaceRow3 {margin: 0 0 20px 0}
 	.m20{margin-bottom: 20px;}
+
+	/* Holy Variety Landing - TP */
+	.hvRow2 {margin: 35px 0 52px 0; }
+	.hvCol h3 {margin: 30px 0 65px 0;}
 }
 
 @media only screen and (max-width: 768px) 
