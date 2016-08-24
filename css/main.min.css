@@ -43,12 +43,12 @@ html,button,input,select,textarea{color:#222}#noscript{display:none;background-c
 
 .wl_1{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/750/A1Refresh_Landing_Women_1.jpg')}
 .wl_1 .sansBook{font-size:16px;padding-top: 12px;letter-spacing: 2px;}
-.wl_2{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/750/A1Refresh_Landing_Women_2.jpg')}
+.wl_2{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/1200/TOAST_LateAutumn_Women_1.jpg')}
 .wl_3{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/750/A1Refresh_Landing_Women_3.jpg')}
-.wl_4{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/750/A1Refresh_Landing_Women_4.jpg')}
-.wl_5{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/750/A1Refresh_Landing_Women_5.jpg')}
-.wl_6{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/750/A1Refresh_Landing_Women_6.jpg')}
-
+.wl_4{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/1200/TOAST_LateAutumn_Women_2.jpg')}
+.wl_5{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/1200/TOAST_LateAutumn_Women_4.jpg')}
+.wl_6{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/1200/TOAST_LateAutumn_Women_3.jpg')}
+.wl_2 .shopTxt{text-transform: uppercase;font-size: 18px;line-height: 60px;letter-spacing: 2px;}
 
 /* Lookbook landing tiles */
 .lb_1{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/730/Lookbook_autumn.jpg')}
@@ -148,12 +148,13 @@ html,button,input,select,textarea{color:#222}#noscript{display:none;background-c
 
 /*homepage*/
 .tileTitleMid{color: white;position: absolute;top: 31%;width: 100%;text-align: center;font-size: 28px;line-height: 45px;}
-.hlTile1{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/1200/A1Refresh_Homepage_1_New.jpg');padding-top: 75.917578879588%}
-.hlTile2{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/750/A1Refresh_Homepage_2.jpg');padding-top: 121.120%}
-.hlTile3{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/750/A1Refresh_Homepage_3.jpg');padding-top: 121.120%}
-.hlTile4{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/750/A1Refresh_Homepage_4.jpg');padding-top: 121.120%}
-.hlTile5{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/1200/A1Refresh_Homepage_5.jpg');}
+.hlTile1{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/1200/TOAST_LateAutumn_Homepage_1.jpg');padding-top: 120.5%;}
+.hlTile2{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/1200/TOAST_LateAutumn_Homepage_3.jpg');padding-top: 121.120%}
+.hlTile3{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/1200/TOAST_LateAutumn_Homepage_2.jpg');padding-top: 121.120%}
+.hlTile4{ background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/1200/TOAST_LateAutumn_Homepage_4.jpg');padding-top: 121.120%}
+.hlTile5{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/1200/TOAST_LateAutumn_Homepage_5.jpg');}
 .hlTile6{background-color: #e9e9e9;color:black;}
+.hlTile1 .shopTxt{text-transform: uppercase;font-size: 22px;color: white;text-decoration: none;margin: 0 20px;}
 .signuptile {text-align: center;}
 .signuptile p{color: black;width: 100%;top: 0px;}
 .signuptile button{margin-top: 8%;border-width: 0px;font-size: 16px;color: black;letter-spacing:1px;font-family: 'freight-sans-pro' sans-serif;background: transparent;}
@@ -173,18 +174,21 @@ html,button,input,select,textarea{color:#222}#noscript{display:none;background-c
 .homeSubTitle {font-size: 26px; letter-spacing: 3px;}
 
 /*house and home landing page*/
-.hhlTile1{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/1200/A1Refresh_Landing_HouseandHome_1.jpg'); margin-bottom: 20px; }
-.hhlTile2{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/750/A1Refresh_Landing_HouseandHome_2.jpg'); margin-bottom: 20px;}
+.hhlTile1{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/1200/TOAST_LateAutumn_HouseandHome_1.jpg');padding-top: 120.5%; margin-bottom: 20px;}
+.hhlTile2{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/1200/TOAST_LateAutumn_HouseandHome_2.jpg'); margin-bottom: 20px;}
 .hhlTile2 .sansBook{font-size:16px;padding-top: 16px;letter-spacing: 2px;}
-.hhlTile3{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/750/A1Refresh_Landing_HouseandHome_3.jpg'); margin-bottom: 20px;}
+.hhlTile3{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/1200/TOAST_LateAutumn_HouseandHome_3.jpg'); margin-bottom: 20px;}
 .hhlTile3 .sansBook{font-size:16px;padding-top: 16px;letter-spacing: 2px;}
-.hhlTile4{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/750/A1Refresh_Landing_HouseandHome_4.jpg'); margin-bottom: 20px;}
+.hhlTile4{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/1200/TOAST_LateAutumn_HouseandHome_4.jpg'); margin-bottom: 20px;}
 .hhlTile5{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/750/WEB_EarlyAutumn_HouseandHome_5.jpg');}
 .hhlTile6{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/750/WEB_EarlyAutumn_HouseandHome_6.jpg'); margin-bottom: 20px;}
 .hhTopTile {width: 100%; display: block; width: 100%; padding-top: 62.916666666667%;  margin-bottom: 20px; background-size: 100% 100%; position: relative}
-.hhlTile1 .tileTitle {top:72%;}
+.hhlTile1 .tileTitle {top: 36%;line-height: 45px;}
 .hhlTile1 .shopTxt, .hlTile1 .shopTxt {font-size: 16px;letter-spacing: 2px; border-bottom: 1px solid #ffffff;}
-.hhShop {margin-bottom: 3%; }
+.hhlTile1 .shopTxt{text-transform: uppercase;font-size: 18px;}
+.hhShop {margin-bottom: 5%;}
+.hhlTile1 .tileTitle .mainTitle:first-child{font-size:20px;}
+.hhlTile4 .tileTitle{top:76%;}
 
 /*calm space */
 .calmSpaceRow3 {margin:40px 0 90px 0}
@@ -238,6 +242,9 @@ html,button,input,select,textarea{color:#222}#noscript{display:none;background-c
 
 @media only screen and (max-width: 1024px) 
 {
+    /*Homepage*/
+    .hlTile1 .shopTxt{font-size: 14px;margin-left: -10px;}
+    
 	.category-product-items .product {height: 450px}  
 	.primaryLandingTile h1 {font: 24px;}
 	.primaryLandingTile p {font: 12px;} 
