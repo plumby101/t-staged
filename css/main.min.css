@@ -240,53 +240,13 @@ html,button,input,select,textarea{color:#222}#noscript{display:none;background-c
 .marketingMessage {background-color: #dfdfdf; color: #000; width: 100%; padding:8px; text-transform: uppercase; font-family: 'HelveticaNeueLT-LightCond','pragmatica-web-condensed',arial,sans-serif; letter-spacing: 1px}
 
 /* Holy Variety Landing - TP */
-.hvTopRow { width: 100%;display: block; padding-top: 62.96296%; background-size: 100% 100%;  position: relative; background-image: url(http://toasttest.co.uk.s16804.gridserver.com/holyvariety/holy_variety__03.jpg); background-size: 100% 100%}
+.hvTopRow { width: 100%;display: block; clear:both; padding-top: 62.96296%; background-size: 100% 100%;  position: relative; background-image: url(http://toasttest.co.uk.s16804.gridserver.com/holyvariety/holy_variety__03.jpg); background-size: 100% 100%}
 .hvTopRowText {position: absolute; top: 50%; width: 100%; text-align: center; color: #ffffff}
 .hvTopRowText h2 {font-size: 36px; font-weight: normal; letter-spacing: 3px}
 .hvRow2 {margin: 70px 0 105px 0; text-align: center; font-size: 16px; line-height: 23px}
 .hvCol {text-align: center;}
 .hvCol h3 {margin: 70px 0 130px 0;; font-size: 20px; font-weight: normal; letter-spacing: 2px}
 
-/* Holy Variety Landing - TB */
-  /*Should we set padding to left and right to overcome the natural padding of a bootstrap col?*/
- .hvLeftCol {/*padding-left: 0px;*/ padding-top: 20px;        }
-.hvRightCol {padding-top: 20px;        }
-.hvTile1 { background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/750/holy_variety__03.jpg');background-size: 100% 100%; background-repeat: no-repeat;padding-top: 62.962962%;position: relative;}
-.hvTile1 .tileTitle{ position: absolute; font-size: 28px; top: 50%; letter-spacing: 2px; font-weight: 300;}
-        .hvMainText{
-            padding-top: 5%; font-size: 16px; padding-bottom:60px;text-align: center;letter-spacing: 1px;
-        }
-        .hvTextTile{
-            font-size: 16px; text-align: center; padding-top: 30px; padding-bottom: 70px;
-        }
-        .hvBottomTextTile{
-            padding-bottom: 0px;
-        }
-        .hvTile2{
-            background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/750/holy_variety__06.jpg');background-size: 100% 100%; padding-top: 128.30188%;
-        }
-        .hvTile3{
-            background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/750/holy_variety__12.jpg'); background-repeat: no-repeat; background-size: 100% 100%;padding-top: 64.15094% ;
-        }
-        .hvTile4{
-            background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/750/holy_variety__15.jpg'); background-repeat: no-repeat; background-size: 100% 100%;padding-top: 64.15094% ;
-        }
-        .hvTile5{
-            background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/750/holy_variety__18.jpg'); background-repeat: no-repeat; background-size: 100% 100%;padding-top: 128.30188%;
-        }
-        .hvTile6{
-            background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/750/holy_variety__08.jpg'); background-repeat: no-repeat; background-size: 100% 100%;padding-top: 64.15094% ;
-        }
-        .hvTile7{
-            background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/750/holy_variety__10.jpg'); background-repeat: no-repeat; background-size: 100% 100%;padding-top: 128.30188%;
-        }
-        .hvTile8{
-            background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/750/holy_variety__16.jpg'); background-repeat: no-repeat; background-size: 100% 100%;padding-top: 128.30188%;
-        }
-        .hvTile9{
-            background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/750/holy_variety__20.jpg'); background-repeat: no-repeat; background-size: 100% 100%;padding-top: 64.1509%;
-        }
-      
 
 @media only screen and (max-width: 1024px) 
 {
@@ -391,22 +351,6 @@ html,button,input,select,textarea{color:#222}#noscript{display:none;background-c
     .eaTile4mob{margin-top:40px; margin-bottom: 20px;}
     .lkpgTextTile {margin-top: 0;}
     .lkpgLthead {margin-top: 20px}
-
-
-/* Holy Variety Landing - TB */
-      .hvTile1 .tileTitle{
-                font-size: 20px; top: 35%;
-            }
-            .hvMainText{
-                padding-bottom: 0px;
-            }
-            .hvTextTile, .hvBottomTextTile{
-                padding-bottom: 30px;
-            }
-            
-            .hvRightCol{
-                padding-top: 0px;
-            }
 
 }
 
