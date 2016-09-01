@@ -330,7 +330,10 @@ html,button,input,select,textarea{color:#222}#noscript{display:none;background-c
 	.hvRow2 {margin: 35px 0 52px 0; }
 	.hvCol h3 {margin: 30px 0 65px 0;}
 }
-
+@media only screen and (max-width: 924px) 
+{/*Lookbook landing tiles*/
+    .lb_5{top: 72%;}
+}
 @media only screen and (max-width: 768px) 
 {
 	.category-product-items .product {height: 510px}  
