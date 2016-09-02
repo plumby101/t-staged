@@ -49,7 +49,7 @@ html,button,input,select,textarea{color:#222}#noscript{display:none;background-c
 .wl_1 .sansBook{font-size:16px;padding-top: 12px;letter-spacing: 2px;}
 .wl_2{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/1200/TOAST_LateAutumn_Women_1.jpg')}
 .wl_3{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/750/A1Refresh_Landing_Women_3.jpg')}
-.wl_4{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/1200/TOAST_LateAutumn_Women_2.jpg')}
+.wl_4{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/1200/TOAST_LateAutumn_Women_2_New.jpg')}
 .wl_5{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/1200/TOAST_LateAutumn_Women_4.jpg')}
 .wl_6{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/1200/TOAST_LateAutumn_Women_3.jpg')}
 .wl_2 .shopTxt{text-transform: uppercase;font-size: 18px;line-height: 60px;letter-spacing: 2px;}
@@ -343,7 +343,7 @@ html,button,input,select,textarea{color:#222}#noscript{display:none;background-c
 	.secretSaleBanner h2 {font-size: 30px}
 	.secretSaleBanner h3 {font-size: 18px; margin-top: 10px; font-weight: 100;}
 	.secretSaleBannerText {position: absolute; width: 100%; text-align: center; top:30%;}
-	.secretSaleCTAText {border-bottom: 1px solid #000000; padding-bottom: 3px; text-transform: uppercase; font-size: 22px}
+	.secretSaleCTAText {border-bottom: 1px solid white; padding-bottom: 3px; text-transform: uppercase; font-size: 22px}
 
 	/* calm space */
 	.calmSpaceRow4 {margin-top: 0%}
@@ -410,8 +410,8 @@ html,button,input,select,textarea{color:#222}#noscript{display:none;background-c
      /* secret sale banner */
     .secretSaleBanner h2 {font-size: 20px}
 	.secretSaleBanner h3 {font-size: 16px; margin-top: 10px; font-weight: 100;}
-    .secretSaleBannerText {position: absolute; width: 100%; text-align: center; top:20%;}
-    .secretSaleCTAText {border-bottom: 1px solid #000000; padding-bottom: 3px; text-transform: uppercase; font-size: 14px}
+    .secretSaleBannerText {position: absolute; width: 100%; text-align: center; top:30%;}
+    .secretSaleCTAText {border-bottom: 1px solid white; padding-bottom: 3px; text-transform: uppercase; font-size: 14px}
     .secretSaleCTA {position: absolute; width: 100%; text-align: center; bottom: 10%;}
 }
     
@@ -421,7 +421,7 @@ html,button,input,select,textarea{color:#222}#noscript{display:none;background-c
  	.landscapeTile { padding-top:78%;}
 
  	 /* secret sale banner */
- 	.secretSaleBannerText {position: absolute; width: 100%; text-align: center; top:6%;}
+ 	.secretSaleBannerText {position: absolute; width: 100%; text-align: center; top:30%;}
 }
 
 @media only screen and (max-width: 430px) 
