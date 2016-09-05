@@ -402,8 +402,12 @@ html,button,input,select,textarea{color:#222}#noscript{display:none;background-c
     .lkpgLthead {margin-top: 20px}
 
     .hhlTile1 .tileTitle .mainTitle:first-child{font-size:18px;}
+    
 /* womens landing page holy variety tile */
     .wl_7 .tileTitle .mainTitle{font-size: 15px;} 
+    
+    /*Holy variety landing page main tile text*/
+    .hvTopRowText h2 {font-size: 26px; font-weight: normal; letter-spacing: 3px}
 }
 
 @media only screen and (max-width: 700px) 
@@ -432,6 +436,9 @@ html,button,input,select,textarea{color:#222}#noscript{display:none;background-c
 
  	 /* secret sale banner */
  	.secretSaleBannerText {position: absolute; width: 100%; text-align: center; top:30%;}
+    
+        /*Holy variety landing page main tile text*/
+    .hvTopRowText h2 {font-size: 20px; font-weight: normal; letter-spacing: 3px}
 }
 
 @media only screen and (max-width: 430px) 
@@ -443,6 +450,9 @@ html,button,input,select,textarea{color:#222}#noscript{display:none;background-c
  	/* secret sale banner */
  	.saleBannerTitle {padding-top: 5%; font-size: 20px; letter-spacing: 2px}
  	.saleBannerSubTitle {font-size: 16px; padding-top: 1%}
+    
+            /*Holy variety landing page main tile text*/
+    .hvTopRowText h2 {font-size: 16px; font-weight: normal; letter-spacing: 3px}
 }  
 
 @media only screen and (max-width: 320px) 
