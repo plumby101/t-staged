@@ -53,7 +53,7 @@ html,button,input,select,textarea{color:#222}#noscript{display:none;background-c
 .wl_5{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/1200/TOAST_LateAutumn_Women_4.jpg')}
 .wl_6{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/1200/TOAST_LateAutumn_Women_3.jpg')}
 .wl_7{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/1200/TOAST_HolyVariety_3_New.jpg')}
-.wl_7 .mainTitle{font-size: 26px;} 
+.wl_7 .mainTitle{font-size: 20px;} 
 .wl_2 .shopTxt{text-transform: uppercase;font-size: 18px;line-height: 60px;letter-spacing: 2px;}
 
 /* Lookbook landing tiles */
@@ -361,7 +361,7 @@ html,button,input,select,textarea{color:#222}#noscript{display:none;background-c
 	.hvCol h3 {margin: 30px 0 65px 0;}
     
     /* Womens landing holy variety tile */
-    .wl_7 .mainTitle{font-size: 24px;}
+    .wl_7 .mainTitle{font-size: 18px;}
 }
 
 @media only screen and (max-width: 768px) 
@@ -403,7 +403,7 @@ html,button,input,select,textarea{color:#222}#noscript{display:none;background-c
 
     .hhlTile1 .tileTitle .mainTitle:first-child{font-size:18px;}
 /* womens landing page holy variety tile */
-    .wl_7 .mainTitle{font-size: 18px;} 
+    .wl_7 .mainTitle{font-size: 15px;} 
 }
 
 @media only screen and (max-width: 700px) 
