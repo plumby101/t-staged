@@ -280,8 +280,8 @@ html,button,input,select,textarea{color:#222}#noscript{display:none;background-c
 .customCatTextAreaPortrait a, .customCatTextLandscape a  {font-size: 13px; text-decoration: underline; letter-spacing: 2px; font-weight: bold}
 
 .customCatTextHolderLandscape, .customCatImageHolderLandscape  {background-color: #f5f5f5; width: 100%; padding-bottom: 61.1538%;  position: relative; margin-top: 20px}
-.customCatTextLandscape { padding: 50px 55px 0 55px; text-align: center; position: absolute; width: 100%}
-.customCatImageLandscape {position: absolute; top: 0; }
+.customCatTextLandscape { padding: 50px 70px 0 70px; text-align: center; position: absolute; width: 100%}
+.customCatImageLandscape {position: absolute; top: 0; width: 100% }
 
 /*Pinterest Competition*/
 .pinToWin .mainTitle{font-size: 20px;}
@@ -366,6 +366,8 @@ html,button,input,select,textarea{color:#222}#noscript{display:none;background-c
     
     /* Womens landing holy variety tile */
     .wl_7 .mainTitle{font-size: 18px;}
+    .customCatTextHolderLandscape {background-color: #f5f5f5; width: 100%; position: relative; margin-top: 20px; padding-bottom: 40px;}
+    .customCatTextLandscape {padding:55px; text-align: center; position: relative; width: 100%; height: auto;}
 }
 
 @media only screen and (max-width: 768px) 
@@ -440,6 +442,8 @@ html,button,input,select,textarea{color:#222}#noscript{display:none;background-c
     
         /*Holy variety landing page main tile text*/
     .hvTopRowText h2 {font-size: 20px; font-weight: normal; letter-spacing: 3px}
+
+    .customCatTextLandscape {padding: 15px}
 }
 
 @media only screen and (max-width: 430px) 
