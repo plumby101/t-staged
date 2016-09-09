@@ -277,7 +277,7 @@ html,button,input,select,textarea{color:#222}#noscript{display:none;background-c
 .asTile{margin-top: 80px;}
 
 /* Custom category header */
-.customCatTextAreaPortrait, .customCatTextLandscape{ margin: 0 10px 30px 10px; padding: 70px 55px; text-align: center; background-color: #f5f5f5}
+.customCatTextAreaPortrait { margin: 0 10px 30px 10px; padding: 70px 55px; text-align: center; background-color: #f5f5f5}
 .customCatTextAreaPortrait h2, .customCatTextLandscape h2  {font-size: 24px; text-transform: initial ;letter-spacing: 2px; font-weight: 600}
 .customCatTextAreaPortrait p, .customCatTextLandscape p {font-size: 14px; letter-spacing: 1px; line-height: 22px}
 .customCatTextAreaPortrait a, .customCatTextLandscape a {font-size: 13px; text-decoration: underline; letter-spacing: 2px; font-weight: bold}
