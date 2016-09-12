@@ -229,6 +229,10 @@ html,button,input,select,textarea{color:#222}#noscript{display:none;background-c
 .summerSaleEnded{position:relative;background-size: 100%;background-repeat:no-repeat;background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/1210/TOAST_WEB_SaleEnded_1.jpg'); padding-top:62.892561%;}
 
 
+/*summer sale over */
+.summerSaleEnded{position:relative;background-size: 100%;background-repeat:no-repeat;background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/1210/TOAST_WEB_SaleEnded_1.jpg'); padding-top:62.892561%;}
+
+
 /* Footer style */
 .footerMessage {padding-top: 10px;float: left;width: 100%; text-align: center;}
 .footerColHolder { padding-top: 20px}
@@ -269,6 +273,16 @@ html,button,input,select,textarea{color:#222}#noscript{display:none;background-c
 
 /*Pinterest Competition*/
 .pinToWin .mainTitle{font-size: 20px;}
+
+
+/*Sitemap*/
+.sitemapTitle {font-family: 'HelveticaNeueLT-MediumCond', 'pragmatica-web-condensed', arial, sans-serif;text-transform: uppercase;border-bottom: 3px solid #909090;font-size: 26px;padding-top: 30px;margin-bottom: 30px;} 
+.smTileTitle {font-family: 'HelveticaNeueLT-MediumCond', 'pragmatica-web-condensed', arial, sans-serif;font-size: 22px;font-weight: 300;}
+.sitemapSub {font-family: 'HelveticaNeueLT-MediumCond', 'pragmatica-web-condensed', arial, sans-serif;text-transform: uppercase;border-bottom: 1px solid #909090;font-size: 22px;margin-bottom: 30px;}
+.sitemapSSub {font-family: 'HelveticaNeueLT-MediumCond', 'pragmatica-web-condensed', arial, sans-serif;margin-top: 30px;font-weight: 100;font-size: 22px;text-transform: uppercase;border-bottom: 1px solid #909090;margin-bottom: 30px;}
+.sitemapSecondaryTitle {font-family: 'HelveticaNeueLT-MediumCond', 'pragmatica-web-condensed', arial, sans-serif;font-weight: 600;font-size: 16px;display: block;text-transform: uppercase;margin-bottom: 20px;}
+.sitemapClear {margin-top: 30px;}
+.smRow ul li a {line-height: 27px;font-size: 16px;font-family: 'HelveticaNeueLT-MediumCond', 'pragmatica-web-condensed', arial, sans-serif;}
 
 @media only screen and (max-width: 1024px) 
 {
@@ -346,15 +360,12 @@ html,button,input,select,textarea{color:#222}#noscript{display:none;background-c
     .customCatTextHolderLandscape {background-color: #f5f5f5; width: 100%; position: relative; margin-top: 20px; padding-bottom: 40px;}
     .customCatTextLandscape {padding:55px; text-align: center; position: relative; width: 100%; height: auto;}
 
-    /* Secret Sale Holding */
+     /* Secret Sale Holding */
     .secretSaleBanner h2 {font-size: 30px}
 	.secretSaleBanner h3 {font-size: 18px; margin-top: 10px; font-weight: 100;}
 	.secretSaleBannerText {position: absolute; width: 100%; text-align: center; top:30%;}
-		.secretSaleCTAText {border-bottom: 1px solid white; padding-bottom: 3px; text-transform: uppercase; font-size: 22px}
+	.secretSaleCTAText {border-bottom: 1px solid white; padding-bottom: 3px; text-transform: uppercase; font-size: 22px}
 }
-
-
-
 
 @media only screen and (max-width: 768px) 
 {
@@ -410,6 +421,7 @@ html,button,input,select,textarea{color:#222}#noscript{display:none;background-c
     .saleBannerTitle {padding-top: 8%; font-size: 38px}
     .saleBannerSubTitle {font-size: 18px;padding-top:2%}
     .hhlTile1 .tileTitle {top:53%;} 
+    .smTileTitle {font-size: 18px;}
 
      /* Secret Sale Holding */
     .secretSaleBanner h2 {font-size: 20px}
@@ -417,8 +429,6 @@ html,button,input,select,textarea{color:#222}#noscript{display:none;background-c
     .secretSaleBannerText {position: absolute; width: 100%; text-align: center; top:30%;}
     .secretSaleCTAText {border-bottom: 1px solid white; padding-bottom: 3px; text-transform: uppercase; font-size: 14px}
     .secretSaleCTA {position: absolute; width: 100%; text-align: center; bottom: 10%;}
-
-
 }
     
 @media only screen and (max-width: 530px) 
@@ -435,7 +445,7 @@ html,button,input,select,textarea{color:#222}#noscript{display:none;background-c
     
     .customCatTextLandscape {padding: 15px}
 
-    /* secret sale banner */
+       /* secret sale banner */
  	.saleBannerTitle {padding-top: 5%; font-size: 20px; letter-spacing: 2px}
  	.saleBannerSubTitle {font-size: 16px; padding-top: 1%}
  	.secretSaleBannerText {position: absolute; width: 100%; text-align: center; top:30%;}
