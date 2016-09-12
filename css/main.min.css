@@ -264,6 +264,16 @@ html,button,input,select,textarea{color:#222}#noscript{display:none;background-c
 /*Pinterest Competition*/
 .pinToWin .mainTitle{font-size: 20px;}
 
+
+/*Sitemap*/
+.sitemapTitle {font-family: 'HelveticaNeueLT-MediumCond', 'pragmatica-web-condensed', arial, sans-serif;text-transform: uppercase;border-bottom: 3px solid #909090;font-size: 26px;padding-top: 30px;margin-bottom: 30px;} 
+.smTileTitle {font-family: 'HelveticaNeueLT-MediumCond', 'pragmatica-web-condensed', arial, sans-serif;font-size: 22px;font-weight: 300;}
+.sitemapSub {font-family: 'HelveticaNeueLT-MediumCond', 'pragmatica-web-condensed', arial, sans-serif;text-transform: uppercase;border-bottom: 1px solid #909090;font-size: 22px;margin-bottom: 30px;}
+.sitemapSSub {font-family: 'HelveticaNeueLT-MediumCond', 'pragmatica-web-condensed', arial, sans-serif;margin-top: 30px;font-weight: 100;font-size: 22px;text-transform: uppercase;border-bottom: 1px solid #909090;margin-bottom: 30px;}
+.sitemapSecondaryTitle {font-family: 'HelveticaNeueLT-MediumCond', 'pragmatica-web-condensed', arial, sans-serif;font-weight: 600;font-size: 16px;display: block;text-transform: uppercase;margin-bottom: 20px;}
+.sitemapClear {margin-top: 30px;}
+.smRow ul li a {line-height: 27px;font-size: 16px;font-family: 'HelveticaNeueLT-MediumCond', 'pragmatica-web-condensed', arial, sans-serif;}
+
 @media only screen and (max-width: 1024px) 
 {
 	/* asian stlying */
@@ -395,6 +405,7 @@ html,button,input,select,textarea{color:#222}#noscript{display:none;background-c
     .saleBannerTitle {padding-top: 8%; font-size: 38px}
     .saleBannerSubTitle {font-size: 18px;padding-top:2%}
     .hhlTile1 .tileTitle {top:53%;} 
+    .smTileTitle {font-size: 18px;}
 }
     
 @media only screen and (max-width: 530px) 
