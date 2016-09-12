@@ -1,0 +1,21 @@
+/*secret sale landing */
+.sslLanding p{font-size: 20px; letter-spacing: 1px;}
+.sslTile1{position: relative;text-align: center;background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/1200/TOAST_SecretSale_1_New.jpg');padding-top: 38.82807469414%;margin-bottom:20px;background-size: 100% 100%;}
+.sslTile1txtCont{width:100%;position:absolute;top: 43%;text-align: center;}
+.sslTile1txt{font-size: 40px;}
+.sslTile2{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/1200/TOAST_SecretSale_Landing_1_New.jpg');}
+.sslTile3{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/1200/TOAST_SecretSale_Landing_2.jpg');}
+.sslTile4{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/1200/TOAST_SecretSale_Landing_3_New.jpg');}
+.sslTile5{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/1200/TOAST_SecretSale_Landing_4.jpg');}
+.sslTile6{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/1200/TOAST_SecretSale_Landing_5_new.jpg');}
+.sslTile7{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/1200/TOAST_SecretSale_Landing_6.jpg');}
+.sslTile8{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/1200/TOAST_SecretSale_Landing_7.jpg');}
+.sslTile2,.sslTile3,.sslTile4,.sslTile5,.sslTile6,.sslTile7,.sslTile8{position:relative;padding-top:121.0833%;background-repeat: no-repeat;background-size:100% 100%;text-align:center;margin-bottom:20px;}
+.sslTile2txt,.sslTile3txt,.sslTile4txt,.sslTile5txt{position: absolute;bottom:2%;letter-spacing: 1px;width:100%;}
+.sslTile2txt p,.sslTile3txt p, .sslTile4txt p,.sslTile5txt p,.sslTile6txt p,.sslTile7txt p,.sslTile8txt p{font-size:16px;}
+.sslTile6txt,.sslTile7txt,.sslTile8txt{position: absolute;bottom:3%;width:100%;letter-spacing: 1px;}
+
+/* secret sale banner */
+.secretSaleBanner {width: 100%; margin-top:10px; padding-top: 38.82807469414%; background: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/1200/TOAST_SecretSale_1_Dark.jpg'); background-size: 100% 100%; position: relative;}
+
+
