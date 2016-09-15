@@ -156,21 +156,22 @@ html,button,input,select,textarea{color:#222}#noscript{display:none;background-c
 .toastMagazineQuarter {width: 100%; background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/400/MakingOf_Khadi_5.jpg'); padding-top: 121.484375%; position: relative; color: #ffffff ; background-size: 100% 100%; display: block }
 
 /*homepage*/
-.tileTitleMid{color: white;position: absolute;top: 31%;width: 100%;text-align: center;font-size: 28px;line-height: 45px;}
+.tileTitleMid {color: white;position: absolute;top: 31%;width: 100%;text-align: center;font-size: 28px;line-height: 45px;}
 .hlTopTile {width: 100%; display: block; width: 100%; padding-top: 62.947%;  margin-bottom: 20px; background-size: 100% 100%; position: relative}
-.hlTile1{background-image: url('http://d117fiyhpld8f9.cloudfront.net/content-images/aw16/950/TOAST_OAS_Homepage_1.jpg');padding-top: 62.947%;}
-.hlTile2{background-image: url('http://d117fiyhpld8f9.cloudfront.net/content-images/aw16/950/TOAST_OAS_Homepage_2.jpg');padding-top: 121.120%}
-.hlTile3{background-image: url('http://d117fiyhpld8f9.cloudfront.net/content-images/aw16/950/TOAST_OAS_Homepage_3.jpg');padding-top: 121.120%}
-.hlTile4{background-image: url('http://d117fiyhpld8f9.cloudfront.net/content-images/aw16/950/TOAST_OAS_Homepage_4.jpg');padding-top: 121.120%}
-.hlTile5{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/1200/TOAST_LateAutumn_Homepage_5.jpg');}
-.hlTile6{background-color: #e9e9e9;color:black;}
-.hlTopTile .tileTitle{top: 45%;}
-.hlOasTxt{font-size: 32px; margin-bottom: 80px;}
-.hlTile1 .shopTxt{text-transform: uppercase;font-size: 22px;color: white;text-decoration: none;margin: 0 20px;}
+.hlTile1 {background-image: url('http://d117fiyhpld8f9.cloudfront.net/content-images/aw16/950/TOAST_OAS_Homepage_1.jpg');padding-top: 62.947%;}
+.hlTile2 {background-image: url('http://d117fiyhpld8f9.cloudfront.net/content-images/aw16/950/TOAST_OAS_Homepage_2.jpg');padding-top: 121.120%}
+.hlTile3 {background-image: url('http://d117fiyhpld8f9.cloudfront.net/content-images/aw16/950/TOAST_OAS_Homepage_3.jpg');padding-top: 121.120%}
+.hlTile4 {background-image: url('http://d117fiyhpld8f9.cloudfront.net/content-images/aw16/950/TOAST_OAS_Homepage_4.jpg');padding-top: 121.120%}
+.hlTile5 {background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/1200/TOAST_LateAutumn_Homepage_5.jpg');}
+.hlTile6 {background-color: #e9e9e9;color:black;}
+.hlTopTile .tileTitle {top: 45%;}
+.hlOasTxt {font-size: 38px; margin-bottom: 10px;  width: 100%}
+.hlOasEveryday {font-size: 26px; margin-bottom: 40px; width: 100%; letter-spacing: 2px}
+.hlTile1 .shopTxt {text-transform: uppercase; font-size: 18px; color: white; text-decoration: none; margin: 0 20px; border-bottom: 1px solid #ffffff; display: inline-block;}
 .signuptile {text-align: center;}
-.signuptile p{color: black;width: 100%;top: 0px;}
-.signuptile button{margin-top: 8%;border-width: 0px;font-size: 16px;color: black;letter-spacing:1px;font-family: 'freight-sans-pro', sans-serif;background: transparent;}
-.centerTileTitle{position: absolute;width: 100%;top: 16%;left: 0px;text-align: center;min-height: 200px;}
+.signuptile p {color: black;width: 100%;top: 0px;}
+.signuptile button {margin-top: 8%;border-width: 0px;font-size: 16px;color: black;letter-spacing:1px;font-family: 'freight-sans-pro', sans-serif;background: transparent;}
+.centerTileTitle {position: absolute;width: 100%;top: 16%;left: 0px;text-align: center;min-height: 200px;}
 .centerTileTitle p{width: 100%;text-align: center;font-size: 18px;letter-spacing: 1px;}
 .centerTileTitle input{padding: 0px;text-align:center;border-width: 0px;}
 .centerTileTitle h2{padding-top: 8%;font-size:16px;letter-spacing: 1px;font-family: 'freight-sans-pro', sans-serif;}
@@ -286,6 +287,13 @@ html,button,input,select,textarea{color:#222}#noscript{display:none;background-c
 .sitemapSecondaryTitle {font-family: 'HelveticaNeueLT-MediumCond', 'pragmatica-web-condensed', arial, sans-serif;font-weight: 400;font-size: 16px;display: block;text-transform: uppercase;margin-bottom: 20px;}
 .sitemapClear {margin-top: 30px;}
 .smRow ul li a {line-height: 24px;font-size: 16px;font-family: 'HelveticaNeueLT-LightCond', 'pragmatica-web-condensed', arial, sans-serif;}
+
+/* Footer */
+.bootstrapFooter {}
+.bootstrapFooter h3 {font-family: 'HelveticaNeueLT-MediumCond','pragmatica-web-condensed',arial,sans-serif; font-weight: 300; font-size: 22px; text-decoration: uppercase}
+.footerList li {padding-bottom: 13px; letter-spacing: 1px; font-size: 12px}
+.footerSocialIcons li {display: inline-block; padding-right: 5px}
+.footerSocialIcons ul {margin:0 0 20px -10px}
 
 @media only screen and (max-width: 1024px) 
 {
@@ -436,6 +444,9 @@ html,button,input,select,textarea{color:#222}#noscript{display:none;background-c
     .secretSaleBannerText {position: absolute; width: 100%; text-align: center; top:30%;}
     .secretSaleCTAText {border-bottom: 1px solid white; padding-bottom: 3px; text-transform: uppercase; font-size: 14px}
     .secretSaleCTA {position: absolute; width: 100%; text-align: center; bottom: 10%;}
+
+    /*homepage */
+     .hlTopTile .tileTitle {top: 15%;}
 }
     
 @media only screen and (max-width: 530px) 
@@ -456,7 +467,11 @@ html,button,input,select,textarea{color:#222}#noscript{display:none;background-c
  	.saleBannerTitle {padding-top: 5%; font-size: 20px; letter-spacing: 2px}
  	.saleBannerSubTitle {font-size: 16px; padding-top: 1%}
  	.secretSaleBannerText {position: absolute; width: 100%; text-align: center; top:30%;}
+
+ 	/*homepage */
+
     .hlTopTile .tileTitle .hlOasTxt{margin-bottom: 15px; font-size: 28px;}
+    .hlTopTile .tileTitle {top: 10%;}
 }
 
 @media only screen and (max-width: 430px) 
@@ -469,6 +484,10 @@ html,button,input,select,textarea{color:#222}#noscript{display:none;background-c
     /*Asian Styling*/
     .asTile1 h2{font-size: 22px;}
     .asTile1 span{line-height: 38px; font-size: 18px;}
+
+    /*homepage */
+    .hlTopTile .tileTitle {top: 5%;}
+    .hlOasEveryday {margin-bottom: 10px}
 }  
 
 @media only screen and (max-width: 320px) 
