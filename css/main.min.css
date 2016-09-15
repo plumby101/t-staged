@@ -45,13 +45,13 @@ html,button,input,select,textarea{color:#222}#noscript{display:none;background-c
 
 /* Womens landing tiles */
 
-.wl_1{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/750/A1Refresh_Landing_Women_1.jpg')}
+.wl_1{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/950/TOAST_OAS_Women_6.jpg');}
 .wl_1 .sansBook{font-size:16px;padding-top: 12px;letter-spacing: 2px;}
-.wl_2{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/1200/TOAST_LateAutumn_Women_1.jpg')}
-.wl_3{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/750/A1Refresh_Landing_Women_3.jpg')}
-.wl_4{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/1200/TOAST_LateAutumn_Women_2_New.jpg')}
-.wl_5{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/1200/TOAST_LateAutumn_Women_4.jpg')}
-.wl_6{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/1200/TOAST_LateAutumn_Women_3.jpg')}
+.wl_2{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/950/TOAST_OAS_Women_1.jpg');}
+.wl_3{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/950/TOAST_OAS_Women_5.jpg');}
+.wl_4{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/950/TOAST_OAS_Women_2.jpg');}
+.wl_5{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/950/TOAST_OAS_Women_4.jpg');}
+.wl_6{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/950/TOAST_OAS_Women_3.jpg');}
 .wl_7{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/1200/TOAST_HolyVariety_3_New.jpg')}
 .wl_7 .mainTitle{font-size: 20px;} 
 .wl_2 .shopTxt{text-transform: uppercase;font-size: 18px;line-height: 60px;letter-spacing: 2px;}
@@ -62,9 +62,9 @@ html,button,input,select,textarea{color:#222}#noscript{display:none;background-c
 .lb_3{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/730/TOAST_EarlyAutumn_HH_Lookbook_1.jpg')}
 .lb_4{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/lookbook/950/TOAST_LateAutumn_Lookbook_3.jpg');}
 .lb_5{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/lookbook/950/TOAST_LateAutumn_Lookbook_HH_1.jpg');}
+.lb_6{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/950/TOAST_OAS_Women_1.jpg');}
 
-
-.lb_1 .mainTitle, .lb_2 .mainTitle, .lb_3 .mainTitle, .lb_4 .mainTitle ,.lb_5 .mainTitle {font-size: 22px}
+.lb_1 .mainTitle, .lb_2 .mainTitle, .lb_3 .mainTitle, .lb_4 .mainTitle ,.lb_5 .mainTitle,.lb_6 .mainTitle {font-size: 22px}
 
 /*accessories landing page*/
 .eacontainer{margin-top:0px;text-align: center;}
@@ -157,12 +157,15 @@ html,button,input,select,textarea{color:#222}#noscript{display:none;background-c
 
 /*homepage*/
 .tileTitleMid{color: white;position: absolute;top: 31%;width: 100%;text-align: center;font-size: 28px;line-height: 45px;}
-.hlTile1{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/1200/TOAST_LateAutumn_Homepage_1.jpg');padding-top: 120.5%;}
-.hlTile2{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/1200/TOAST_LateAutumn_Homepage_3.jpg');padding-top: 121.120%}
-.hlTile3{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/1200/TOAST_LateAutumn_Homepage_2.jpg');padding-top: 121.120%}
-.hlTile4{ background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/1200/TOAST_LateAutumn_Homepage_4.jpg');padding-top: 121.120%}
+.hlTopTile {width: 100%; display: block; width: 100%; padding-top: 62.947%;  margin-bottom: 20px; background-size: 100% 100%; position: relative}
+.hlTile1{background-image: url('http://d117fiyhpld8f9.cloudfront.net/content-images/aw16/950/TOAST_OAS_Homepage_1.jpg');padding-top: 62.947%;}
+.hlTile2{background-image: url('http://d117fiyhpld8f9.cloudfront.net/content-images/aw16/950/TOAST_OAS_Homepage_2.jpg');padding-top: 121.120%}
+.hlTile3{background-image: url('http://d117fiyhpld8f9.cloudfront.net/content-images/aw16/950/TOAST_OAS_Homepage_3.jpg');padding-top: 121.120%}
+.hlTile4{background-image: url('http://d117fiyhpld8f9.cloudfront.net/content-images/aw16/950/TOAST_OAS_Homepage_4.jpg');padding-top: 121.120%}
 .hlTile5{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/1200/TOAST_LateAutumn_Homepage_5.jpg');}
 .hlTile6{background-color: #e9e9e9;color:black;}
+.hlTopTile .tileTitle{top: 45%;}
+.hlOasTxt{font-size: 32px; margin-bottom: 80px;}
 .hlTile1 .shopTxt{text-transform: uppercase;font-size: 22px;color: white;text-decoration: none;margin: 0 20px;}
 .signuptile {text-align: center;}
 .signuptile p{color: black;width: 100%;top: 0px;}
@@ -276,13 +279,13 @@ html,button,input,select,textarea{color:#222}#noscript{display:none;background-c
 
 
 /*Sitemap*/
-.sitemapTitle {font-family: 'HelveticaNeueLT-MediumCond', 'pragmatica-web-condensed', arial, sans-serif;text-transform: uppercase;border-bottom: 3px solid #909090;font-size: 26px;padding-top: 30px;margin-bottom: 30px;} 
-.smTileTitle {font-family: 'HelveticaNeueLT-MediumCond', 'pragmatica-web-condensed', arial, sans-serif;font-size: 22px;font-weight: 300;}
-.sitemapSub {font-family: 'HelveticaNeueLT-MediumCond', 'pragmatica-web-condensed', arial, sans-serif;text-transform: uppercase;border-bottom: 1px solid #909090;font-size: 22px;margin-bottom: 30px;}
-.sitemapSSub {font-family: 'HelveticaNeueLT-MediumCond', 'pragmatica-web-condensed', arial, sans-serif;margin-top: 30px;font-weight: 100;font-size: 22px;text-transform: uppercase;border-bottom: 1px solid #909090;margin-bottom: 30px;}
-.sitemapSecondaryTitle {font-family: 'HelveticaNeueLT-MediumCond', 'pragmatica-web-condensed', arial, sans-serif;font-weight: 600;font-size: 16px;display: block;text-transform: uppercase;margin-bottom: 20px;}
+.sitemapTitle {font-family: 'HelveticaNeueLT-MediumCond', 'pragmatica-web-condensed', arial, sans-serif;letter-spacing: 1px; text-transform: uppercase;border-bottom: 3px solid #909090;font-size: 26px;padding-top: 30px;margin-bottom: 30px;} 
+.smTileTitle {font-family: 'HelveticaNeueLT-LightCond', 'pragmatica-web-condensed', arial, sans-serif;font-size: 22px;font-weight: 300;}
+.sitemapSub {font-family: 'HelveticaNeueLT-LightCond', 'pragmatica-web-condensed', arial, sans-serif;text-transform: uppercase;border-bottom: 1px solid #909090;font-size: 22px;margin-bottom: 30px;}
+.sitemapSSub {font-family: 'HelveticaNeueLT-LightCond', 'pragmatica-web-condensed', arial, sans-serif;margin-top: 30px;font-weight: 100;font-size: 22px;text-transform: uppercase;border-bottom: 1px solid #909090;margin-bottom: 30px;}
+.sitemapSecondaryTitle {font-family: 'HelveticaNeueLT-MediumCond', 'pragmatica-web-condensed', arial, sans-serif;font-weight: 400;font-size: 16px;display: block;text-transform: uppercase;margin-bottom: 20px;}
 .sitemapClear {margin-top: 30px;}
-.smRow ul li a {line-height: 27px;font-size: 16px;font-family: 'HelveticaNeueLT-MediumCond', 'pragmatica-web-condensed', arial, sans-serif;}
+.smRow ul li a {line-height: 24px;font-size: 16px;font-family: 'HelveticaNeueLT-LightCond', 'pragmatica-web-condensed', arial, sans-serif;}
 
 @media only screen and (max-width: 1024px) 
 {
@@ -293,8 +296,7 @@ html,button,input,select,textarea{color:#222}#noscript{display:none;background-c
     .asRightCol{padding-top: 0px;}
 
     /*Homepage*/
-    .hlTile1 .shopTxt{font-size: 14px;margin-left: -10px;}	
-    
+    .hlTile1 .shopTxt{font-size: 14px;}	
 	.category-product-items .product {height: 470px}  
 	.primaryLandingTile h1 {font: 24px;}
 	.primaryLandingTile p {font: 12px;} 
@@ -365,6 +367,9 @@ html,button,input,select,textarea{color:#222}#noscript{display:none;background-c
 	.secretSaleBanner h3 {font-size: 18px; margin-top: 10px; font-weight: 100;}
 	.secretSaleBannerText {position: absolute; width: 100%; text-align: center; top:30%;}
 	.secretSaleCTAText {border-bottom: 1px solid white; padding-bottom: 3px; text-transform: uppercase; font-size: 22px}
+    
+    /*Sitemap*/
+    .sitemapSecondaryClear{margin-top:30px;}
 }
 
 @media only screen and (max-width: 768px) 
@@ -422,6 +427,8 @@ html,button,input,select,textarea{color:#222}#noscript{display:none;background-c
     .saleBannerSubTitle {font-size: 18px;padding-top:2%}
     .hhlTile1 .tileTitle {top:53%;} 
     .smTileTitle {font-size: 18px;}
+    .sitemapSub .smTileTitle{font-size: 22px;}
+    .sitemapSSub .smTileTitle{font-size:22px;}
 
      /* Secret Sale Holding */
     .secretSaleBanner h2 {font-size: 20px}
@@ -449,6 +456,7 @@ html,button,input,select,textarea{color:#222}#noscript{display:none;background-c
  	.saleBannerTitle {padding-top: 5%; font-size: 20px; letter-spacing: 2px}
  	.saleBannerSubTitle {font-size: 16px; padding-top: 1%}
  	.secretSaleBannerText {position: absolute; width: 100%; text-align: center; top:30%;}
+    .hlTopTile .tileTitle .hlOasTxt{margin-bottom: 15px; font-size: 28px;}
 }
 
 @media only screen and (max-width: 430px) 
