@@ -8,6 +8,9 @@ html,button,input,select,textarea{color:#222}#noscript{display:none;background-c
 .textSemibold {font-family: "freight-text-pro", serif; font-weight:400}
 .textBold {font-family: "freight-text-pro", serif; font-weight:700}
 
+.helvMedium {font-family: 'HelveticaNeueLT-MediumCond', 'pragmatica-web-condensed', arial, sans-serif}
+.helvLight {font-family: 'HelveticaNeueLT-LightCond', 'pragmatica-web-condensed', arial, sans-serif}
+
 .textCenter {text-align: center;}
 
 .category-description h1, .category-header-description h1 {font-family: "freight-text-pro", serif !important; font-weight: 600 !important; font-size: 24px !important; text-transform: initial !important; letter-spacing: 2px}
@@ -293,7 +296,7 @@ html,button,input,select,textarea{color:#222}#noscript{display:none;background-c
 
 /* Footer */
 .bootstrapFooter {}
-.bootstrapFooter h3 {font-family: 'HelveticaNeueLT-MediumCond','pragmatica-web-condensed',arial,sans-serif; font-weight: 300; font-size: 22px; text-decoration: uppercase}
+.bootstrapFooter h3 {font-weight: 300; font-size: 22px; text-decoration: uppercase}
 .footerList li {padding-bottom: 13px; letter-spacing: 1px; font-size: 12px}
 .footerSocialIcons li {display: inline-block; padding-right: 5px}
 .footerSocialIcons ul {margin:0 0 20px -10px}
