@@ -225,6 +225,12 @@ html,button,input,select,textarea{color:#222}#noscript{display:none;background-c
 .left-0{left: 0px;}
 .lkpgLtt75{margin-top:75%;}
 
+/*Mid Autumn Sale*/
+.mAsaleBanner {width: 100%; margin-top:10px; padding-top: 38.82807469414%; background-image: url('http://d117fiyhpld8f9.cloudfront.net/content-images/AW16/700/TOAST_WEB_SaleBanner_New.jpg'); background-size: 100% 100%; position: relative;}
+.mAsaleBanner .tileTitleMid{line-height: 54px; text-transform: uppercase;letter-spacing: 2px;top: 24%; font-size: 36px;}
+.mAsaleBanner .bottomTileText{font-size: 24px; margin-top: 30px; display: block;}
+.rangeTileSale{text-decoration: line-through;color: #F00;}
+
 /*secret sale over */
 .ssEnded{position:relative;background-size: 100%;background-repeat:no-repeat;background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/1553/TOAST_SecretSale_2_New.jpg'); padding-top:62.91%;}
 .secretSaleBannerText {position: absolute; width: 100%; text-align: center; top:35%;}
@@ -379,6 +385,11 @@ html,button,input,select,textarea{color:#222}#noscript{display:none;background-c
     
     /*Sitemap*/
     .sitemapSecondaryClear{margin-top:30px;}
+    
+    /*Mid Autumn Sale*/
+.mAsaleBanner .tileTitleMid{line-height: 54px; top: 18%; font-size: 36px;}
+.mAsaleBanner .bottomTileText{font-size: 24px; margin-top: 16px;}
+    
 }
 
 @media only screen and (max-width: 768px) 
@@ -429,6 +440,12 @@ html,button,input,select,textarea{color:#222}#noscript{display:none;background-c
     
         /*Homepage*/
     .saleTitle{top: 40%;}
+    
+            /*Mid Autumn Sale*/
+.mAsaleBanner .tileTitleMid{line-height: 41px; top: 11%; font-size: 32px;}
+.mAsaleBanner .bottomTileText{font-size: 20px; margin-top: 10px;}
+    
+}
 }
 
 @media only screen and (max-width: 700px) 
@@ -476,6 +493,12 @@ html,button,input,select,textarea{color:#222}#noscript{display:none;background-c
 
     .hlTopTile .tileTitle .hlOasTxt{margin-bottom: 15px; font-size: 28px;}
     .hlTopTile .tileTitle {top: 10%;}
+    
+            /*Mid Autumn Sale*/
+.mAsaleBanner .tileTitleMid{line-height: 26px; top: 4%; font-size: 22px;}
+.mAsaleBanner .bottomTileText{font-size: 16px; margin-top: 0px;}
+    
+}
 }
 
 @media only screen and (max-width: 430px) 
@@ -500,4 +523,5 @@ html,button,input,select,textarea{color:#222}#noscript{display:none;background-c
 @media only screen and (max-width: 320px) 
 {
  	.category-product-items .product {height: 250px}   
+    
 }
