@@ -189,7 +189,7 @@ html,button,input,select,textarea{color:#222}#noscript{display:none;background-c
 .borderLinkHolder a {color: #ffffff;font-size: 18px;letter-spacing: 3px;}
 .homeTitle { font-size: 38px; letter-spacing: 2px;margin-bottom: 2%;}
 .homeSubTitle {font-size: 26px; letter-spacing: 3px;}
-.saleTitle{top: 34%;text-transform: uppercase;}
+.saleTitle{top: 34%;text-transform: uppercase;font-size: 24px;letter-spacing: 2px;}
 
 /*house and home landing page*/
 .hhlTile1{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/1200/TOAST_LateAutumn_HouseandHome_1.jpg');padding-top: 120.5%; margin-bottom: 20px;}
@@ -279,7 +279,7 @@ html,button,input,select,textarea{color:#222}#noscript{display:none;background-c
 .customCatTextLandscape { padding: 50px 70px 0 70px; text-align: center; position: absolute; width: 100%}
 .customCatTextNoLink{padding: 100px;}
 .customCatImageLandscape {position: absolute; top: 0; width: 100% }
-.saleTitleLrg{text-transform: uppercase;top:39%;}
+.saleTitleLrg{text-transform: uppercase;top:39%;font-size: 24px;letter-spacing: 2px;}
 
 /*Pinterest Competition*/
 .pinToWin .mainTitle{font-size: 20px;}
