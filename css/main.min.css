@@ -162,7 +162,7 @@ html,button,input,select,textarea{color:#222}#noscript{display:none;background-c
 .tileTitleMid {color: white;position: absolute;top: 31%;width: 100%;text-align: center;font-size: 28px;line-height: 45px;}
 .hlTopTile {width: 100%; display: block; width: 100%; padding-top: 62.947%;  margin-bottom: 20px; background-size: 100% 100%; position: relative}
 .hlTile1{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/1200/TOAST_OAS_Homepage_1.jpg');padding-top: 62.916%;}
-.hlTile2{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/950/TOAST_Sale_Homepage_2.jpg');padding-top: 121.120%}
+.hlTile2{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/950/TOAST_OAS_Homepage_3_New.jpg');padding-top: 121.120%}
 .hlTile3{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/1200/TOAST_LateAutumn_HouseandHome_2.jpg');padding-top: 121.120%}
 .hlTile4{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/1200/TOAST_Sale_Homepage_4.jpg');padding-top: 121.120%}
 .hlTile5{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/1200/TOAST_LateAutumn_HouseandHome_1.jpg');padding-top: 121%;}
@@ -513,15 +513,9 @@ html,button,input,select,textarea{color:#222}#noscript{display:none;background-c
 .mAsaleBanner .bottomTileText{font-size: 16px; margin-top: 0px;}
     
     /*Miscellaneous*/
-        .oasTopTile{font-size: 22px;
-        line-height:36px;}
-    
-    .oasTopTile .midTitle {
-    font-size: 18px;
-    }
-    .oasTopTile .shopTxt{
-        margin-top: 20px;
-    }
+    .oasTopTile{font-size: 22px;line-height:36px;}
+    .oasTopTile .midTitle {font-size: 18px;}
+    .oasTopTile .shopTxt{margin-top: 20px;}
 }
 
 
@@ -544,9 +538,7 @@ html,button,input,select,textarea{color:#222}#noscript{display:none;background-c
     .saleTitle{top: 32%;}
     
     /*Miscellaneous*/
-    .oasTopTile .shopTxt {
-    margin-top: 8px;
-}
+    .oasTopTile .shopTxt {margin-top: 8px;}
     .oasTopTile{top:24%;}
 }  
 
