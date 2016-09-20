@@ -401,7 +401,7 @@ html,button,input,select,textarea{color:#222}#noscript{display:none;background-c
     .asTile h2{font-size: 22px;}
     .asTile1 span{line-height: 50px; font-size: 18px;}
     
-	.category-product-items .product {height: 510px}  
+	.category-product-items .product {height: 400px}  
 	.topBanner h1 {bottom: 65px} 
 	.topBanner p {bottom: -15px}
 	.primaryLandingTile p {font-size: 16px} 
@@ -446,10 +446,15 @@ html,button,input,select,textarea{color:#222}#noscript{display:none;background-c
 .mAsaleBanner .bottomTileText{font-size: 20px; margin-top: 10px;}
     
 }
-}
+
+@media only screen and (max-width: 767px) 
+{
+	.category-product-items .product {height: 510px}  
+	}
 
 @media only screen and (max-width: 700px) 
 {
+	.category-product-items .product {height: 450px}  
 	.tileTitle .mainTitle {font-size: 18px}
 	.tileTitle .subTitle  {font-size: 14px; padding-top: 6px}
     .saleBannerTitle {padding-top: 8%; font-size: 38px}
