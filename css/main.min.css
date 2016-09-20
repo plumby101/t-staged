@@ -228,7 +228,7 @@ html,button,input,select,textarea{color:#222}#noscript{display:none;background-c
 .oasTopTile{margin-top:8%;}
 .oasTopTile .midTitle{font-size: 22px;letter-spacing: 2px;}
 .oasTopTile .shopTxt{margin-top: 30px;}
-.bottom20m{margin-bottom:0px;}
+.mTop20{margin-top: 20px;}
 .dtClear{clear:both;margin-top: 20px;}
 
 /*Mid Autumn Sale*/
@@ -307,6 +307,7 @@ html,button,input,select,textarea{color:#222}#noscript{display:none;background-c
 .footerList li {padding-bottom: 13px; letter-spacing: 1px; font-size: 12px}
 .footerSocialIcons li {display: inline-block; padding-right: 5px}
 .footerSocialIcons ul {margin:0 0 20px -10px}
+
 
 @media only screen and (max-width: 1024px) 
 {
@@ -397,10 +398,13 @@ html,button,input,select,textarea{color:#222}#noscript{display:none;background-c
 .mAsaleBanner .bottomTileText{font-size: 24px; margin-top: 16px;}
     
     /*miscellaneous*/
-    .bottom20m{margin-bottom: 20px;}
     .dtClear{margin-top: 0px;}
-}
 
+/*making of*/
+    .bottom20m{margin-bottom: 0px;}
+    .bottom20mb{margin-bottom: 20px;}
+    .mTop20{margin-top: 0px;}
+    
 @media only screen and (max-width: 768px) 
 {
 
@@ -408,8 +412,7 @@ html,button,input,select,textarea{color:#222}#noscript{display:none;background-c
 	.asTile{margin-top: 0px;}
 	.asTextTile {padding-top: 20px}
     .asTile h2{font-size: 22px;}
-    .asTile1 span{line-height: 50px; font-size: 18px;}
-    
+    .asTile1 span{line-height: 50px; font-size: 18px;}   
 	.category-product-items .product {height: 400px}  
 	.topBanner h1 {bottom: 65px} 
 	.topBanner p {bottom: -15px}
@@ -458,16 +461,17 @@ html,button,input,select,textarea{color:#222}#noscript{display:none;background-c
     .shopTI{width: 100%;background-image:url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/350/WEB_MakingOf_Indigo.jpg;'); padding-top: 121.484375%;position: relative; color: #ffffff ; background-size: 100% 100%; display: block; margin-bottom: 10px;}
     
     /*Miscellaneous*/
-    .oasTopTile {
-    margin-top: 0%;
-    
-}
+    .oasTopTile {margin-top: 0%;}
+
 
 }
 
 @media only screen and (max-width: 767px) 
 {
-	.category-product-items .product {height: 510px}  
+	.category-product-items .product {height: 510px} 
+            
+    /*making of*/
+      .bottom20m{margin-bottom: 20px;}
 	}
 
 @media only screen and (max-width: 700px) 
@@ -554,5 +558,6 @@ html,button,input,select,textarea{color:#222}#noscript{display:none;background-c
 @media only screen and (max-width: 320px) 
 {
  	.category-product-items .product {height: 250px}   
+
     
 }
