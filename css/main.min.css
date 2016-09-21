@@ -232,7 +232,7 @@ html,button,input,select,textarea{color:#222}#noscript{display:none;background-c
 .dtClear{clear:both;margin-top: 20px;}
 
 /*Mid Autumn Sale*/
-.mAsaleBanner {width: 100%; margin-top:10px; padding-top: 38.82807469414%; background-image: url('http://d117fiyhpld8f9.cloudfront.net/content-images/AW16/700/TOAST_WEB_SaleBanner_New.jpg'); background-size: 100% 100%; position: relative;}
+.mAsaleBanner {width: 100%; margin-top:10px; padding-top: 38.82807469414%; background-image: url('http://d117fiyhpld8f9.cloudfront.net/content-images/AW16/1200/TOAST_WEB_SaleBanner_New.jpg'); background-size: 100% 100%; position: relative;}
 .mAsaleBanner .tileTitleMid{line-height: 54px; text-transform: uppercase;letter-spacing: 2px;top: 24%; font-size: 36px;}
 .mAsaleBanner .bottomTileText{font-size: 24px; margin-top: 30px; display: block;}
 .rangeTileSale{text-decoration: line-through;color: #F00;}
