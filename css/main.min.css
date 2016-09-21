@@ -308,6 +308,18 @@ html,button,input,select,textarea{color:#222}#noscript{display:none;background-c
 .footerSocialIcons li {display: inline-block; padding-right: 5px}
 .footerSocialIcons ul {margin:0 0 20px -10px}
 
+/*About Us*/
+.aboutUsBanner{width: 100%; margin-top:10px; padding-top: 38.82807469414%; background-image: url('http://d117fiyhpld8f9.cloudfront.net/content-images/AW16/1200/TOAST_WEB_AboutUs_1.jpg'); background-size: 100% 100%; position: relative;}
+.aboutUsBanner .tileTitleMid {line-height: 54px; letter-spacing: 2px;top: 35%; font-size: 36px;}
+.aboutUsBannerText {width: 50%; margin: 0 auto}
+.aboutUsBanner p {font-size: 16px; margin-top: 20px; display: block; line-height: 22px}
+.aboutUsText {font-size: 16px; text-align: center; margin-top: 60px}
+.aboutUsDeliveryText {font-size: 16px; text-align: center; margin-top: 40px; background-color: #e9e9e9; padding: 20px; width: 94%; margin: 0 3%; display: block; line-height: 20px}
+.aboutUsLinks {margin-top: 40px; text-transform: uppercase; font-size: 14px; letter-spacing: 1px; }
+.aboutUsLinks a {border-bottom: 1px solid #000000; padding-bottom: 5px}
+.aboutUsImageCol {width: 44%; margin: 0 3%; float: left; margin-top: 40px}
+.aboutUsImageColFull {width: 94%; margin: 6% 3%; float: left}
+
 
 @media only screen and (max-width: 1024px) 
 {
@@ -404,6 +416,9 @@ html,button,input,select,textarea{color:#222}#noscript{display:none;background-c
     .bottom20m{margin-bottom: 0px;}
     .bottom20mb{margin-bottom: 20px;}
     .mTop20{margin-top: 0px;}
+
+    /*About Us*/
+			.aboutUsBannerText {width: 70%; margin: 0 auto}
     
 @media only screen and (max-width: 768px) 
 {
@@ -450,18 +465,23 @@ html,button,input,select,textarea{color:#222}#noscript{display:none;background-c
     /*Holy variety landing page main tile text*/
     .hvTopRowText h2 {font-size: 26px; font-weight: normal; letter-spacing: 3px}
     
-        /*Homepage*/
+     /*Homepage*/
     .saleTitle{top: 40%;}
     
-            /*Mid Autumn Sale*/
-.mAsaleBanner .tileTitleMid{line-height: 41px; top: 11%; font-size: 32px;}
-.mAsaleBanner .bottomTileText{font-size: 20px; margin-top: 10px;}
-/*making of pages*/
+     /*Mid Autumn Sale*/
+	.mAsaleBanner .tileTitleMid{line-height: 41px; top: 11%; font-size: 32px;}
+	.mAsaleBanner .bottomTileText{font-size: 20px; margin-top: 10px;}
+	
+	/*making of pages*/
     .shopIkat{width: 100%;background-image:url('//d117fiyhpld8f9.cloudfront.net/content-images/ss16/350/TOAST_Ikat_Category.jpg;'); padding-top: 121.484375%;position: relative; color: #ffffff ; background-size: 100% 100%; display: block; margin-bottom: 10px;}
     .shopTI{width: 100%;background-image:url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/350/WEB_MakingOf_Indigo.jpg;'); padding-top: 121.484375%;position: relative; color: #ffffff ; background-size: 100% 100%; display: block; margin-bottom: 10px;}
     
     /*Miscellaneous*/
     .oasTopTile {margin-top: 0%;}
+
+    /*About Us*/
+	.aboutUsBanner .tileTitleMid {top: 20%;  font-size: 28px;}
+	.aboutUsBannerText {width: 90%; margin: 0 auto}
 
 
 }
@@ -471,8 +491,8 @@ html,button,input,select,textarea{color:#222}#noscript{display:none;background-c
 	.category-product-items .product {height: 510px} 
             
     /*making of*/
-      .bottom20m{margin-bottom: 20px;}
-	}
+     .bottom20m {margin-bottom: 20px;}
+}
 
 @media only screen and (max-width: 700px) 
 {
@@ -521,14 +541,19 @@ html,button,input,select,textarea{color:#222}#noscript{display:none;background-c
     .hlTopTile .tileTitle .hlOasTxt{margin-bottom: 15px; font-size: 28px;}
     .hlTopTile .tileTitle {top: 10%;}
     
-            /*Mid Autumn Sale*/
-.mAsaleBanner .tileTitleMid{line-height: 26px; top: 4%; font-size: 22px;}
-.mAsaleBanner .bottomTileText{font-size: 16px; margin-top: 0px;}
+    /*Mid Autumn Sale*/
+	.mAsaleBanner .tileTitleMid{line-height: 26px; top: 4%; font-size: 22px;}
+	.mAsaleBanner .bottomTileText{font-size: 16px; margin-top: 0px;}
     
     /*Miscellaneous*/
     .oasTopTile{font-size: 22px;line-height:36px;}
     .oasTopTile .midTitle {font-size: 18px;}
     .oasTopTile .shopTxt{margin-top: 20px;line-height: 24px;}
+
+    /*About Us*/
+	.aboutUsBanner .tileTitleMid {top:0;  font-size: 24px;}
+	.aboutUsBanner p {font-size: 14px;margin-top: 0px; line-height: 18px}
+	.aboutUsLink {margin-bottom: 20px}
 }
 
 
