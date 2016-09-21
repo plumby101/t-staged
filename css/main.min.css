@@ -406,19 +406,19 @@ html,button,input,select,textarea{color:#222}#noscript{display:none;background-c
     .sitemapSecondaryClear{margin-top:30px;}
     
     /*Mid Autumn Sale*/
-.mAsaleBanner .tileTitleMid{line-height: 54px; top: 18%; font-size: 36px;}
-.mAsaleBanner .bottomTileText{font-size: 24px; margin-top: 16px;}
+    .mAsaleBanner .tileTitleMid{line-height: 54px; top: 18%; font-size: 36px;}
+    .mAsaleBanner .bottomTileText{font-size: 24px; margin-top: 16px;}
     
     /*miscellaneous*/
     .dtClear{margin-top: 0px;}
 
-/*making of*/
+	/*making of*/
     .bottom20m{margin-bottom: 0px;}
     .bottom20mb{margin-bottom: 20px;}
     .mTop20{margin-top: 0px;}
 
     /*About Us*/
-			.aboutUsBannerText {width: 70%; margin: 0 auto}
+	.aboutUsBannerText {width: 70%; margin: 0 auto}
     
 @media only screen and (max-width: 768px) 
 {
@@ -531,7 +531,7 @@ html,button,input,select,textarea{color:#222}#noscript{display:none;background-c
     
     .customCatTextLandscape {padding: 15px}
 
-       /* secret sale banner */
+    /* secret sale banner */
  	.saleBannerTitle {padding-top: 5%; font-size: 20px; letter-spacing: 2px}
  	.saleBannerSubTitle {font-size: 16px; padding-top: 1%}
  	.secretSaleBannerText {position: absolute; width: 100%; text-align: center; top:30%;}
