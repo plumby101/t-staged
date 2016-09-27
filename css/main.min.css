@@ -53,13 +53,13 @@ html,button,input,select,textarea{color:#222}#noscript{display:none;background-c
 
 /* Womens landing tiles */
 
-.wl_1{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/950/TOAST_Sale_Women_2.jpg');}
+.wl_1{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/950/TOAST_OAS_Women_6.jpg');}
 .wl_1 .sansBook{font-size:16px;padding-top: 12px;letter-spacing: 2px;}
-.wl_2{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/950/TOAST_OAS_Women_1.jpg');}
-.wl_3{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/950/TOAST_OAS_Women_3.jpg');}
-.wl_4{background-image: url('http://d117fiyhpld8f9.cloudfront.net/content-images/aw16/950/TOAST_OAS_Homepage_2.jpg');}
-.wl_5{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/950/TOAST_OAS_Women_6.jpg');}
-.wl_6{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/950/TOAST_OAS_Women_4.jpg');}
+.wl_2{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/1200/TOAST_Winter_Women_1.jpg');}
+.wl_3{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/1200/TOAST_Winter_Women_2.jpg');}
+.wl_4{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/1200/TOAST_Winter_Women_3.jpg');}
+.wl_5{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/1200/TOAST_Winter_Women_4.jpg');}
+.wl_6{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/950/TOAST_OAS_Women_Coats.jpg');}
 .wl_7{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/1200/TOAST_HolyVariety_3_New.jpg')}
 .wl_7 .mainTitle{font-size: 20px;} 
 .wl_2 .shopTxt{text-transform: uppercase;font-size: 18px;line-height: 60px;letter-spacing: 2px;}
@@ -168,12 +168,12 @@ html,button,input,select,textarea{color:#222}#noscript{display:none;background-c
 /*homepage*/
 .tileTitleMid {color: white;position: absolute;top: 31%;width: 100%;text-align: center;font-size: 28px;line-height: 45px;}
 .hlTopTile {width: 100%; display: block; width: 100%; padding-top: 62.947%;  margin-bottom: 20px; background-size: 100% 100%; position: relative}
-.hlTile1{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/1200/TOAST_OAS_Homepage_1.jpg');padding-top: 62.916%;}
-.hlTile2{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/950/TOAST_OAS_Homepage_3_New.jpg');padding-top: 121.120%}
-.hlTile3{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/1200/TOAST_LateAutumn_HouseandHome_2.jpg');padding-top: 121.120%}
-.hlTile4{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/1200/TOAST_Sale_Homepage_4.jpg');padding-top: 121.120%}
+.hlTile1{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/1200/TOAST_Winter_Homepage_1.jpg');padding-top: 62.916%;}
+.hlTile2{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/1200/TOAST_Winter_Homepage_2.jpg');padding-top: 121.120%}
+.hlTile3{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/1200/TOAST_Winter_Homepage_3.jpg');padding-top: 121.120%}
+.hlTile4{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/1200/TOAST_Winter_Homepage_4.jpg');padding-top: 121.120%}
 .hlTile5{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/1200/TOAST_LateAutumn_HouseandHome_1.jpg');padding-top: 121%;}
-.hlTile7{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/1200/TOAST_LateAutumn_Homepage_5.jpg');padding-top: 121%;}
+.hlTile7{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/1200/TOAST_Winter_Homepage_5.jpg');padding-top: 121%;}
 .hlTile6{background-color: #e9e9e9;color:black;}
 .hlTopTile .tileTitle {top: 45%;}
 .hlOasTxt {font-size: 38px; margin-bottom: 10px;  width: 100%}
@@ -199,13 +199,13 @@ html,button,input,select,textarea{color:#222}#noscript{display:none;background-c
 .saleTitle{top: 34%;text-transform: uppercase;font-size: 24px;letter-spacing: 2px;}
 
 /*house and home landing page*/
-.hhlTile1{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/1200/TOAST_LateAutumn_HouseandHome_1.jpg');padding-top: 120.5%; margin-bottom: 20px;}
-.hhlTile2{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/1200/TOAST_LateAutumn_HouseandHome_2.jpg'); margin-bottom: 20px;}
+.hhlTile1{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/1200/TOAST_Winter_Houseandhome_1.jpg');padding-top: 120.5%; margin-bottom: 20px;}
+.hhlTile2{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/1200/TOAST_Winter_Houseandhome_2.jpg'); margin-bottom: 20px;}
 .hhlTile2 .sansBook{font-size:16px;padding-top: 16px;letter-spacing: 2px;}
-.hhlTile3{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/1200/TOAST_LateAutumn_HouseandHome_3.jpg'); margin-bottom: 20px;}
+.hhlTile3{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/1200/TOAST_Winter_Houseandhome_3.jpg'); margin-bottom: 20px;}
 .hhlTile3 .sansBook{font-size:16px;padding-top: 16px;letter-spacing: 2px;}
-.hhlTile4{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/1200/TOAST_LateAutumn_HouseandHome_4.jpg'); margin-bottom: 20px;}
-.hhlTile5{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/750/WEB_EarlyAutumn_HouseandHome_5.jpg');}
+.hhlTile4{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/1200/TOAST_Winter_Houseandhome_4.jpg'); margin-bottom: 20px;}
+.hhlTile5{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/1200/TOAST_Winter_Homepage_5.jpg');}
 .hhlTile6{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/950/TOAST_Sale_Houseandhome_3.jpg'); padding-top: 121%; margin-bottom: 20px;}
 .hhTopTile {width: 100%; display: block; width: 100%; padding-top: 120.5%;  margin-bottom: 20px; background-size: 100% 100%; position: relative}
 .hhlTile1 .tileTitle {top: 36%;line-height: 45px;}
@@ -233,7 +233,7 @@ html,button,input,select,textarea{color:#222}#noscript{display:none;background-c
 .lkpgLtt75{margin-top:75%;}
 .oasTopTile{margin-top:8%;}
 .oasTopTile .midTitle{font-size: 22px;letter-spacing: 2px;}
-.oasTopTile .shopTxt{margin-top: 30px; line-height: 25px;}
+.oasTopTile .shopTxt{margin-top: 72px; line-height: 25px;}
 .mTop20{margin-top: 20px;}
 .dtClear{clear:both;margin-top: 20px;}
 .clearBoth{clear: both;}
@@ -509,7 +509,7 @@ html,button,input,select,textarea{color:#222}#noscript{display:none;background-c
 	.tileTitle .subTitle  {font-size: 14px; padding-top: 6px}
     .saleBannerTitle {padding-top: 8%; font-size: 38px}
     .saleBannerSubTitle {font-size: 18px;padding-top:2%}
-    .hhlTile1 .tileTitle {top:53%;} 
+    .hhlTile1 .tileTitle {top:30%;} 
     .smTileTitle {font-size: 18px;}
     .sitemapSub .smTileTitle{font-size: 22px;}
     .sitemapSSub .smTileTitle{font-size:22px;}
@@ -555,7 +555,7 @@ html,button,input,select,textarea{color:#222}#noscript{display:none;background-c
     /*Miscellaneous*/
     .oasTopTile{font-size: 22px;line-height:36px;}
     .oasTopTile .midTitle {font-size: 18px;}
-    .oasTopTile .shopTxt{margin-top: 20px;line-height: 24px;}
+    .oasTopTile .shopTxt{line-height: 24px;}
 
     /*About Us*/
 	.aboutUsBanner .tileTitleMid {top:0;  font-size: 24px;}
@@ -566,6 +566,7 @@ html,button,input,select,textarea{color:#222}#noscript{display:none;background-c
 
 @media only screen and (max-width: 430px) 
 {
+    .hhlTile1 .tileTitle {top:16%;}
  	.category-product-items .product {height: 300px}
 
     /*Holy variety landing page main tile text*/
