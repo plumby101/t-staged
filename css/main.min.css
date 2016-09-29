@@ -47,20 +47,16 @@ html,button,input,select,textarea{color:#222}#noscript{display:none;background-c
 .houseAndHomeTile {width: 100%; display: block; width: 100%;padding-top: 121%;  margin-bottom: 20px; background-size: 100% 100%; position: relative}
 
 /* Range page */
-
 .products-in-range { text-align: center; } 
 .products-in-range .range-product {	float: none; display: inline-block; }
 
 /* Womens landing tiles */
-
 .wl_1{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/950/TOAST_OAS_Women_6.jpg');}
 .wl_1 .sansBook{font-size:16px;padding-top: 12px;letter-spacing: 2px;}
-.wl_2{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/1200/TOAST_Winter_Women_1.jpg');}
-.wl_3{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/1200/TOAST_Winter_Women_2.jpg');}
-.wl_4{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/1200/TOAST_Winter_Women_3.jpg');}
-.wl_5{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/1200/TOAST_Winter_Women_4.jpg');}
-.wl_6{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/950/TOAST_OAS_Women_Coats.jpg');}
-.wl_7{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/1200/TOAST_HolyVariety_3_New.jpg')}
+.wl_2{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/768/TOAST_Winter_Women_1.jpg');}
+.wl_3{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/768/TOAST_Winter_Women_2.jpg');}
+.wl_4{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/768/TOAST_Winter_Women_3.jpg');}
+.wl_5{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/768/TOAST_Winter_Women_4.jpg');}
 .wl_7 .mainTitle{font-size: 20px;} 
 .wl_2 .shopTxt{text-transform: uppercase;font-size: 18px;line-height: 60px;letter-spacing: 2px;}
 
@@ -146,8 +142,8 @@ html,button,input,select,textarea{color:#222}#noscript{display:none;background-c
 .molpTileTitle{left: 10%; right:10%; width: 80%;}
 .molpSubTitle{font-size: 16px; letter-spacing: 2px;text-transform:none;}
 .molp_1{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/1080/WEB_MakingOf_Landing_1.jpg');padding-top: 100%;margin-bottom: 20px;}
-.molp_2{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/530/WEB_MakingOf_Landing_2.jpg');}
-.molp_3{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/530/WEB_MakingOf_Landing_3.jpg');}
+.molp_2{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/768/WEB_MakingOf_Landing_2.jpg');}
+.molp_3{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/768/WEB_MakingOf_Landing_3.jpg');}
 .landingBSIntro{text-align: center;margin: 30px 0;}
 .landingBSIntro h1 {font-size: 26px;font-family: "freight-text-pro", serif;font-weight: 600;}
 .landingBSIntro h2 { font-size: 18px; font-family: "freight-text-pro", serif;font-weight: 400; margin-top: 16px;}
@@ -166,14 +162,14 @@ html,button,input,select,textarea{color:#222}#noscript{display:none;background-c
 .toastMagazineQuarter {width: 100%; background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/400/MakingOf_Khadi_5.jpg'); padding-top: 121.484375%; position: relative; color: #ffffff ; background-size: 100% 100%; display: block }
 
 /*homepage*/
-.tileTitleMid {color: white;position: absolute;top: 31%;width: 100%;text-align: center;font-size: 28px;line-height: 45px;}
+.tileTitleMid {color: white;position: absolute;top: 31%;width: 100%;text-align: center;font-size: 28px;line-height: 45px; letter-spacing: 2px}
 .hlTopTile {width: 100%; display: block; width: 100%; padding-top: 62.947%;  margin-bottom: 20px; background-size: 100% 100%; position: relative}
 .hlTile1{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/1200/TOAST_Winter_Homepage_1.jpg');padding-top: 62.916%;}
-.hlTile2{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/1200/TOAST_Winter_Homepage_2.jpg');padding-top: 121.120%}
-.hlTile3{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/1200/TOAST_Winter_Homepage_3_New.jpg');padding-top: 121.120%}
-.hlTile4{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/1200/TOAST_Winter_Homepage_4.jpg');padding-top: 121.120%}
-.hlTile5{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/1200/TOAST_LateAutumn_HouseandHome_1.jpg');padding-top: 121%;}
-.hlTile7{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/1200/TOAST_Winter_Homepage_5.jpg');padding-top: 121%;}
+.hlTile2{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/1768/TOAST_Winter_Homepage_2.jpg');padding-top: 121.120%}
+.hlTile3{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/768/TOAST_Winter_Homepage_3_New.jpg');padding-top: 121.120%}
+.hlTile4{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/768/TOAST_Winter_Homepage_4.jpg');padding-top: 121.120%}
+.hlTile5{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/768/TOAST_LateAutumn_HouseandHome_1.jpg');padding-top: 121%;}
+.hlTile7{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/768/TOAST_Winter_Homepage_5.jpg');padding-top: 121%;}
 .hlTile6{background-color: #e9e9e9;color:black;}
 .hlTopTile .tileTitle {top: 45%;}
 .hlOasTxt {font-size: 38px; margin-bottom: 10px;  width: 100%}
@@ -200,16 +196,14 @@ html,button,input,select,textarea{color:#222}#noscript{display:none;background-c
 
 /*house and home landing page*/
 .hhlTile1{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/1200/TOAST_Winter_Houseandhome_1.jpg');padding-top: 62.966%; margin-bottom: 20px;}
-.hhlTile2{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/1200/TOAST_Winter_Houseandhome_2.jpg'); margin-bottom: 20px;}
+.hhlTile2{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/768/TOAST_Winter_Houseandhome_2.jpg'); margin-bottom: 20px;}
 .hhlTile2 .sansBook{font-size:16px;padding-top: 16px;letter-spacing: 2px;}
-.hhlTile3{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/1200/TOAST_Winter_Houseandhome_3.jpg'); margin-bottom: 20px;}
+.hhlTile3{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/768/TOAST_Winter_Houseandhome_3.jpg'); margin-bottom: 20px;}
 .hhlTile3 .sansBook{font-size:16px;padding-top: 16px;letter-spacing: 2px;}
-.hhlTile4{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/1200/TOAST_Winter_Houseandhome_4.jpg'); margin-bottom: 20px;}
-.hhlTile5{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/1200/TOAST_Winter_Homepage_5.jpg');}
-.hhlTile6{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/950/TOAST_Sale_Houseandhome_3.jpg'); padding-top: 121%; margin-bottom: 20px;}
+.hhlTile4{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/768/TOAST_Winter_Houseandhome_4.jpg'); margin-bottom: 20px;}
 .hhTopTile {width: 100%; display: block; width: 100%; padding-top: 62.966%;  margin-bottom: 20px; background-size: 100% 100%; position: relative}
 .hhlTile1 .tileTitle {top: 36%;line-height: 45px;}
-.hhlTile1 .shopTxt, .hlTile1 .shopTxt {font-size: 16px;letter-spacing: 2px; border-bottom: 1px solid #ffffff;}
+.hhlTile1 .shopTxt, .hlTile1 .shopTxt {font-size: 16px;letter-spacing: 1px; border-bottom: 1px solid #ffffff;}
 .hhlTile1 .shopTxt{text-transform: uppercase;font-size: 18px;}
 .hhShop {margin-bottom: 5%;}
 .hhlTile1 .tileTitle .mainTitle:first-child{font-size:20px;}
@@ -237,6 +231,7 @@ html,button,input,select,textarea{color:#222}#noscript{display:none;background-c
 .mTop20{margin-top: 20px;}
 .dtClear{clear:both;margin-top: 20px;}
 .clearBoth{clear: both;}
+
 /*Mid Autumn Sale*/
 .mAsaleBanner {width: 100%; margin-top:10px; padding-top: 38.82807469414%; background-image: url('http://d117fiyhpld8f9.cloudfront.net/content-images/AW16/1200/TOAST_WEB_SaleBanner_New.jpg'); background-size: 100% 100%; position: relative;}
 .mAsaleBanner .tileTitleMid{line-height: 54px; text-transform: uppercase;letter-spacing: 2px;top: 24%; font-size: 36px;}
@@ -244,7 +239,7 @@ html,button,input,select,textarea{color:#222}#noscript{display:none;background-c
 .rangeTileSale{text-decoration: line-through;color: #F00;}
 
 /*secret sale over */
-.ssEnded{position:relative;background-size: 100%;background-repeat:no-repeat;background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/1553/TOAST_SecretSale_2_New.jpg'); padding-top:62.91%;}
+.ssEnded{position:relative;background-size: 100%;background-repeat:no-repeat;background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/1200/TOAST_SecretSale_2_New.jpg'); padding-top:62.91%;}
 .secretSaleBannerText {position: absolute; width: 100%; text-align: center; top:35%;}
 .secretSaleBanner h2 {font-size: 50px; letter-spacing: 2px; color:#ffffff;}
 .secretSaleBanner h3 {font-size: 28px; margin-top: 10px; font-weight: 100; letter-spacing: 2px; color:#ffffff;}
@@ -480,8 +475,8 @@ html,button,input,select,textarea{color:#222}#noscript{display:none;background-c
 	.mAsaleBanner .bottomTileText{font-size: 20px; margin-top: 10px;}
 	
 	/*making of pages*/
-    .shopIkat{width: 100%;background-image:url('//d117fiyhpld8f9.cloudfront.net/content-images/ss16/350/TOAST_Ikat_Category.jpg;'); padding-top: 121.484375%;position: relative; color: #ffffff ; background-size: 100% 100%; display: block; margin-bottom: 10px;}
-    .shopTI{width: 100%;background-image:url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/350/WEB_MakingOf_Indigo.jpg;'); padding-top: 121.484375%;position: relative; color: #ffffff ; background-size: 100% 100%; display: block; margin-bottom: 10px;}
+    .shopIkat{width: 100%;background-image:url('//d117fiyhpld8f9.cloudfront.net/content-images/ss16/758/TOAST_Ikat_Category.jpg;'); padding-top: 121.484375%;position: relative; color: #ffffff ; background-size: 100% 100%; display: block; margin-bottom: 10px;}
+    .shopTI{width: 100%;background-image:url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/768/WEB_MakingOf_Indigo.jpg;'); padding-top: 121.484375%;position: relative; color: #ffffff ; background-size: 100% 100%; display: block; margin-bottom: 10px;}
     
     /*Miscellaneous*/
     .oasTopTile {margin-top: 0%;}
