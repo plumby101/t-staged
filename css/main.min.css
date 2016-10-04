@@ -141,9 +141,10 @@ html,button,input,select,textarea{color:#222}#noscript{display:none;background-c
 /*making of landing page*/
 .molpTileTitle{left: 10%; right:10%; width: 80%;}
 .molpSubTitle{font-size: 16px; letter-spacing: 2px;text-transform:none;}
-.molp_1{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/1080/WEB_MakingOf_Landing_1.jpg');padding-top: 100%;margin-bottom: 20px;}
+.molp_1{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/1080/TOAST_MakingOfKhadiLanding.jpg');margin-bottom: 20px;}
 .molp_2{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/768/WEB_MakingOf_Landing_2.jpg');}
 .molp_3{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/768/WEB_MakingOf_Landing_3.jpg');}
+.molp_4{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/768/TOAST_MakingOfCheaney_Landing.jpg');}
 .landingBSIntro{text-align: center;margin: 30px 0;}
 .landingBSIntro h1 {font-size: 26px;font-family: "freight-text-pro", serif;font-weight: 600;}
 .landingBSIntro h2 { font-size: 18px; font-family: "freight-text-pro", serif;font-weight: 400; margin-top: 16px;}
@@ -324,6 +325,9 @@ html,button,input,select,textarea{color:#222}#noscript{display:none;background-c
 .aboutUsFooterText {margin-top: 30px; margin-bottom: 60px; font-size: 17px; text-align: center; float: left; line-height: 26px}
 
 
+/*making of cheaney*/
+.shopCS{width: 100%; background-image:url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/1200/TOAST_MakingOfCheaney_5.jpg'); padding-top: 121.484375%; position: relative; color: #ffffff ; background-size: 100% 100%; display: block; margin-bottom: 10px }
+
 @media only screen and (max-width: 1024px) 
 {
 	/* asian stlying */
@@ -423,6 +427,11 @@ html,button,input,select,textarea{color:#222}#noscript{display:none;background-c
     /*About Us*/
 	.aboutUsBannerText {width: 70%; margin: 0 auto}
     
+    /*making of cheaney*/
+    .cheaneyMtop0{
+    margin-top: 0px;
+    }
+    
 @media only screen and (max-width: 768px) 
 {
 
@@ -486,6 +495,10 @@ html,button,input,select,textarea{color:#222}#noscript{display:none;background-c
 	.aboutUsBanner .tileTitleMid {top: 20%;  font-size: 28px;}
 	.aboutUsBannerText {width: 90%; margin: 0 auto}
 	.aboutUsLink {margin-bottom: 20px}
+        /*making of cheaney*/
+    .cheaneyMtop0{
+    margin-top: 20px;
+    }
 
 }
 
