@@ -327,7 +327,12 @@ html,button,input,select,textarea{color:#222}#noscript{display:none;background-c
 
 /*making of cheaney*/
 .shopCS{width: 100%; background-image:url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/1200/TOAST_MakingOfCheaney_5.jpg'); padding-top: 121.484375%; position: relative; color: #ffffff ; background-size: 100% 100%; display: block; margin-bottom: 10px }
-
+.cheaneyM30{
+        margin: 30px 0px;
+    }
+.cheaneyTop30{
+    margin-top: 30px;
+}
 @media only screen and (max-width: 1024px) 
 {
 	/* asian stlying */
@@ -427,10 +432,7 @@ html,button,input,select,textarea{color:#222}#noscript{display:none;background-c
     /*About Us*/
 	.aboutUsBannerText {width: 70%; margin: 0 auto}
     
-    /*making of cheaney*/
-    .cheaneyMtop0{
-    margin-top: 0px;
-    }
+
     
 @media only screen and (max-width: 768px) 
 {
@@ -495,11 +497,17 @@ html,button,input,select,textarea{color:#222}#noscript{display:none;background-c
 	.aboutUsBanner .tileTitleMid {top: 20%;  font-size: 28px;}
 	.aboutUsBannerText {width: 90%; margin: 0 auto}
 	.aboutUsLink {margin-bottom: 20px}
-        /*making of cheaney*/
-    .cheaneyMtop0{
-    margin-top: 20px;
+       
+    /*making of cheaney*/
+    .cheaneyM30{
+    margin: 0px 0px;
     }
-
+    .cheaneyTop30{
+    margin-top: 0px;
+}
+    .cheaneyCbottom30{
+        margin-bottom: 30px;
+    }
 }
 
 @media only screen and (max-width: 767px) 
