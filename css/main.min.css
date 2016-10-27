@@ -339,18 +339,24 @@ html,button,input,select,textarea{color:#222}#noscript{display:none;background-c
 .makingOfTextPad{padding: 0px 20px;}
 
 
-/*work with us
-.workWithUs{
-    position:relative;background-size: 100%;background-repeat:no-repeat;background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/768/TOAST_WorkWithUs_1.jpg'); padding-top:62.892561%;
-}*/
-.wwuTile{border-bottom: 2px solid black;letter-spacing: 2px;text-align: center;font-weight: 600;margin-bottom: 60px;}
-.jobTile{width: 48%;float: left;margin: 1%;padding: 20px;text-align: center;background-color: #e9e9e9;min-height: 200px;}
-.jdThreeLine h2{ margin-top: 2%;}
-.jdTwoLine h2{margin-top: 6%;}
-.workWithUs{position:relative;background-size: 100%;background-repeat:no-repeat;background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/768/TOAST_WorkWithUs_1.jpg'); padding-top:38.892561%;}
-.wwuTitle{left: 0px;color: white;position: absolute;top: 44%;width: 100%;text-align: center;font-size: 38px;line-height: 45px; letter-spacing: 2px}
-.workWithUs2{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/768/TOAST_WorkWithUs_2.jpg');padding: 20%;background-size: 100% 100%;}
-.wwuCTA {text-align: center; text-transform: uppercase; margin-bottom: 20px;padding: 20px 0px;font-size: 18px;}
+/*Work with us*/
+        .wwuTile{border-bottom: 2px solid black;letter-spacing: 2px;text-align: center;font-weight: 600;margin-bottom: 60px;}
+        .wwuImageTile{margin-top: 20px;margin-bottom: 10px;}
+        .cText{text-align: center; font-size: 17px;line-height: 26px;margin-top: 10px;}
+        .cText .aboutUsLinks{    border-bottom: 1px solid #000000;padding-bottom: 5px;}
+        .jobTile{text-align: center;background-color: #e9e9e9;min-height: 200px !important;}
+        .jdThreeLine h2{ margin-top: 7%;}
+        .jdTwoLine h2{margin-top: 11%;}
+        .workWithUs{position:relative;background-size: 100%;background-repeat:no-repeat;background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/768/TOAST_WorkWithUs_1.jpg'); padding-top:38.892561%;margin-top: 10px;}
+        .wwuTitle{color: white;position: absolute;top: 44%;width: 100%;text-align: center;font-size: 38px;line-height: 45px; letter-spacing: 2px}
+        .workWithUs2{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/768/TOAST_WorkWithUs_2.jpg');padding: 20%;background-size: 100% 100%;}
+        .mBottom10{margin-bottom: 20px;}
+        .jobInfo h2{font-size: 18px; letter-spacing: 1px;}
+        .jobInfo a{text-decoration: none;color: #000;border-bottom: 1px solid black;text-transform: uppercase;letter-spacing: 1px;font-size: 14px;}
+        .office{font-size:18px;text-transform: uppercase; margin: 20px;margin-top: 30px;display: inline-block;}
+        .readMore{margin: 10px;text-aliugn: center;}
+        .jobInfo .jobRole{font-family: "freight-sans-pro", sans-serif;font-size: 16px;}
+        .linkCols{margin-top: 20px;margin-bottom: 40px;}
 
 @media only screen and (max-width: 1024px) 
 {
@@ -452,10 +458,12 @@ html,button,input,select,textarea{color:#222}#noscript{display:none;background-c
 	.aboutUsBannerText {width: 70%; margin: 0 auto}
     
     /*Brickett Davda*/
-    .davdaTop30{
-    margin-top: 0px;    
-    }
-    
+    .davdaTop30{margin-top: 0px;}
+    /*Work with us*/
+    .workWithUs{padding-top: 25%; margin-top: 10px;}
+    .jdThreeLine h2{margin-top: 5%;}
+    .jdTwoLine h2{margin-top: 8%;}
+}
 @media only screen and (max-width: 768px) 
 {
 
@@ -524,8 +532,14 @@ html,button,input,select,textarea{color:#222}#noscript{display:none;background-c
     .cheaneyM30 {margin: 0px 0px;}
     .cheaneyTop30 {margin-top: 0px;}
     .cheaneyCbottom30 {margin-bottom: 30px;}
-}
 
+    /*Work with us*/
+    .jobTile{width: 100%;margin: 10px 0px;}
+            .jdThreeLine h2{margin-top: 3%;}
+            .jdTwoLine h2{margin-top: 6%;}
+            .workWithUs{padding-top: 35%;}
+            .wwuTitle{font-size: 30px;}
+}
 @media only screen and (max-width: 767px) 
 {
 	.category-product-items .product {height: 510px} 
