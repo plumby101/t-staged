@@ -237,12 +237,6 @@ html,button,input,select,textarea{color:#222}#noscript{display:none;background-c
 .dtClear{clear:both;margin-top: 20px;}
 .clearBoth{clear: both;}
 
-/*Mid Autumn Sale*/
-.mAsaleBanner {width: 100%; margin-top:10px; padding-top: 38.82807469414%; background-image: url('http://d117fiyhpld8f9.cloudfront.net/content-images/AW16/1200/TOAST_WEB_SaleBanner_New.jpg'); background-size: 100% 100%; position: relative;}
-.mAsaleBanner .tileTitleMid{line-height: 54px; text-transform: uppercase;letter-spacing: 2px;top: 24%; font-size: 36px;}
-.mAsaleBanner .bottomTileText{font-size: 24px; margin-top: 30px; display: block;}
-.rangeTileSale{text-decoration: line-through;color: #F00;}
-
 /*secret sale over */
 .ssEnded{position:relative;background-size: 100%;background-repeat:no-repeat;background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/1200/TOAST_SecretSale_2_New.jpg'); padding-top:62.91%;}
 .secretSaleBannerText {position: absolute; width: 100%; text-align: center; top:35%;}
