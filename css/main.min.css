@@ -366,7 +366,6 @@ html,button,input,select,textarea{color:#222}#noscript{display:none;background-c
 .unslider-arrow{position:absolute; left: 20px;top: 40% ; z-index:2;cursor:pointer; background: url(https://d117fiyhpld8f9.cloudfront.net/content-images/pressbook/1000/TOAST_Arrows.png);width: 17px; height: 25px; display: block; background-size:  35px 25px}
 .unslider-arrow.next {position: absolute; top: 40%; left: 100% ; z-index: 10; background: url(https://d117fiyhpld8f9.cloudfront.net/content-images/pressbook/1000/TOAST_Arrows.png); width: 17px; height: 25px; display: block; background-size:  35px 25px; background-position: 17px 0; margin-left: -40px}
 .unslider-nav {display: none}
-
 .pb_openingTile {background: url(https://d117fiyhpld8f9.cloudfront.net/content-images/aw16/768/TOAST_Winter_Women_1.jpg); display: block; width: 100%; padding-top: 128%; margin-bottom: 20px; background-size: 100% 100%; position: relative; color:#ffffff;}
 .pb_openingTileText {position: absolute; width: 100%; text-align: center; top:40%; font-size: 26px; letter-spacing: 2px; margin-bottom: 20px}
 .pb_openingTile h1 {font-size: 26px; letter-spacing: 3px; margin-bottom: 10px}
@@ -426,12 +425,8 @@ html,button,input,select,textarea{color:#222}#noscript{display:none;background-c
 .pressBookContent h1 {font-size: 24px}
 
 /*signup styles*/
-input#ctl00_globalMainContent_chkReceiveThirdPartyCatalogs{
-display: none;
-}
-label[for="chkReceiveThirdPartyCatalogs"]{
-display: none;
-}
+input#ctl00_globalMainContent_chkReceiveThirdPartyCatalogs{ display: none }
+label[for="chkReceiveThirdPartyCatalogs"]{ display: none }
 
 @media only screen and (max-width: 1024px) 
 {
@@ -618,10 +613,10 @@ display: none;
 
     /*Work with us*/
     .jobTile{width: 100%;margin: 10px 0px;}
-            .jdThreeLine h2{margin-top: 3%;}
-            .jdTwoLine h2{margin-top: 6%;}
-            .workWithUs{padding-top: 35%;}
-            .wwuTitle{font-size: 30px;}
+    .jdThreeLine h2{margin-top: 3%;}
+    .jdTwoLine h2{margin-top: 6%;}
+    .workWithUs{padding-top: 35%;}
+    .wwuTitle{font-size: 30px;}
 }
 @media only screen and (max-width: 767px) 
 {
@@ -696,7 +691,6 @@ display: none;
 @media only screen and (max-width: 430px) 
 {
 	/* Press book */
-
 	.pb_videoTextPlacer {margin-top: 15%}
     .pb_passwordBoxText {font-size: 14px}
 
@@ -721,15 +715,13 @@ display: none;
     .oasTopTile .shopTxt {margin-top: 8px;}
     .oasTopTile{top:24%;}
 }  
-    @media only screen and (max-width: 395px){
+
+@media only screen and (max-width: 395px){
         
-        .longDescTop{
-            top: 36%;
-        }
-    }
+    .longDescTop{top: 36%}
+}
 @media only screen and (max-width: 320px) 
+
 {
  	.category-product-items .product {height: 250px}   
-
-    
 }
