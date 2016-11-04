@@ -49,7 +49,7 @@ renderRecsHome = function(jsonData) {
                 });
                 var pRecPrice = parseFloat(jsonData[0].recs[i].prices.GBP.unitPrice).toFixed(2).replace(".00", "");
                 if (jsonData[0].recs[i].prices.GBP.unitPrice != jsonData[0].recs[i].prices.GBP.salePrice) pRecPrice = parseFloat(jsonData[0].recs[i].prices.GBP.salePrice).toFixed(2).replace(".00", "");
-                $($pRecs[i]).find(".p-rec-price").text("£" + pRecPrice);
+                $($pRecs[i]).find(".p-rec-price").text("Â£" + pRecPrice);
                 if (jsonData[0].recs[i].title.length > 12) {
                     $($pRecs[i]).find(".p-rec-title").text(jsonData[0].recs[i].title.slice(0, 12) + "...");
                     $($pRecs[i]).find(".p-rec-hover").text(jsonData[0].recs[i].title)
@@ -76,7 +76,7 @@ renderRecsLanding = function(jsonData) {
                 });
                 var pRecPrice = parseFloat(jsonData[0].recs[i].prices.GBP.unitPrice).toFixed(2).replace(".00", "");
                 if (jsonData[0].recs[i].prices.GBP.unitPrice != jsonData[0].recs[i].prices.GBP.salePrice) pRecPrice = parseFloat(jsonData[0].recs[i].prices.GBP.salePrice).toFixed(2).replace(".00", "");
-                $($pRecs[i]).find(".p-rec-price").text("£" + pRecPrice);
+                $($pRecs[i]).find(".p-rec-price").text("Â£" + pRecPrice);
                 if (jsonData[0].recs[i].title.length > 12) {
                     $($pRecs[i]).find(".p-rec-title").text(jsonData[0].recs[i].title.slice(0, 12) + "...");
                     $($pRecs[i]).find(".p-rec-hover").text(jsonData[0].recs[i].title)
@@ -98,8 +98,8 @@ renderRecsSearch = function(jsonData) {
                 var $ymalLiItem = $('<div class="product grid-20 tablet-grid-33 mobile-grid-50"></div>');
                 $(".ymal-slides").append($ymalLiItem);
                 $ymalLiItem.append($('<a href="' + jsonData[0].recs[i].url + '" peerius-item-id="' + jsonData[0].recs[i].id + '" title="' + jsonData[0].recs[i].title + '"><img src="' + jsonData[0].recs[i].img.replace(sizeRegex, "/250/").replace("/product/", "/global/") + '" alt="' + jsonData[0].recs[i].title + '" class="grid-image full-opacity"><h3>' + jsonData[0].recs[i].title + "</h3><p></p></a>"));
-                if (jsonData[0].recs[i].prices.GBP.salePrice == jsonData[0].recs[i].prices.GBP.unitPrice) $ymalLiItem.find("p").text("£" + jsonData[0].recs[i].prices.GBP.unitPrice);
-                else $ymalLiItem.find("p").html('<span class="recommendation-price price-strike-through">£' + jsonData[0].recs[i].prices.GBP.unitPrice + ' </span><span class="recommendation-sale">£' + jsonData[0].recs[i].prices.GBP.salePrice + "</span>")
+                if (jsonData[0].recs[i].prices.GBP.salePrice == jsonData[0].recs[i].prices.GBP.unitPrice) $ymalLiItem.find("p").text("Â£" + jsonData[0].recs[i].prices.GBP.unitPrice);
+                else $ymalLiItem.find("p").html('<span class="recommendation-price price-strike-through">Â£' + jsonData[0].recs[i].prices.GBP.unitPrice + ' </span><span class="recommendation-sale">Â£' + jsonData[0].recs[i].prices.GBP.salePrice + "</span>")
             } else {
                 break
             }
@@ -151,11 +151,11 @@ renderRecsBasket = function(jsonData) {
             if (i < 5) {
                 var $ymalLiItem = $('<div class="grid-20 mobile-grid-50 tablet-grid-20 basket-recommendations range-product" id="' + jsonData[0].recs[i].refCode + '" peerius-item-id="' + jsonData[0].recs[i].id + '"></div>');
                 $(".basket-recommendations-container .group-images").append($ymalLiItem);
-                var $newItem = $('<img class="grid-image"><span class="basket-recommendation-title">' + jsonData[0].recs[i].title + '</span><span class="basket-recommendation-price">£' + jsonData[0].recs[i].prices.GBP.unitPrice + "</span>");
+                var $newItem = $('<img class="grid-image"><span class="basket-recommendation-title">' + jsonData[0].recs[i].title + '</span><span class="basket-recommendation-price">Â£' + jsonData[0].recs[i].prices.GBP.unitPrice + "</span>");
                 $ymalLiItem.append($newItem);
                 if (jsonData[0].recs[i].prices.GBP.unitPrice != jsonData[0].recs[i].prices.GBP.salePrice) {
                     $ymalLiItem.find(".basket-recommendation-price").addClass("price-strike-through");
-                    $ymalLiItem.append('<span class="basket-recommendation-sale-price">£' + jsonData[0].recs[i].prices.GBP.salePrice + "</span>")
+                    $ymalLiItem.append('<span class="basket-recommendation-sale-price">Â£' + jsonData[0].recs[i].prices.GBP.salePrice + "</span>")
                 }
             } else {
                 break
@@ -188,8 +188,8 @@ renderRecsErrorPage = function(jsonData) {
                 var $ymalLiItem = $('<div class="product grid-20 tablet-grid-33 mobile-grid-50"></div>');
                 $(".ymal-slides").append($ymalLiItem);
                 $ymalLiItem.append($('<a href="' + jsonData[0].recs[i].url + '" peerius-item-id="' + jsonData[0].recs[i].id + '" title="' + jsonData[0].recs[i].title + '"><img src="' + jsonData[0].recs[i].img.replace(sizeRegex, "/250/").replace("/product/", "/global/") + '" alt="' + jsonData[0].recs[i].title + '" class="grid-image full-opacity"><h3>' + jsonData[0].recs[i].title + "</h3><p></p></a>"));
-                if (jsonData[0].recs[i].prices.GBP.salePrice == jsonData[0].recs[i].prices.GBP.unitPrice) $ymalLiItem.find("p").text("£" + jsonData[0].recs[i].prices.GBP.unitPrice);
-                else $ymalLiItem.find("p").html('<span class="recommendation-price price-strike-through">£' + jsonData[0].recs[i].prices.GBP.unitPrice + ' </span><span class="recommendation-sale">£' + jsonData[0].recs[i].prices.GBP.salePrice + "</span>")
+                if (jsonData[0].recs[i].prices.GBP.salePrice == jsonData[0].recs[i].prices.GBP.unitPrice) $ymalLiItem.find("p").text("Â£" + jsonData[0].recs[i].prices.GBP.unitPrice);
+                else $ymalLiItem.find("p").html('<span class="recommendation-price price-strike-through">Â£' + jsonData[0].recs[i].prices.GBP.unitPrice + ' </span><span class="recommendation-sale">Â£' + jsonData[0].recs[i].prices.GBP.salePrice + "</span>")
             } else {
                 break
             }
@@ -217,8 +217,8 @@ renderRecsWishlist = function(jsonData) {
                 var $ymalLiItem = $('<div class="product grid-20 tablet-grid-33 mobile-grid-50"></div>');
                 $(".ymal-slides").append($ymalLiItem);
                 $ymalLiItem.append($('<a href="' + jsonData[0].recs[i].url + '" peerius-item-id="' + jsonData[0].recs[i].id + '" title="' + jsonData[0].recs[i].title + '"><img src="' + jsonData[0].recs[i].img.replace(sizeRegex, "/250/").replace("/product/", "/global/") + '" alt="' + jsonData[0].recs[i].title + '" class="grid-image full-opacity"><h3>' + jsonData[0].recs[i].title + "</h3><p></p></a>"));
-                if (jsonData[0].recs[i].prices.GBP.salePrice == jsonData[0].recs[i].prices.GBP.unitPrice) $ymalLiItem.find("p").text("£" + jsonData[0].recs[i].prices.GBP.unitPrice);
-                else $ymalLiItem.find("p").html('<span class="recommendation-price price-strike-through">£' + jsonData[0].recs[i].prices.GBP.unitPrice + ' </span><span class="recommendation-sale">£' + jsonData[0].recs[i].prices.GBP.salePrice + "</span>")
+                if (jsonData[0].recs[i].prices.GBP.salePrice == jsonData[0].recs[i].prices.GBP.unitPrice) $ymalLiItem.find("p").text("Â£" + jsonData[0].recs[i].prices.GBP.unitPrice);
+                else $ymalLiItem.find("p").html('<span class="recommendation-price price-strike-through">Â£' + jsonData[0].recs[i].prices.GBP.unitPrice + ' </span><span class="recommendation-sale">Â£' + jsonData[0].recs[i].prices.GBP.salePrice + "</span>")
             } else {
                 break
             }
@@ -246,8 +246,8 @@ renderRecsAccount = function(jsonData) {
                 var $ymalLiItem = $('<div class="product grid-20 tablet-grid-33 mobile-grid-50"></div>');
                 $(".ymal-slides").append($ymalLiItem);
                 $ymalLiItem.append($('<a href="' + jsonData[0].recs[i].url + '" peerius-item-id="' + jsonData[0].recs[i].id + '" title="' + jsonData[0].recs[i].title + '"><img src="' + jsonData[0].recs[i].img.replace(sizeRegex, "/250/").replace("/product/", "/global/") + '" alt="' + jsonData[0].recs[i].title + '" class="grid-image full-opacity"><h3>' + jsonData[0].recs[i].title + "</h3><p></p></a>"));
-                if (jsonData[0].recs[i].prices.GBP.salePrice == jsonData[0].recs[i].prices.GBP.unitPrice) $ymalLiItem.find("p").text("£" + jsonData[0].recs[i].prices.GBP.unitPrice);
-                else $ymalLiItem.find("p").html('<span class="recommendation-price price-strike-through">£' + jsonData[0].recs[i].prices.GBP.unitPrice + ' </span><span class="recommendation-sale">£' + jsonData[0].recs[i].prices.GBP.salePrice + "</span>")
+                if (jsonData[0].recs[i].prices.GBP.salePrice == jsonData[0].recs[i].prices.GBP.unitPrice) $ymalLiItem.find("p").text("Â£" + jsonData[0].recs[i].prices.GBP.unitPrice);
+                else $ymalLiItem.find("p").html('<span class="recommendation-price price-strike-through">Â£' + jsonData[0].recs[i].prices.GBP.unitPrice + ' </span><span class="recommendation-sale">Â£' + jsonData[0].recs[i].prices.GBP.salePrice + "</span>")
             } else {
                 break
             }
@@ -903,8 +903,8 @@ var mainModule = function() {
                 var upsellToAdd = parseInt(125 - basketValue);
                 if (typeof toast_config !== "undefined" && toast_config.in_sale === false) {
                     if (upsellToAdd > 0 && basketValue > 84 && $("#mini-basket-upsell").length === 0 && $("#basket-upsell").length === 0) {
-                        $(".mini-basket-sub-total").before("<div id='mini-basket-upsell' style='margin-top:15px; color: #186aa2; text-align: center; text-transform: uppercase; letter-spacing: 1px' class='medFont'>Add £" + upsellToAdd + " more to your basket for free UK delivery and returns</div>");
-                        $("#submitBasket").prepend("<div id='basket-upsell' style='margin-bottom:15px; color: #186aa2; text-align: center; text-transform: uppercase; letter-spacing: 1px' class='medFont grid-100 tablet-grid-100 mobile-grid-100 grid-parent'>Add £" + upsellToAdd + " more to your basket for free UK delivery and returns</div>");
+                        $(".mini-basket-sub-total").before("<div id='mini-basket-upsell' style='margin-top:15px; color: #186aa2; text-align: center; text-transform: uppercase; letter-spacing: 1px' class='medFont'>Add Â£" + upsellToAdd + " more to your basket for free UK delivery and returns</div>");
+                        $("#submitBasket").prepend("<div id='basket-upsell' style='margin-bottom:15px; color: #186aa2; text-align: center; text-transform: uppercase; letter-spacing: 1px' class='medFont grid-100 tablet-grid-100 mobile-grid-100 grid-parent'>Add Â£" + upsellToAdd + " more to your basket for free UK delivery and returns</div>");
                         $("#continueShopping").css({
                             "float": "right"
                         })
@@ -1993,7 +1993,7 @@ var rangeModule = function() {
     };
     var displayNewPrice = function(theProduct) {
         if (typeof theProduct !== "undefined") {
-            var currency_symbol = tcp_env.currency_symbol === "&#163;" ? "£" : typeof tcp_env.currency_symbol !== "undefined" ? tcp_env.currency_symbol : "£";
+            var currency_symbol = tcp_env.currency_symbol === "&#163;" ? "Â£" : typeof tcp_env.currency_symbol !== "undefined" ? tcp_env.currency_symbol : "Â£";
             if ($("#salePrice").length > 0) $("#salePrice").remove();
             $(".nowPrice").removeClass("price-strike-through");
             var price = parseFloat(theProduct.price).toFixed(2);
@@ -2883,7 +2883,7 @@ var wishlistModule = function() {
         return ""
     };
     var getWishlistItemTemplate = function(parentItem, item, prop, matchedItem) {
-        var currency_symbol = tcp_env.currency_symbol === "&#163;" ? "£" : typeof tcp_env.currency_symbol !== "undefined" ? tcp_env.currency_symbol : "£";
+        var currency_symbol = tcp_env.currency_symbol === "&#163;" ? "Â£" : typeof tcp_env.currency_symbol !== "undefined" ? tcp_env.currency_symbol : "Â£";
         var newPrice = item.price;
         if (item.price.indexOf(",") != -1) {
             var priceBreakdown = item.price.split(",");
