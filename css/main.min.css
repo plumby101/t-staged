@@ -450,6 +450,20 @@ html,button,input,select,textarea{color:#222}#noscript{display:none;background-c
 input#ctl00_globalMainContent_chkReceiveThirdPartyCatalogs{ display: none }
 label[for="chkReceiveThirdPartyCatalogs"]{ display: none }
 
+/*Archive Sale page */
+.archiveContainer{text-align: center;margin-bottom: 50px;}
+.archive{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/1200/TOAST_SampleSale.jpg'); padding-top: 38.828%;margin-bottom: 65px;margin-top: 10px;}
+.archive h1{left: 0px;font-size: 36px; color: white;position: absolute;display: block;width: 100%;letter-spacing: 1px;top: 40%;}
+
+.archiveSub{left: 0px;color: white;font-size: 26px;letter-spacing: 1px;position: absolute; width: 100%; top: 50%;}
+.archiveBody h2{
+    font-size: text-align: center; font-size: 20px; letter-spacing: 1px;
+}
+.archiveBody p{font-size: 16px;letter-spacing: 1px;}
+.archiveBody p.archiveUpper{font-size: 20px;letter-spacing: 1px;}
+.archiveBottom{font-size: 16px; letter-spacing: 1px; padding-top: 20px;margin-bottom: 65px;}
+.archiveLower{padding-top: 20px;}
+
 @media only screen and (max-width: 1024px) 
 {
 
@@ -641,6 +655,10 @@ label[for="chkReceiveThirdPartyCatalogs"]{ display: none }
     .wwuTitle{font-size: 30px}
 
     .pb_downloadRow {margin:30px 0 40px 0}
+    
+    /*Archive Sale*/
+    .archive h1{top: 35%;font-size: 30px;}
+    .archiveSub{top: 55%;font-size: 20px;}
 }
 @media only screen and (max-width: 767px) 
 {
@@ -709,6 +727,10 @@ label[for="chkReceiveThirdPartyCatalogs"]{ display: none }
 	.aboutUsBanner .tileTitleMid {top:0;  font-size: 24px}
 	.aboutUsBanner p {font-size: 14px;margin-top: 0px; line-height: 18px}
 	.aboutUsLink {margin-bottom: 20px}
+    
+    /*archive sale page*/
+            .archive h1{top: 25%;font-size: 24px;}
+    .archiveSub{top: 50%;font-size: 16px;}
 }
 
 
@@ -741,6 +763,11 @@ label[for="chkReceiveThirdPartyCatalogs"]{ display: none }
 }  
 
 @media only screen and (max-width: 395px){
+    
+    /*archive sale page*/
+        .archive h1{top:14%;}
+    .archiveSub{top: 38%;}
+    
         
     .longDescTop{top: 36%}
 }
