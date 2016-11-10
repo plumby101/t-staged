@@ -8,6 +8,21 @@ html,button,input,select,textarea{color:#222}#noscript{display:none;background-c
 .textSemibold {font-family: "freight-text-pro", serif; font-weight:400}
 .textBold {font-family: "freight-text-pro", serif; font-weight:700}
 
+/* Swatches */
+
+.productHolder {width: 100%; background-color: #ffffff}
+.productImage {position: relative; width: 100%; float: left; padding-top: 124.933333333333%; overflow: hidden; cursor: pointer; border: none;background-color: #ffffff}
+.productImageHolder {position: absolute; left:0; top:0; width: 100%;  border: none; background-color: #ffffff}
+.productInfo {text-align: center; float: left; width: 100%; background-color: #ffffff}
+.productTitle {font-size: 16px; margin: 20px 0 5px 0; text-transform: uppercase;}
+.productPrice {font-size: 16px; margin: 0 0 5px 0; text-transform: uppercase;}
+.productReviewStars {font-size: 14px}
+.productSwatches {text-align: center; margin-top: 10px}
+.productSwatch {width: 24px; height: 24px; display: inline-block;  margin: 6px 3px 0px 3px; padding: 3px; border: 1px solid #cccccc;  cursor: pointer;}
+.productSelected {border-color: #000000}
+
+
+
 .textRight {text-align: right}
 
 .helvMedium {font-family: 'HelveticaNeueLT-MediumCond', 'pragmatica-web-condensed', arial, sans-serif}
