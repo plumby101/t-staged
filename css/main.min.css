@@ -457,7 +457,7 @@ label[for="chkReceiveThirdPartyCatalogs"]{ display: none }
 
 .archiveSub{left: 0px;color: white;font-size: 26px;letter-spacing: 1px;position: absolute; width: 100%; top: 50%;}
 .archiveBody h2{
-    font-size: text-align: center; font-size: 20px; letter-spacing: 1px;
+    font-size:20px; text-align: center; font-size: 20px; letter-spacing: 1px;
 }
 .archiveBody p{font-size: 16px;letter-spacing: 1px;}
 .archiveBody p.archiveUpper{font-size: 20px;letter-spacing: 1px;}
