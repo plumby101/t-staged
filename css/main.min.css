@@ -464,6 +464,13 @@ label[for="chkReceiveThirdPartyCatalogs"]{ display: none }
 .archiveBottom{font-size: 16px; letter-spacing: 1px; padding-top: 20px;margin-bottom: 65px;}
 .archiveLower{padding-top: 20px;}
 
+/*Works of the heart t's and c's page*/
+
+        .tsncs{margin-top: 40px; font-size: 26px; font-weight: 500;}
+.tsncs h1{font-weight: 600;letter-spacing: 1px;}      
+        .tsncs h2{font-size: 20px; font-weight: 500;}
+.tsncs p{font-size: 16px;}
+
 @media only screen and (max-width: 1024px) 
 {
 
