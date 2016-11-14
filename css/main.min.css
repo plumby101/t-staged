@@ -270,7 +270,7 @@ html,button,input,select,textarea{color:#222}#noscript{display:none;background-c
 .footerMessage {padding-top: 10px;float: left;width: 100%; text-align: center}
 .footerColHolder { padding-top: 20px}
 
-.marketingMessage {background-color: #dfdfdf; color: #000; width: 100%; padding:8px; text-transform: uppercase; font-family: 'HelveticaNeueLT-LightCond','pragmatica-web-condensed',arial,sans-serif; letter-spacing: 1px}
+.marketingMessage {background-color: #dfdfdf; color: #000; width: 100%; padding:8px; text-transform: uppercase; font-family: 'HelveticaNeueLT-LightCond','pragmatica-web-condensed',arial,sans-serif; letter-spacing: 1px; text-align: center;}
 
 /* Holy Variety Landing - TP */
 .hvTopRow { width: 100%;display: block; clear:both; padding-top: 62.96296%; background-size: 100% 100%;  position: relative; background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/1200/TOAST_HolyVariety_3_New.jpg'); background-size: 100% 100%}
