@@ -21,8 +21,6 @@ html,button,input,select,textarea{color:#222}#noscript{display:none;background-c
 .productSwatch {width: 24px; height: 24px; display: inline-block;  margin: 6px 3px 0px 3px; padding: 3px; border: 1px solid #cccccc;  cursor: pointer;}
 .productSelected {border-color: #000000}
 
-
-
 .textRight {text-align: right}
 
 .helvMedium {font-family: 'HelveticaNeueLT-MediumCond', 'pragmatica-web-condensed', arial, sans-serif}
@@ -463,6 +461,10 @@ label[for="chkReceiveThirdPartyCatalogs"]{ display: none }
 .archiveBody p.archiveUpper{font-size: 20px;letter-spacing: 1px;}
 .archiveBottom{font-size: 16px; letter-spacing: 1px; padding-top: 20px;margin-bottom: 65px;}
 .archiveLower{padding-top: 20px;}
+
+/*Competition social channel buttons */
+.competition_facebook, .competition_twitter, .competition_pintrest {width: 33%; float: left; text-align: center;}
+.competition_pintrest {margin-top: 5px}
 
 @media only screen and (max-width: 1024px) 
 {
