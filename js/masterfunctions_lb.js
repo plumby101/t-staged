@@ -50,7 +50,7 @@ renderRecsHome = function(jsonData) {
                 var pRecPrice = parseFloat(jsonData[0].recs[i].prices.GBP.unitPrice).toFixed(2).replace(".00", "");
                 if (jsonData[0].recs[i].prices.GBP.unitPrice != jsonData[0].recs[i].prices.GBP.salePrice)
                     pRecPrice = parseFloat(jsonData[0].recs[i].prices.GBP.salePrice).toFixed(2).replace(".00", "");
-                $($pRecs[i]).find(".p-rec-price").text("Â£" + pRecPrice);
+                $($pRecs[i]).find(".p-rec-price").text("£" + pRecPrice);
                 if (jsonData[0].recs[i].title.length > 12) {
                     $($pRecs[i]).find(".p-rec-title").text(jsonData[0].recs[i].title.slice(0, 12) + "...");
                     $($pRecs[i]).find(".p-rec-hover").text(jsonData[0].recs[i].title)
@@ -78,7 +78,7 @@ renderRecsLanding = function(jsonData) {
                 var pRecPrice = parseFloat(jsonData[0].recs[i].prices.GBP.unitPrice).toFixed(2).replace(".00", "");
                 if (jsonData[0].recs[i].prices.GBP.unitPrice != jsonData[0].recs[i].prices.GBP.salePrice)
                     pRecPrice = parseFloat(jsonData[0].recs[i].prices.GBP.salePrice).toFixed(2).replace(".00", "");
-                $($pRecs[i]).find(".p-rec-price").text("Â£" + pRecPrice);
+                $($pRecs[i]).find(".p-rec-price").text("£" + pRecPrice);
                 if (jsonData[0].recs[i].title.length > 12) {
                     $($pRecs[i]).find(".p-rec-title").text(jsonData[0].recs[i].title.slice(0, 12) + "...");
                     $($pRecs[i]).find(".p-rec-hover").text(jsonData[0].recs[i].title)
@@ -101,9 +101,9 @@ renderRecsSearch = function(jsonData) {
                 $(".ymal-slides").append($ymalLiItem);
                 $ymalLiItem.append($('<a href="' + jsonData[0].recs[i].url + '" peerius-item-id="' + jsonData[0].recs[i].id + '" title="' + jsonData[0].recs[i].title + '"><img src="' + jsonData[0].recs[i].img.replace(sizeRegex, "/250/").replace("/product/", "/global/") + '" alt="' + jsonData[0].recs[i].title + '" class="grid-image full-opacity"><h3>' + jsonData[0].recs[i].title + "</h3><p></p></a>"));
                 if (jsonData[0].recs[i].prices.GBP.salePrice == jsonData[0].recs[i].prices.GBP.unitPrice)
-                    $ymalLiItem.find("p").text("Â£" + jsonData[0].recs[i].prices.GBP.unitPrice);
+                    $ymalLiItem.find("p").text("£" + jsonData[0].recs[i].prices.GBP.unitPrice);
                 else
-                    $ymalLiItem.find("p").html('<span class="recommendation-price price-strike-through">Â£' + jsonData[0].recs[i].prices.GBP.unitPrice + ' </span><span class="recommendation-sale">Â£' + jsonData[0].recs[i].prices.GBP.salePrice + "</span>")
+                    $ymalLiItem.find("p").html('<span class="recommendation-price price-strike-through">£' + jsonData[0].recs[i].prices.GBP.unitPrice + ' </span><span class="recommendation-sale">£' + jsonData[0].recs[i].prices.GBP.salePrice + "</span>")
             } else {
                 break
             }
@@ -155,11 +155,11 @@ renderRecsBasket = function(jsonData) {
             if (i < 5) {
                 var $ymalLiItem = $('<div class="grid-20 mobile-grid-50 tablet-grid-20 basket-recommendations range-product" id="' + jsonData[0].recs[i].refCode + '" peerius-item-id="' + jsonData[0].recs[i].id + '"></div>');
                 $(".basket-recommendations-container .group-images").append($ymalLiItem);
-                var $newItem = $('<img class="grid-image"><span class="basket-recommendation-title">' + jsonData[0].recs[i].title + '</span><span class="basket-recommendation-price">Â£' + jsonData[0].recs[i].prices.GBP.unitPrice + "</span>");
+                var $newItem = $('<img class="grid-image"><span class="basket-recommendation-title">' + jsonData[0].recs[i].title + '</span><span class="basket-recommendation-price">£' + jsonData[0].recs[i].prices.GBP.unitPrice + "</span>");
                 $ymalLiItem.append($newItem);
                 if (jsonData[0].recs[i].prices.GBP.unitPrice != jsonData[0].recs[i].prices.GBP.salePrice) {
                     $ymalLiItem.find(".basket-recommendation-price").addClass("price-strike-through");
-                    $ymalLiItem.append('<span class="basket-recommendation-sale-price">Â£' + jsonData[0].recs[i].prices.GBP.salePrice + "</span>")
+                    $ymalLiItem.append('<span class="basket-recommendation-sale-price">£' + jsonData[0].recs[i].prices.GBP.salePrice + "</span>")
                 }
             } else {
                 break
@@ -193,9 +193,9 @@ renderRecsErrorPage = function(jsonData) {
                 $(".ymal-slides").append($ymalLiItem);
                 $ymalLiItem.append($('<a href="' + jsonData[0].recs[i].url + '" peerius-item-id="' + jsonData[0].recs[i].id + '" title="' + jsonData[0].recs[i].title + '"><img src="' + jsonData[0].recs[i].img.replace(sizeRegex, "/250/").replace("/product/", "/global/") + '" alt="' + jsonData[0].recs[i].title + '" class="grid-image full-opacity"><h3>' + jsonData[0].recs[i].title + "</h3><p></p></a>"));
                 if (jsonData[0].recs[i].prices.GBP.salePrice == jsonData[0].recs[i].prices.GBP.unitPrice)
-                    $ymalLiItem.find("p").text("Â£" + jsonData[0].recs[i].prices.GBP.unitPrice);
+                    $ymalLiItem.find("p").text("£" + jsonData[0].recs[i].prices.GBP.unitPrice);
                 else
-                    $ymalLiItem.find("p").html('<span class="recommendation-price price-strike-through">Â£' + jsonData[0].recs[i].prices.GBP.unitPrice + ' </span><span class="recommendation-sale">Â£' + jsonData[0].recs[i].prices.GBP.salePrice + "</span>")
+                    $ymalLiItem.find("p").html('<span class="recommendation-price price-strike-through">£' + jsonData[0].recs[i].prices.GBP.unitPrice + ' </span><span class="recommendation-sale">£' + jsonData[0].recs[i].prices.GBP.salePrice + "</span>")
             } else {
                 break
             }
@@ -224,9 +224,9 @@ renderRecsWishlist = function(jsonData) {
                 $(".ymal-slides").append($ymalLiItem);
                 $ymalLiItem.append($('<a href="' + jsonData[0].recs[i].url + '" peerius-item-id="' + jsonData[0].recs[i].id + '" title="' + jsonData[0].recs[i].title + '"><img src="' + jsonData[0].recs[i].img.replace(sizeRegex, "/250/").replace("/product/", "/global/") + '" alt="' + jsonData[0].recs[i].title + '" class="grid-image full-opacity"><h3>' + jsonData[0].recs[i].title + "</h3><p></p></a>"));
                 if (jsonData[0].recs[i].prices.GBP.salePrice == jsonData[0].recs[i].prices.GBP.unitPrice)
-                    $ymalLiItem.find("p").text("Â£" + jsonData[0].recs[i].prices.GBP.unitPrice);
+                    $ymalLiItem.find("p").text("£" + jsonData[0].recs[i].prices.GBP.unitPrice);
                 else
-                    $ymalLiItem.find("p").html('<span class="recommendation-price price-strike-through">Â£' + jsonData[0].recs[i].prices.GBP.unitPrice + ' </span><span class="recommendation-sale">Â£' + jsonData[0].recs[i].prices.GBP.salePrice + "</span>")
+                    $ymalLiItem.find("p").html('<span class="recommendation-price price-strike-through">£' + jsonData[0].recs[i].prices.GBP.unitPrice + ' </span><span class="recommendation-sale">£' + jsonData[0].recs[i].prices.GBP.salePrice + "</span>")
             } else {
                 break
             }
@@ -255,9 +255,9 @@ renderRecsAccount = function(jsonData) {
                 $(".ymal-slides").append($ymalLiItem);
                 $ymalLiItem.append($('<a href="' + jsonData[0].recs[i].url + '" peerius-item-id="' + jsonData[0].recs[i].id + '" title="' + jsonData[0].recs[i].title + '"><img src="' + jsonData[0].recs[i].img.replace(sizeRegex, "/250/").replace("/product/", "/global/") + '" alt="' + jsonData[0].recs[i].title + '" class="grid-image full-opacity"><h3>' + jsonData[0].recs[i].title + "</h3><p></p></a>"));
                 if (jsonData[0].recs[i].prices.GBP.salePrice == jsonData[0].recs[i].prices.GBP.unitPrice)
-                    $ymalLiItem.find("p").text("Â£" + jsonData[0].recs[i].prices.GBP.unitPrice);
+                    $ymalLiItem.find("p").text("£" + jsonData[0].recs[i].prices.GBP.unitPrice);
                 else
-                    $ymalLiItem.find("p").html('<span class="recommendation-price price-strike-through">Â£' + jsonData[0].recs[i].prices.GBP.unitPrice + ' </span><span class="recommendation-sale">Â£' + jsonData[0].recs[i].prices.GBP.salePrice + "</span>")
+                    $ymalLiItem.find("p").html('<span class="recommendation-price price-strike-through">£' + jsonData[0].recs[i].prices.GBP.unitPrice + ' </span><span class="recommendation-sale">£' + jsonData[0].recs[i].prices.GBP.salePrice + "</span>")
             } else {
                 break
             }
@@ -923,8 +923,8 @@ var mainModule = function() {
                 var upsellToAdd = parseInt(125 - basketValue);
                 if (typeof toast_config !== "undefined" && toast_config.in_sale === false) {
                     if (upsellToAdd > 0 && basketValue > 84 && $("#mini-basket-upsell").length === 0 && $("#basket-upsell").length === 0) {
-                        $(".mini-basket-sub-total").before("<div id='mini-basket-upsell' style='margin-top:15px; color: #186aa2; text-align: center; text-transform: uppercase; letter-spacing: 1px' class='medFont'>Add Â£" + upsellToAdd + " more to your basket for free UK delivery and returns</div>");
-                        $("#submitBasket").prepend("<div id='basket-upsell' style='margin-bottom:15px; color: #186aa2; text-align: center; text-transform: uppercase; letter-spacing: 1px' class='medFont grid-100 tablet-grid-100 mobile-grid-100 grid-parent'>Add Â£" + upsellToAdd + " more to your basket for free UK delivery and returns</div>");
+                        $(".mini-basket-sub-total").before("<div id='mini-basket-upsell' style='margin-top:15px; color: #186aa2; text-align: center; text-transform: uppercase; letter-spacing: 1px' class='medFont'>Add £" + upsellToAdd + " more to your basket for free UK delivery and returns</div>");
+                        $("#submitBasket").prepend("<div id='basket-upsell' style='margin-bottom:15px; color: #186aa2; text-align: center; text-transform: uppercase; letter-spacing: 1px' class='medFont grid-100 tablet-grid-100 mobile-grid-100 grid-parent'>Add £" + upsellToAdd + " more to your basket for free UK delivery and returns</div>");
                         $("#continueShopping").css({
                             "float": "right"
                         })
@@ -1742,7 +1742,7 @@ var rangeModule = function() {
         })
     };
     setCurrentObj = function(useSize) {
-		if (typeof rangeJson !== 'undefined')
+        if (typeof rangeJson !== 'undefined')
             return;
         var selectedCode = "";
         if (useSize) {
@@ -2046,7 +2046,7 @@ var rangeModule = function() {
     };
     var displayNewPrice = function(theProduct) {
         if (typeof theProduct !== "undefined") {
-            var currency_symbol = tcp_env.currency_symbol === "&#163;" ? "Â£" : typeof tcp_env.currency_symbol !== "undefined" ? tcp_env.currency_symbol : "Â£";
+            var currency_symbol = tcp_env.currency_symbol === "&#163;" ? "£" : typeof tcp_env.currency_symbol !== "undefined" ? tcp_env.currency_symbol : "£";
             if ($("#salePrice").length > 0)
                 $("#salePrice").remove();
             $(".nowPrice").removeClass("price-strike-through");
@@ -2367,8 +2367,10 @@ var rangeModule = function() {
                 $(this).addClass("selected-range-product");
                 currentWindowWidth = 0;
                 setCurrentObj(false);
-               // populateRangeBuyOffSection();
-               // populateRangeSizesBasedOnStock();
+                 if (isLookBook){
+                populateRangeBuyOffSection();
+                populateRangeSizesBasedOnStock();
+           }
                 toggleOpenDescription();
                 if (typeof wishlistModule.updateAddRemoveWishlistButton != "undefined") {
                     wishlistModule.updateAddRemoveWishlistButton()
@@ -2390,7 +2392,9 @@ var rangeModule = function() {
                     }
                 }
                 setRangeImage(true);
-               // populateRangeSizesBasedOnStock();
+                 if (isLookBook){
+                populateRangeSizesBasedOnStock();
+           }
                 displayNewPrice(currentIndividualObj)
             }
         });
@@ -2408,7 +2412,9 @@ var rangeModule = function() {
                 $(".size-selected").removeClass("size-selected");
                 $(this).addClass("size-selected");
                 setCurrentObj(true);
-               // populateRangeBuyOffSection();
+                 if (isLookBook){
+                populateRangeBuyOffSection();
+           }
                 setRangeItemQuantityEnabled();
                 setStockMessage();
                 toggleOpenDescription()
@@ -2430,8 +2436,10 @@ var rangeModule = function() {
                 populateRangeImages();
                 setCurrentObj(false);
                 setFadedOutRangeImagesBasedOnStock();
-              //  populateRangeBuyOffSection();
-              //  populateRangeSizesBasedOnStock();
+                 if (isLookBook){
+               populateRangeBuyOffSection();
+               populateRangeSizesBasedOnStock();
+          }
                 toggleOpenDescription()
             }
         });
@@ -2443,8 +2451,11 @@ var rangeModule = function() {
                 populateRangeImages();
                 setCurrentObj(false);
                 setFadedOutRangeImagesBasedOnStock();
-                //populateRangeBuyOffSection();
-                //populateRangeSizesBasedOnStock()
+                
+                 if (isLookBook){
+                populateRangeBuyOffSection();
+                populateRangeSizesBasedOnStock()
+            }
             }
         });
         $(".main-product-image").load(function(e) {
@@ -2466,7 +2477,12 @@ var rangeModule = function() {
         setBreadcrumb()
     }
     $(document).ready(function() {
-        // $(".template-buy-off").after(getRangeBuyOffTemplate());
+        if (typeof isLookBook == 'undefined') {
+            isLookBook = false
+        }
+        if (isLookBook){
+        $(".template-buy-off").after(getRangeBuyOffTemplate());
+    }
         $(".lightbox-template-buy-off").after(getLightboxTemplate());
         if ($("#range-lifestyle-holder").data("src") != "" && $("#range-lifestyle-holder").data("src") != "undefined") {
             $(".range-lifestyle").attr("src", $("#range-lifestyle-holder").data("src"))
@@ -2528,9 +2544,9 @@ var rangeModule = function() {
         toggleOpenDescription: toggleOpenDescription,
         setCurrentObj: setCurrentObj,
         populateRangeImages: populateRangeImages,
-       // populateRangeBuyOffSection: populateRangeBuyOffSection,
+        populateRangeBuyOffSection: populateRangeBuyOffSection,
         setFadedOutRangeImagesBasedOnStock: setFadedOutRangeImagesBasedOnStock,
-       // populateRangeSizesBasedOnStock: populateRangeSizesBasedOnStock,
+        populateRangeSizesBasedOnStock: populateRangeSizesBasedOnStock,
         initAddToBasket: initAddToBasket,
         setBaseBuyOffVars: setBaseBuyOffVars,
         addRangeListeners: addRangeListeners,
@@ -2960,7 +2976,7 @@ var wishlistModule = function() {
         return ""
     };
     var getWishlistItemTemplate = function(parentItem, item, prop, matchedItem) {
-        var currency_symbol = tcp_env.currency_symbol === "&#163;" ? "Â£" : typeof tcp_env.currency_symbol !== "undefined" ? tcp_env.currency_symbol : "Â£";
+        var currency_symbol = tcp_env.currency_symbol === "&#163;" ? "£" : typeof tcp_env.currency_symbol !== "undefined" ? tcp_env.currency_symbol : "£";
         var newPrice = item.price;
         if (item.price.indexOf(",") != -1) {
             var priceBreakdown = item.price.split(",");
@@ -3313,7 +3329,7 @@ var reviewDisplayModule = function() {
         var diffDays = Math.round(Math.abs((dateSubmitted.getTime() - (new Date).getTime()) / oneDay));
         var diffHours = Math.round(((new Date).getTime() - dateSubmitted.getTime()) / 1e3 / 60 / 60);
         var percentToShow = Math.ceil(review.Rating / 5 * 100);
-        return reviewNode = $(['<li class="review-content-top-review review-content-review" itemprop="review" itemscope="" itemtype="http://schema.org/Review">', '<meta itemprop="itemReviewed" content="' + $(".product-info h1").text() + '">', '<div class="review-content-item">', '<div class="review-content-data-summary">', '<div class="review-content-header-meta">', '<span class="review-content-rating review-rating-ratio" itemprop="reviewRating" itemscope="" itemtype="http://schema.org/Rating" tabindex="0">', '<meta itemprop="ratingValue" content="' + review.Rating + '">', '<meta itemprop="bestRating" content="' + bestRating + '">', '<span class="review-rating-stars-container">', '<abbr title="' + review.Rating + '" class="review-rating review-rating-stars review-rating-stars-off visuallyHidden" aria-hidden="true">â˜…â˜…â˜…â˜…â˜…</abbr>', '<abbr title="' + review.Rating + '" style="width:' + percentToShow + '%;" class="review-rating-max review-rating-stars review-rating-stars-on" aria-hidden="true">â˜…â˜…â˜…â˜…â˜…</abbr>', '<span class="review-off-screen visuallyHidden">' + review.Rating + " out of 5 stars.</span>", "</span>", "</span>", '<div class="review-content-meta-wrapper">', '<div class="review-content-meta" role="presentation">', '<div class="review-content-reference-data review-content-author-name">', '<h3 class="review-author font-weight-300 medFont" itemprop="author">' + review.UserNickname + "</h3>", '<div class="review-content-datetime" role="presentation">', '<meta itemprop="dateCreated" content="' + dateSubmitted.getDate() + "/" + dateSubmitted.getMonth() + "/" + dateSubmitted.getFullYear() + '">', '<meta itemprop="datePublished" content="' + dateModerated.getDate() + "/" + dateModerated.getMonth() + "/" + dateModerated.getFullYear() + '">', diffHours > 24 ? '<span class="review-content-datetime-stamp">' + dateSubmitted.toDateString() + "</span>" : '<span class="review-content-datetime-stamp">' + diffHours + " hours ago &nbsp;</span>", "</div>", "</div>", "</div>", "</div>", "</div>", '<div class="review-content-title-container">', review.IsRatingsOnly === false ? '<h4 class="review-content-title font-weight-300 medFont" itemprop="headline">' + review.Title + "</h4>" : "", "</div>", "</div>", '<div class="review-content-summary-body" itemprop="reviewBody">', '<div class="review-content-summary-body-text">', review.IsRatingsOnly === false ? "<p>" + review.ReviewText + "</p>" : "", "</div>", "</div>", '<div class="review-secondary-ratings" role="presentation">', '<dl class="review-content-secondary-ratings" role="presentation">', "</dl>", "</div>", "</div>", "</li>"].join(""))
+        return reviewNode = $(['<li class="review-content-top-review review-content-review" itemprop="review" itemscope="" itemtype="http://schema.org/Review">', '<meta itemprop="itemReviewed" content="' + $(".product-info h1").text() + '">', '<div class="review-content-item">', '<div class="review-content-data-summary">', '<div class="review-content-header-meta">', '<span class="review-content-rating review-rating-ratio" itemprop="reviewRating" itemscope="" itemtype="http://schema.org/Rating" tabindex="0">', '<meta itemprop="ratingValue" content="' + review.Rating + '">', '<meta itemprop="bestRating" content="' + bestRating + '">', '<span class="review-rating-stars-container">', '<abbr title="' + review.Rating + '" class="review-rating review-rating-stars review-rating-stars-off visuallyHidden" aria-hidden="true">&#9733;&#9733;&#9733;&#9733;&#9733;</abbr>', '<abbr title="' + review.Rating + '" style="width:' + percentToShow + '%;" class="review-rating-max review-rating-stars review-rating-stars-on" aria-hidden="true">&#9733;&#9733;&#9733;&#9733;&#9733;</abbr>', '<span class="review-off-screen visuallyHidden">' + review.Rating + " out of 5 stars.</span>", "</span>", "</span>", '<div class="review-content-meta-wrapper">', '<div class="review-content-meta" role="presentation">', '<div class="review-content-reference-data review-content-author-name">', '<h3 class="review-author font-weight-300 medFont" itemprop="author">' + review.UserNickname + "</h3>", '<div class="review-content-datetime" role="presentation">', '<meta itemprop="dateCreated" content="' + dateSubmitted.getDate() + "/" + dateSubmitted.getMonth() + "/" + dateSubmitted.getFullYear() + '">', '<meta itemprop="datePublished" content="' + dateModerated.getDate() + "/" + dateModerated.getMonth() + "/" + dateModerated.getFullYear() + '">', diffHours > 24 ? '<span class="review-content-datetime-stamp">' + dateSubmitted.toDateString() + "</span>" : '<span class="review-content-datetime-stamp">' + diffHours + " hours ago &nbsp;</span>", "</div>", "</div>", "</div>", "</div>", "</div>", '<div class="review-content-title-container">', review.IsRatingsOnly === false ? '<h4 class="review-content-title font-weight-300 medFont" itemprop="headline">' + review.Title + "</h4>" : "", "</div>", "</div>", '<div class="review-content-summary-body" itemprop="reviewBody">', '<div class="review-content-summary-body-text">', review.IsRatingsOnly === false ? "<p>" + review.ReviewText + "</p>" : "", "</div>", "</div>", '<div class="review-secondary-ratings" role="presentation">', '<dl class="review-content-secondary-ratings" role="presentation">', "</dl>", "</div>", "</div>", "</li>"].join(""))
     };
     var addSecondarySection = function(secondaryRatingObj, $reviewElement) {
         if (typeof secondaryRatingObj !== "boolean" && secondaryRatingObj !== null) {
@@ -3420,7 +3436,7 @@ var reviewDisplayModule = function() {
                             $("#review-section header h2").text("Review (" + data.TotalResults + ")")
                         }
                         $("#reviewSummaryContainer").show();
-                        var summaryBar = $(['<dl class="review-stars-container" itemprop="aggregateRating" itemscope="" itemtype="http://schema.org/AggregateRating" role="presentation">', '<meta itemprop="itemReviewed" content="' + $(".product-info h1").text() + '">', '<dd class="review-rating-ratio-count visuallyHidden" role="presentation">', '<span itemprop="reviewCount">Reviews ' + data.TotalResults + "</span>", "</dd>", '<dd class="review-rating-ratio" role="presentation">', '<span class="review-rating-stars-on review-rating-stars" aria-hidden="true"><span style="width: ' + percentToShow + '%;">â˜…â˜…â˜…â˜…â˜…</span></span>', '<meta itemprop="bestRating" content="' + bestRating + '">', '<span class="review-off-screen visuallyHidden">' + reviewCompiledResultsAvg + " out of 5 stars. Read reviews.</span>", "</dd>", '<dd class="review-rating-ratio-number" role="presentation" aria-hidden="true">', '<span class="review-rating">', '<span itemprop="ratingValue">' + reviewCompiledResultsAvg + " / 5.0</span>", "</span>", "</dd>", "</dl>"].join(""));
+                        var summaryBar = $(['<dl class="review-stars-container" itemprop="aggregateRating" itemscope="" itemtype="http://schema.org/AggregateRating" role="presentation">', '<meta itemprop="itemReviewed" content="' + $(".product-info h1").text() + '">', '<dd class="review-rating-ratio-count visuallyHidden" role="presentation">', '<span itemprop="reviewCount">Reviews ' + data.TotalResults + "</span>", "</dd>", '<dd class="review-rating-ratio" role="presentation">', '<span class="review-rating-stars-on review-rating-stars" aria-hidden="true"><span style="width: ' + percentToShow + '%;">&#9733;&#9733;&#9733;&#9733;&#9733;</span></span>', '<meta itemprop="bestRating" content="' + bestRating + '">', '<span class="review-off-screen visuallyHidden">' + reviewCompiledResultsAvg + " out of 5 stars. Read reviews.</span>", "</dd>", '<dd class="review-rating-ratio-number" role="presentation" aria-hidden="true">', '<span class="review-rating">', '<span itemprop="ratingValue">' + reviewCompiledResultsAvg + " / 5.0</span>", "</span>", "</dd>", "</dl>"].join(""));
                         if (!newSort) {
                             $("#reviewSummaryContainer").html(summaryBar)
                         }
@@ -3497,7 +3513,7 @@ var reviewDisplayModule = function() {
                                     $theProdAnchor.append('<meta itemprop="averageRating" content="' + averageRatingVal + '">');
                                     $theProdAnchor.append('<meta itemprop="totalReviews" content="' + data.Results[i].ProductStatistics.NativeReviewStatistics.TotalReviewCount + '">');
                                     $theProd.find("a > p, a > h3").wrapAll('<div class="cat-prod-details" />');
-                                    $theProd.find(".cat-prod-details").prepend('<span class="review-rating-stars-on review-rating-stars grid-100 tablet-grid-100 mobile-grid-100 grid-parent"><span class="stars-maintain-width"><span class="float-left"><span class="stars-block">â˜…â˜…â˜…â˜…â˜…</span></span><span class="number-of-reviews"></span></span></span>');
+                                    $theProd.find(".cat-prod-details").prepend('<span class="review-rating-stars-on review-rating-stars grid-100 tablet-grid-100 mobile-grid-100 grid-parent"><span class="stars-maintain-width"><span class="float-left"><span class="stars-block">&#9733;&#9733;&#9733;&#9733;&#9733;</span></span><span class="number-of-reviews"></span></span></span>');
                                     var percentToShow = averageRatingVal / 5 * 100;
                                     $theProd.find(".stars-block").css("width", percentToShow + "%");
                                     $theProd.find(".number-of-reviews").text("(" + data.Results[i].ProductStatistics.NativeReviewStatistics.TotalReviewCount + ")")

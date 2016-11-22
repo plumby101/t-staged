@@ -1140,16 +1140,20 @@ var mainModule = function() {
             }
         }
         var mobileNavObj = "";
+        var mobileNavCounter = 0;
+
         $(".new-cat-nav .nav-option").each(function() {
             var $thisAnchor = $(this).find("> div > a");
             mobileNavObj += "<li class='nav-option'><a href='" + $thisAnchor.attr("href") + "' " + (typeof $thisAnchor.attr("style") !== "undefined" ? "style='" + $thisAnchor.attr("style") + "'" : "") + ">" + $thisAnchor.text() + "</a></li>";
             if ($(this).find(".new-sub-nav li").length > 0) {
                 var thisSubNav = "<li><ul class='mobile-sub-nav'>";
                 $(this).find(".new-sub-nav .main-link, .new-sub-nav .new-sub-nav-list-heading").each(function() {
+                   
                     var $thisSubAnchor = $(this).find("a");
                     if ($(this).hasClass("new-sub-nav-list-heading")) {
-                        thisSubNav += "<li class='nav-option'><a href='#' class='mobile-sub-list-heading'>+ " + $(this).text() + "</a></li>";
-                        var thisSubList = "<li><ul class='mobile-sub-list'>";
+                        mobileNavCounter++
+                        thisSubNav += "<li class='nav-option subNavItem" + mobileNavCounter +"' id='"+$(this).text()+"'><a href='#' class='mobile-sub-list-heading'>+ " + $(this).text() + "</a></li>";
+                        var thisSubList = "<li id='"+$(this).text()+"-sub'><ul class='mobile-sub-list' >";
                         $(this).parent().parent().parent().find("[data-parent=" + $(this).data("category") + "]").each(function() {
                             thisSubList += "<li class='nav-option'><a href='" + $(this).find("a").attr("href") + "' " + (typeof $(this).find("a").attr("style") !== "undefined" ? "style='" + $(this).find("a").attr("style") + "'" : "") + ">- " + $(this).text() + "</a></li>"
                         });
@@ -1159,9 +1163,30 @@ var mainModule = function() {
                     }
                 });
                 mobileNavObj += thisSubNav + "</ul></li>"
+              
             }
         });
         $(".menu-nav").prepend(mobileNavObj);
+ 
+
+        // New JS updated to move clothing items on mobile 
+        $(".mobile-sub-nav:first").prepend("<li>"+$("#Footwear-sub").html()+"</li>")
+        $(".mobile-sub-nav:first").prepend("<li class='nav-option'>"+$("#Footwear").html()+"</li>")
+
+        $(".mobile-sub-nav:first").prepend("<li>"+$("#Accessories-sub").html()+"</li>")
+        $(".mobile-sub-nav:first").prepend("<li class='nav-option'>"+$("#Accessories").html()+"</li>")
+
+        $(".mobile-sub-nav:first").prepend("<li>"+$("#Clothing-sub").html()+"</li>")
+        $(".mobile-sub-nav:first").prepend("<li class='nav-option'>"+$("#Clothing").html()+"</li>")
+
+        $("#Footwear-sub").remove()
+        $("#Footwear").remove()
+        $("#Accessories-sub").remove()
+        $("#Accessories").remove()
+        $("#Clothing-sub").remove()
+        $("#Clothing").remove()
+
+
         $(".menu-nav > li > a").click(function(e) {
             e.preventDefault();
             var expandClick = "Click";
@@ -1602,7 +1627,7 @@ var rangeModule = function() {
             selectedNameFinder: function(button) {
                 if (!button)
                     return null;
-                return (typeof currentIndividualObj === 'undefined') ? button.parent().find(".product-info-tcpl h3").text() : button.parent().find(".product-info h3").text()
+                return button.parent().find(".product-info h3").text()
             },
             waitInitHandler: function() {
                 document.body.style.cursor = "wait"
@@ -1717,6 +1742,8 @@ var rangeModule = function() {
         })
     };
     setCurrentObj = function(useSize) {
+		if (typeof rangeJson !== 'undefined')
+            return;
         var selectedCode = "";
         if (useSize) {
             selectedCode = $(".size-selected").attr("prod-id")
@@ -1917,7 +1944,7 @@ var rangeModule = function() {
             $stockMsg.show().html('<span class="message-text">We have a limited number of this item left in your selected size.</span>');
             $sizeElem.addClass("low-stock")
         } else if (typeof $sizeElem.attr("low-stock") !== "undefined" && $sizeElem.attr("pre-order").length > 0) {
-            $stockMsg.show().html('<span class="message-text">Your selected size is expected in our warehouse on ' + $sizeElem.attr("pre-order") + ". You can still order â€“ we will send your item out to you as soon as it arrives.</span>");
+            $stockMsg.show().html('<span class="message-text">Your selected size is expected in our warehouse on ' + $sizeElem.attr("pre-order") + ". You can still order, we will send your item out to you as soon as it arrives.</span>");
             $sizeElem.addClass("pre-order")
         } else {
             $stockMsg.hide()
@@ -3470,7 +3497,7 @@ var reviewDisplayModule = function() {
                                     $theProdAnchor.append('<meta itemprop="averageRating" content="' + averageRatingVal + '">');
                                     $theProdAnchor.append('<meta itemprop="totalReviews" content="' + data.Results[i].ProductStatistics.NativeReviewStatistics.TotalReviewCount + '">');
                                     $theProd.find("a > p, a > h3").wrapAll('<div class="cat-prod-details" />');
-                                    $theProd.find(".cat-prod-details").prepend('<span class="review-rating-stars-on review-rating-stars grid-100 tablet-grid-100 mobile-grid-100 grid-parent"><span class="stars-maintain-width"><span class="float-left"><span class="stars-block">â˜…â˜…â˜…â˜…â˜…</span></span><span class="number-of-reviews"></span></span></span>');
+                                    $theProd.find(".cat-prod-details").prepend('<span class="review-rating-stars-on review-rating-stars grid-100 tablet-grid-100 mobile-grid-100 grid-parent"><span class="stars-maintain-width"><span class="float-left"><span class="stars-block">&#9733;&#9733;&#9733;&#9733;&#9733;</span></span><span class="number-of-reviews"></span></span></span>');
                                     var percentToShow = averageRatingVal / 5 * 100;
                                     $theProd.find(".stars-block").css("width", percentToShow + "%");
                                     $theProd.find(".number-of-reviews").text("(" + data.Results[i].ProductStatistics.NativeReviewStatistics.TotalReviewCount + ")")
