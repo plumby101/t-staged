@@ -505,6 +505,8 @@ label[for="chkReceiveThirdPartyCatalogs"]{ display: none }
 /*Competition social channel buttons */
 .competition_facebook, .competition_twitter, .competition_pintrest {width: 33%; float: left; text-align: center;}
 .competition_pintrest {margin-top: 5px}
+.socialShares {margin-bottom: 20px 0; display: none; text-align: center;}
+.socialShares p {margin:20px 0;}
 
 @media only screen and (max-width: 1024px) 
 {
