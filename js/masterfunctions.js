@@ -1152,8 +1152,13 @@ var mainModule = function() {
                     var $thisSubAnchor = $(this).find("a");
                     if ($(this).hasClass("new-sub-nav-list-heading")) {
                         mobileNavCounter++
+<<<<<<< HEAD
+                        thisSubNav += "<li class='nav-option subNavItem" + mobileNavCounter +"' id='"+$(this).text()+"'><a href='#' class='mobile-sub-list-heading'>+ " + $(this).text() + "</a></li>";
+                        var thisSubList = "<li id='"+$(this).text()+"-sub'><ul class='mobile-sub-list' >";
+=======
                         thisSubNav += "<li class='nav-option subNavItem" + mobileNavCounter +"'><a href='#' class='mobile-sub-list-heading'>+ " + $(this).text() + "</a></li>";
                         var thisSubList = "<li><ul class='mobile-sub-list'>";
+>>>>>>> origin/master
                         $(this).parent().parent().parent().find("[data-parent=" + $(this).data("category") + "]").each(function() {
                             thisSubList += "<li class='nav-option'><a href='" + $(this).find("a").attr("href") + "' " + (typeof $(this).find("a").attr("style") !== "undefined" ? "style='" + $(this).find("a").attr("style") + "'" : "") + ">- " + $(this).text() + "</a></li>"
                         });
@@ -3497,7 +3502,11 @@ var reviewDisplayModule = function() {
                                     $theProdAnchor.append('<meta itemprop="averageRating" content="' + averageRatingVal + '">');
                                     $theProdAnchor.append('<meta itemprop="totalReviews" content="' + data.Results[i].ProductStatistics.NativeReviewStatistics.TotalReviewCount + '">');
                                     $theProd.find("a > p, a > h3").wrapAll('<div class="cat-prod-details" />');
+<<<<<<< HEAD
+                                    $theProd.find(".cat-prod-details").prepend('<span class="review-rating-stars-on review-rating-stars grid-100 tablet-grid-100 mobile-grid-100 grid-parent"><span class="stars-maintain-width"><span class="float-left"><span class="stars-block">&#9733;&#9733;&#9733;&#9733;&#9733;</span></span><span class="number-of-reviews"></span></span></span>');
+=======
                                     $theProd.find(".cat-prod-details").prepend('<span class="review-rating-stars-on review-rating-stars grid-100 tablet-grid-100 mobile-grid-100 grid-parent"><span class="stars-maintain-width"><span class="float-left"><span class="stars-block">★★★★★</span></span><span class="number-of-reviews"></span></span></span>');
+>>>>>>> origin/master
                                     var percentToShow = averageRatingVal / 5 * 100;
                                     $theProd.find(".stars-block").css("width", percentToShow + "%");
                                     $theProd.find(".number-of-reviews").text("(" + data.Results[i].ProductStatistics.NativeReviewStatistics.TotalReviewCount + ")")
