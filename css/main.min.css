@@ -17,8 +17,8 @@ html,button,input,select,textarea{color:#222}#noscript{display:none;background-c
 .productTitle {font-size: 16px; margin: 20px 0 5px 0; text-transform: uppercase;}
 .productPrice {font-size: 16px; margin: 0 0 5px 0; text-transform: uppercase;}
 .productReviewStars {font-size: 14px}
-.productSwatches {text-align: center; margin-top: 10px}
-.productSwatch {width: 24px; height: 24px; display: inline-block;  margin: 6px 3px 0px 3px; padding: 3px; border: 1px solid #cccccc;  cursor: pointer;}
+.productSwatches {text-align: center; margin-top: 18px}
+.productSwatch {width: 22px;height: 22px;display: inline-block; margin: 6px 3px 0px 3px; padding: 4px; border: 1px solid #cccccc; cursor: pointer;}
 .productSelected {border-color: #000000}
 
 .textRight {text-align: right}
