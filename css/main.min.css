@@ -538,6 +538,17 @@ label[for="chkReceiveThirdPartyCatalogs"]{ display: none }
 .socialShares {margin-bottom: 20px 0; display: none; text-align: center;}
 .socialShares p {margin:20px 0;}
 
+
+/*Store events page*/
+
+.pSpacerTnB{
+    margin:30px 0px;
+}
+.smallPrint{
+    letter-spacing: 1px;
+    font-familY: "freight-sans-pro", sans-serif;
+}
+
 @media only screen and (max-width: 1024px) 
 {
 
