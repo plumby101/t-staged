@@ -502,6 +502,35 @@ label[for="chkReceiveThirdPartyCatalogs"]{ display: none }
 .adventDescA{text-align: center; margin-top: 11%;}
 .adventDescB{text-align: center; margin-top: 14%;}
 .adventDescA h1, .adventDescB h1{font-size: 20px; font-family: "Freight-text-pro", serif;}
+.ac_boxHolder{position: relative;background-image:url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/1200/TOAST_AdventCompetition_1A.jpg');background-size: 100%;padding-top: 63%;display: none;}
+      .doorContainer{position: absolute; background-color: rgba(200,200,200,0.3);top: 12%;width: 90%; margin-left: 5%; margin-right: 5%;}
+      .ac_dayBox{letter-spacing: 2px;font-size:18px;position: relative;float: left;width: 20%; margin: 2.5%;background-color: rgba(255,255,255,0.2);}
+      .day1{position: relative;padding-top: 62%;background-image:url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/1200/TOAST_ChristmasRefresh_Homepage_1.jpg');background-size: 100%; }
+      .day2{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/1100/AW16_CategoryPages_OAS_3.jpg');background-size: 100%;}
+      .day3{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/1200/AW16_CategoryPages_Favourites_New.jpg');background-size: 100%;}
+      .day4{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/750/TOAST_AsianStyling_1_New.jpg');background-size: 100%;}
+      .day5{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/1553/TOAST_SoftColours_6a.jpg');background-size: 100%;}
+      .day6{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/1100/AW16_CategoryPages_BagsBelts.jpg');background-size: 100%;}
+      .day7{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/1100/AW16_CategoryPages_HatsScarvesGloves_New3.jpg');background-size: 100%;}
+      .day8{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/1100/AW16_CategoryPages_Jewellery.jpg');background-size: 100%;}
+      .day9{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/1100/AW16_CategoryPages_Socks.jpg');background-size: 100%;}
+      .day10{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/1100/AW16_CategoryPages_Sunglasses.jpg');background-size: 100%;}
+      .day11{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/1200/TOAST_Christmas_HouseandHome_1.jpg');background-size: 100%;}
+      .day12{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/768/TOAST_Christmas_Homepage_5.jpg');background-size: 100%;}
+      
+      .day2,.day3,.day4,.day5,.day6,.day7,.day8,.day9,.day10,.day11,.day12{padding-top: 62%;}
+      .enabled{opacity: 1;}
+      .enabled div{color: black}
+      .disabled{background-color: rgba(255,255,255,0.1);}
+      .disabled div{color: white;}
+      .blank{background-image: none; !important}
+      .d1, .d2, .d3, .d4, .d5 {position: absolute;width: 100%; text-align: center;top: 40%;color: white;}
+      .descBox{margin: 50px 0px; display: none;} 
+      .adventProductImage{}
+      .adventProductDescription {text-align: center;}
+      .loader p{font-size: 16px;margin: 40% 0%;text-align: center;}
+      
+
 
 /*Competition social channel buttons */
 .competition_facebook, .competition_twitter, .competition_pintrest {width: 33%; float: left; text-align: center;}
@@ -625,6 +654,13 @@ label[for="chkReceiveThirdPartyCatalogs"]{ display: none }
     
     /*christmas gift guide page*/
     .cgg_5 .tileTitle{top: 60%;}
+    
+    /*Advent page*/
+    .ac_boxHolder{padding-top: 100%;}
+    .ac_dayBox{width: 28.25%;}
+    .doorContainer{top: 10%;}
+     
+     
 }
 @media only screen and (max-width: 768px) 
 {
@@ -719,6 +755,10 @@ label[for="chkReceiveThirdPartyCatalogs"]{ display: none }
     
     /*advent page*/
     .adventDescA, .adventDescB{text-align: center; margin-top: 40px;}
+    .ac_boxHolder{padding-top: 194%;background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/1200/TOAST_AdventCompetition_1C.jpg');}
+    .ac_dayBox{width: 45%;}
+    .doorContainer{top: 4%;}
+      
     
 }
 @media only screen and (max-width: 767px) 
