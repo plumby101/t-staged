@@ -1,10 +1,21 @@
-/*$("body").prepend("<div class='marketing-message grid-100 tablet-grid-100 mobile-grid-100 grid-parent'>Customer Notice: Our site is undergoing scheduled maintenance today between 10:00 and 13:00 (GMT). Some site features may be affected. Thank you for your patience. </div>");
-$(".marketing-message").css({textTransform: "none", height: "auto", lineHeight: "1.5em", padding: "5px"});*/
+ function flagSwap() {
+	str = $(".menu__title").text()
+	rg = /[a-zA-Z]+/g
+	el = $('#footer-country-select .has-flag-uk').first();
+	el.html(el.html().replace(/GBP/ig, str.match(rg)[0]));
+
+	currentFlag = $(".has-flag").attr('class').split(' ').pop();
+	$("#footerCountryFlag").removeClass("has-flag-uk");
+	$("#footerCountryFlag").addClass(currentFlag);
+}
 
 $('.buy-off-container #ctl00_globalMainContent_btnCheckout').attr('href', '/basket.htm');
 
 // DOC READY SECTION - Page ready only scripts
 $(document).ready(function() {
+
+	 flagSwap() 
+
 	if (typeof toast_config !== "undefined" && toast_config.in_sale === true) {
 		$('.standard-pp').show();
 	} else {
@@ -30,3 +41,7 @@ setTimeout(function(){var a=document.createElement("script");
 var b=document.getElementsByTagName("script")[0];
 a.src=document.location.protocol+"//dnn506yrbagrg.cloudfront.net/pages/scripts/0014/1479.js?"+Math.floor(new Date().getTime()/3600000);
 a.async=true;a.type="text/javascript";b.parentNode.insertBefore(a,b)}, 1);
+
+
+
+
