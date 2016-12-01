@@ -1144,7 +1144,7 @@ var mainModule = function() {
 
         $(".new-cat-nav .nav-option").each(function() {
             var $thisAnchor = $(this).find("> div > a");
-            mobileNavObj += "<li class='nav-option'><a href='" + $thisAnchor.attr("href") + "' " + (typeof $thisAnchor.attr("style") !== "undefined" ? "style='" + $thisAnchor.attr("style") + "'" : "") + ">" + $thisAnchor.text() + "</a></li>";
+            mobileNavObj += "<li class='nav-option "+$thisAnchor.text().replace(/ /g,"-").toLowerCase()+"'><a href='" + $thisAnchor.attr("href") + "' " + (typeof $thisAnchor.attr("style") !== "undefined" ? "style='" + $thisAnchor.attr("style") + "'" : "") + ">" + $thisAnchor.text() + "</a></li>";
             if ($(this).find(".new-sub-nav li").length > 0) {
                 var thisSubNav = "<li><ul class='mobile-sub-nav'>";
                 $(this).find(".new-sub-nav .main-link, .new-sub-nav .new-sub-nav-list-heading").each(function() {
@@ -3479,8 +3479,6 @@ var reviewDisplayModule = function() {
         })
     };
     var callCategoryReviews = function() {
-        console.log("Call category reviews")
-
         var reviewCodeCollection = [];
         var commaSeparatedIds = "";
         if (typeof productJson === "undefined") {
@@ -3498,8 +3496,6 @@ var reviewDisplayModule = function() {
         }
         $.ajax({
             url: "//api.bazaarvoice.com/data/statistics.json?apiversion=5.4&passkey=9qho0pl4cxnt05nqnt3y6yzk6&Filter=ProductId:" + commaSeparatedIds + "&Limit:100&stats=NativeReviews",
-            //url: "//api.bazaarvoice.com/data/statistics.json?apiversion=5.4&passkey=9qho0pl4cxnt05nqnt3y6yzk6&Filter=ProductId:C0GCB&Limit:100&stats=NativeReviews",
-            type: "GET",
             type: "GET",
             contentType: "application/json; charset=utf-8",
             dataType: "jsonp",
@@ -3510,18 +3506,17 @@ var reviewDisplayModule = function() {
                         if (data.Results[i].ProductStatistics.NativeReviewStatistics.TotalReviewCount !== 0) {
                             var thisProdId = data.Results[i].ProductStatistics.ProductId;
                             for (var k = 0; k < keyArr.length; k++) {
-                                var $theProd = $("#" + thisProdId /* + keyArr[k] */ );
+                                var $theProd = $("#" + thisProdId + keyArr[k]);
                                 if ($theProd.length > 0) {
-                                   // var $theProdAnchor = $theProd.find("a");
+                                    var $theProdAnchor = $theProd.find("a");
                                     var averageRatingVal = data.Results[i].ProductStatistics.NativeReviewStatistics.AverageOverallRating === null ? 0 : data.Results[i].ProductStatistics.NativeReviewStatistics.AverageOverallRating;
-                                   // $theProdAnchor.append('<meta itemprop="averageRating" content="' + averageRatingVal + '">');
-                                    //$theProdAnchor.append('<meta itemprop="totalReviews" content="' + data.Results[i].ProductStatistics.NativeReviewStatistics.TotalReviewCount + '">');
-                                    //$theProd.find("a > p, a > h3").wrapAll('<div class="productReviewStars" />');
-                                    console.log($theProd)
-                                    $($theProd.selector + " .productReviewStars").html('<span class="review-rating-stars-on review-rating-stars grid-100 tablet-grid-100 mobile-grid-100 grid-parent"><span class="stars-maintain-width"><span class="float-left"><span class="stars-block">&#9733;&#9733;&#9733;&#9733;&#9733;</span></span><span class="number-of-reviews"></span></span></span>');
+                                    $theProdAnchor.append('<meta itemprop="averageRating" content="' + averageRatingVal + '">');
+                                    $theProdAnchor.append('<meta itemprop="totalReviews" content="' + data.Results[i].ProductStatistics.NativeReviewStatistics.TotalReviewCount + '">');
+                                    $theProd.find("a > p, a > h3").wrapAll('<div class="cat-prod-details" />');
+                                    $theProd.find(".cat-prod-details").prepend('<span class="review-rating-stars-on review-rating-stars grid-100 tablet-grid-100 mobile-grid-100 grid-parent"><span class="stars-maintain-width"><span class="float-left"><span class="stars-block">&#9733;&#9733;&#9733;&#9733;&#9733;</span></span><span class="number-of-reviews"></span></span></span>');
                                     var percentToShow = averageRatingVal / 5 * 100;
-                                    $($theProd.selector + " .stars-block").css("width", percentToShow + "%");
-                                    $($theProd.selector + " .number-of-reviews").text("(" + data.Results[i].ProductStatistics.NativeReviewStatistics.TotalReviewCount + ")")
+                                    $theProd.find(".stars-block").css("width", percentToShow + "%");
+                                    $theProd.find(".number-of-reviews").text("(" + data.Results[i].ProductStatistics.NativeReviewStatistics.TotalReviewCount + ")")
                                 } else {
                                     break
                                 }
