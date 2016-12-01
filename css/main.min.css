@@ -548,6 +548,9 @@ label[for="chkReceiveThirdPartyCatalogs"]{ display: none }
     letter-spacing: 1px;
     font-familY: "freight-sans-pro", sans-serif;
 }
+/*error*/
+.error {border: 1px solid #ff2929  !important}
+
 
 @media only screen and (max-width: 1024px) 
 {
