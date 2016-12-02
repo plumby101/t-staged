@@ -551,6 +551,51 @@ label[for="chkReceiveThirdPartyCatalogs"]{ display: none }
 }
 /*error*/
 .error {border: 1px solid #ff2929  !important}
+.left-draw .nav-wrapper .sale a:hover {color: #ff2929  ;}
+.left-draw .nav-wrapper .sale a {color: #ff2929 }
+
+/*Advent*/
+div.adventTile.tileTitle {top: 65%;}
+div.adventTile.tileTitle .mainTitle{letter-spacing: 2px;}
+.littleWinterAdventTile{padding-bottom: 10px;}
+
+/*Little Winter build - Homepage*/
+        .littleWinterTopTile{margin-top: 16%;}
+        .lwsTile1{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/1200/TOAST_ChristmasRefresh_Women_1.jpg');padding-top: 121.120%;}
+        .lwsTile2{background-image:url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/1200/TOAST_ChristmasRefresh_Homepage_2.jpg');padding-top: 121.120%;}
+        .lwsTile3{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/1200/AW16070_WEB_MidWinterSale_Homepage_3.jpg');padding-top: 121.120%;}
+        .littleWinterShopTxt{font-size: 18px;border-bottom: 1px solid white;line-height: 25px;text-transform: uppercase;}
+        .littleWinterMidTitle{padding-bottom: 126px;}      
+        .lwsTile3 span{font-size: 18px;letter-spacing: 2px;font-family: 'Freight text book';}
+        .littleWinterTile.tileTitle {top: 62%;font-size: 24px;letter-spacing: 2px;margin-bottom: 20px;font-family: 'Freight text book';}
+        .littleWinterTile.tileTitle h2{margin-bottom: 20px;}
+        .littleWinterTile.tileTitle span{font-size: 16px;}
+/*Little Winter build - Womens*/
+                .lwsWtile1{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/1200/AW16070_WEB_MidWinterSale_Homepage_3.jpg');padding-top: 128%;}
+                .lwsWtile2{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/1200/TOAST_ChristmasRefresh_HouseandHome_2.jpg');padding-top: 128%;}
+                .lwsWtile3{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/768/TOAST_ChristmasLanding_1.jpg'); padding-top: 128%;}
+                div.lwsWtitle.tileTitle{top: 72%;}
+                .lwsWtile1 h2{padding-bottom: 20px;}
+                .lwsWtile1 span{font-size: 16px; letter-spacing: 2px;font-family:'Freight-text-pro'}
+/*Little Winter build - House and Home*/
+                .lwsHHtile1{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/1200/TOAST_ChristmasRefresh_Women_5.jpg')}
+                .lwsHHtile2{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/1200/AW16070_WEB_MidWinterSale_Homepage_3.jpg')}
+                .lwsHHtile3{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/1200/TOAST_ChristmasRefresh_HouseandHome_2.jpg')}
+                .lwsHHtile4{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/768/TOAST_ChristmasLanding_1.jpg')}
+                .lwsHHtile1 div.tileTitle, .lwsHHtile2 div.tileTitle{top: 68%;}
+                .lwsHHtile1 div.tileTitle h2, .lwsHHtile2 div.tileTitle h2{padding-bottom: 20px;}
+                .lwsHHtile1 div.tileTitle span{font-size: 16px; letter-spacing: 2px;border-bottom: 1px solid white;padding-bottom:5px;font-family: 'Freight-sans-pro';}
+                .lwsHHtile2 div.tileTitle span{font-size: 16px; letter-spacing: 2px;font-family: 'Freight-text-pro';}
+/*Little Winter build - Sale*/
+                .lwsStile1{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/768/TOAST_ChristmasLanding_1.jpg');}
+                div.lwsStile1.littleWinterSaleBanner{padding-top: 38.828%; background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/1200/AW16070_WEB_MidWinterSale_Sale_1.jpg');}
+                .littleWinterSaleBanner h1.mainTitle{font-size: 32px;}
+                .lwsStile1 .oasTopTile.littleWinterSaleBannerTile{margin-top: 0px;}
+                .saleTile{text-align: center;margin-bottom: 40px;}
+                .saleTile span{text-transform: uppercase;letter-spacing: 1px; font-size: 14px;font-weight: 500; text-align: center; border-bottom: 1px solid black; padding-bottom: 2px;"freight-sans-book";}
+                .saleTile img{margin-bottom: 30px;}
+                .littleWinterSaleSub{font-family: 'Freight text pro';letter-spacing: 2px;font-size: 22px;padding-top: 0px;margin-bottom: 40px;}
+                .shopTxt.littleWinterBannerTxt{margin-top: 34px;color:white;border-bottom:1px solid white;padding-bottom: 2px;text-transform: uppercase;margin-left:20px;margin-right: 20px;}
 
 
 @media only screen and (max-width: 1024px) 
@@ -675,7 +720,12 @@ label[for="chkReceiveThirdPartyCatalogs"]{ display: none }
     .ac_dayBox{width: 28.25%;}
     .doorContainer{top: 8%;}
      
+    /*Little Winter Sale - Homepage*/
+    .littleWinterMidTitle{font-size: 36px;letter-spacing: 2px;}
      
+    /*Little Winter Sale - Sale */
+    .littleWinterSaleSub{margin-top: 20px;}
+    .shopTxt.littleWinterBannerTxt{margin-top: 0px;}
 }
 @media only screen and (max-width: 768px) 
 {
@@ -774,6 +824,16 @@ label[for="chkReceiveThirdPartyCatalogs"]{ display: none }
     .ac_dayBox{width: 45%;}
     .doorContainer{top: 3%;margin-left: 7%;}
       
+    /*Little Winter Sale - Homepage*/
+    .littleWinterShopTile{margin-top: 0%;}
+        .littleWinterShopTxt{font-size: 14px;}
+    
+    /*Little Winter Sale - Sale */
+    
+    .littleWinterSaleBanner h1.mainTitle{font-size: 20px;}
+    .littleWinterSaleBanner .tileTitleMid{top: 30%;}
+    .shopTxt.littleWinterBannerTxt{font-size: 14px;}
+    .littleWinterSaleSub{margin: 0px; padding: 0px;font-size: 14px;letter-spacing: 1px;}
     
 }
 @media only screen and (max-width: 767px) 
@@ -810,7 +870,7 @@ label[for="chkReceiveThirdPartyCatalogs"]{ display: none }
 @media only screen and (max-width: 530px) 
 {
  	.category-product-items .product {height: 350px}   
- 	.landscapeTile { padding-top:78%}
+ 	/*.landscapeTile { padding-top:78%}*/
 
     /*Holy variety landing page main tile text*/
     .hvTopRowText h2 {font-size: 20px; font-weight: normal; letter-spacing: 3px}
@@ -847,6 +907,11 @@ label[for="chkReceiveThirdPartyCatalogs"]{ display: none }
     /*archive sale page*/
             .archive h1{top: 25%;font-size: 24px;}
     .archiveSub{top: 50%;font-size: 16px;}
+    
+    /*Little Winter Sale - Homepage*/
+    .littleWinterShopTile{font-size: 22px;line-height: 36px;}
+        .littleWinterMidTitle{font-size: 20px; padding-bottom: 85px;padding-bottom: 55px;}
+        .littleWinterShopTxt{line-height: 24px; font-size: 14px;}
 }
 
 
@@ -884,6 +949,14 @@ label[for="chkReceiveThirdPartyCatalogs"]{ display: none }
     .cgg_5 .tileTitle{top: 50%;}
     .cggTileText{padding-top: 15px;}
     
+    /*Little Winter Sale - Homepage*/
+     .littleWinterShopTxt{margin-top: 8px;}
+        .littleWinterTopTile{top: 24%;}
+    
+    /*Little Winter Sale - Sale*/
+    .littleWinterSaleBanner .tileTitleMid{top: 0%;}
+    .littleWinterSaleBannerTile a{display: block;padding-top: 0px;padding-bottom: 0px;}
+    .littleWinterSaleSub{display: none;}
 }  
 
 @media only screen and (max-width: 395px){
