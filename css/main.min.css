@@ -21,6 +21,8 @@ html,button,input,select,textarea{color:#222}#noscript{display:none;background-c
 .productSwatch {width: 22px;height: 22px;display: inline-block; margin: 6px 3px 0px 3px; padding: 4px; border: 1px solid #cccccc; cursor: pointer;}
 .productSelected {border-color: #000000}
 
+.error {border: 1px solid #ff2929 !important}
+
 .textRight {text-align: right}
 
 .helvMedium {font-family: 'HelveticaNeueLT-MediumCond', 'pragmatica-web-condensed', arial, sans-serif}
