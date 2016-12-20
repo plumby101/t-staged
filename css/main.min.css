@@ -792,7 +792,7 @@ label[for="chkReceiveThirdPartyCatalogs"]{ display: none }
 	.aboutUsLink {margin-bottom: 20px}
     
     /*archive sale page*/
-            .archive h1{top: 25%;font-size: 24px;}
+    .archive h1{top: 25%;font-size: 24px;}
     .archiveSub{top: 50%;font-size: 16px;}
 }
 
@@ -817,7 +817,7 @@ label[for="chkReceiveThirdPartyCatalogs"]{ display: none }
     .hlTopTile .tileTitle {top: 5%}
     .hlOasEveryday {margin-bottom: 10px}
     
-        /*Homepage*/
+    /*Homepage*/
     .saleTitle{top: 32%}
     
     /*Miscellaneous*/
