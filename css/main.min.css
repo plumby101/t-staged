@@ -79,7 +79,7 @@ html,button,input,select,textarea{color:#222}#noscript{display:none;background-c
 .wl_3{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/1200/TOAST_ChristmasRefresh_Women_3.jpg');}
 .wl_4{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/1200/TOAST_ChristmasRefresh_Women_2.jpg');}
 .wl_5{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/1200/TOAST_ChristmasRefresh_Women_4.jpg');}
-.wl_6{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/1200/TOAST_ChristmasRefresh_Women_5.jpg');}
+.wl_6{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/1200/TOAST_MidWinterSale_Landing_Women_New.jpg');}
 .wl_7{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/1200/TOAST_ChristmasRefresh_Women_6.jpg');}
 .wl_7 .mainTitle{font-size: 20px;} 
 .wl_2 .shopTxt{text-transform: uppercase;font-size: 18px;line-height: 60px;letter-spacing: 2px;}
@@ -197,9 +197,9 @@ html,button,input,select,textarea{color:#222}#noscript{display:none;background-c
 .hlTile2{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/1200/TOAST_ChristmasRefresh_Homepage_3.jpg');padding-top: 121.120%}
 .hlTile3{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/1200/TOAST_ChristmasRefresh_Homepage_2.jpg');padding-top: 121.120%}
 .hlTile4{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/768/TOAST_Web_WinterRefresh_Homepage_4.jpg');padding-top: 121.120%}
-.hlTile5{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/1200/TOAST_ChristmasRefresh_Homepage_4.jpg');padding-top: 121%;}
+.hlTile5{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/1200/TOAST_MidWinterSale_Homepage_New.jpg');padding-top: 121%;}
 /*Old toast magazine tile.hlTile7{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/768/TOAST_Christmas_Homepage_5.jpg');padding-top: 121%;}*/
-.hlTile7{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/1200/TOAST_Advent_Landing_Tile_1a.jpg');padding-top: 121%;}
+.hlTile7{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/1200/TOAST_WorksoftheHeart_a.jpg');padding-top: 121%;}
 
 .hlTile6{background-color: #e9e9e9;color:black;}
 .hlTopTile .tileTitle {top: 45%}
@@ -578,26 +578,20 @@ div.adventTile.tileTitle .mainTitle{letter-spacing: 2px;}
 .littleWinterTile.tileTitle span{font-size: 16px;}
 
 /*Little Winter build - Womens*/
-.lwsWtile1{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/1200/AW16070_WEB_MidWinterSale_Homepage_3.jpg');padding-top: 128%;}
-.lwsWtile2{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/1200/TOAST_ChristmasRefresh_HouseandHome_2.jpg');padding-top: 128%;}
 .lwsWtile3{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/768/TOAST_ChristmasLanding_1.jpg'); padding-top: 128%;}
 div.lwsWtitle.tileTitle{top: 72%;}
 .lwsWtile1 h2{padding-bottom: 20px;}
 .lwsWtile1 span{font-size: 16px; letter-spacing: 2px;}
 
 /*Little Winter build - House and Home*/
-.lwsHHtile1{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/1200/TOAST_ChristmasRefresh_Women_5.jpg')}
-.lwsHHtile2{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/1200/AW16070_WEB_MidWinterSale_Homepage_3.jpg')}
-.lwsHHtile3{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/1200/TOAST_ChristmasRefresh_HouseandHome_2.jpg')}
-.lwsHHtile4{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/768/TOAST_ChristmasLanding_1.jpg')}
 .lwsHHtile1 div.tileTitle, .lwsHHtile2 div.tileTitle{top: 68%;}
 .lwsHHtile1 div.tileTitle h2, .lwsHHtile2 div.tileTitle h2{padding-bottom: 20px;}
-.lwsHHtile1 div.tileTitle span{font-size: 16px; letter-spacing: 2px;border-bottom: 1px solid white;padding-bottom:5px;font-family: 'Freight-sans-pro';}
+.lwsHHtile1 div.tileTitle span{font-size: 16px; letter-spacing: 2px;border-bottom: 1px solid white;padding-bottom:0px;font-family: 'Freight-sans-pro';}
 .lwsHHtile2 div.tileTitle span{font-size: 16px; letter-spacing: 2px;}
 
 /*Little Winter build - Sale*/
 .lwsStile1{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/768/TOAST_ChristmasLanding_1.jpg');}
-div.lwsStile1.littleWinterSaleBanner{padding-top: 38.828%; background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/1200/AW16070_WEB_MidWinterSale_Sale_1.jpg');}
+div.lwsStile1.littleWinterSaleBanner{padding-top: 38.828%; background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/1200/TOAST_WinterSale_SaleLanding_1.jpg');}
 .littleWinterSaleBanner h1.mainTitle{font-size: 32px;}
 .lwsStile1 .oasTopTile.littleWinterSaleBannerTile{margin-top: 0px;}
 .saleTile{text-align: center;margin-bottom: 40px;}
@@ -608,6 +602,49 @@ div.lwsStile1.littleWinterSaleBanner{padding-top: 38.828%; background-image: url
 
 /* Sale price */
 li.main-link.sale a { color: red}
+
+
+/*Grand Winter Sale Styles*/
+
+/*GWS Homepage*/
+
+.gwshlTile1{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/1200/TOAST_WinterSale_Homepage_1.jpg');padding-top: 62.916%;}
+.gwsBtn{color: white; border-bottom: 1px solid white;text-transform: uppercase;padding-bottom: 5px;margin: 40px 20px 0px 20px;}
+span.mainTitle.textSemibold.gwsSub{text-align: center; margin-bottom: 60px;margin-top: 40px; display: block;}
+.gwshlTile2{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/1200/TOAST_WinterSale_Homepage_3.jpg');padding-top: 121.120%;}
+.gwsTile {text-align: center; margin-bottom: 40px;}
+span.shopTxt.gwsBtn{margin-top: 40px;}
+
+/*GWS Women*/
+
+.gwsWtile1{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/1200/TOAST_WinterSale_WomenLanding_1.jpg');padding-top: 128%;}
+.gwsWtile1 div.lwsWtitle.tileTitle{top: 68%;}
+.gwsWtile2{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/950/TOAST_WinterSale_WomenLanding_2.jpg');padding-top: 128%;}
+div.gwsWtitle.tileTitle{top: 72%;}
+.gwsWtile1 h2{padding-bottom: 20px;}
+.gwsWtile1 span{font-size: 16px; letter-spacing: 2px;}
+
+/*GWS HnH*/
+.gwsHHtile1{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/950/TOAST_MidWinterSale_Homepage_New.jpg')}
+.gwsHHtile2 div.tileTitle span{font-size: 16px; letter-spacing: 2px;}
+.gwsHHtile2{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/950/TOAST_WinterSale_HomeLanding_1.jpg');padding-top: 128%;}
+.gwsHHtile3{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/950/TOAST_WinterSale_HomeLanding_2.jpg');}
+.gwsHHtile4{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/768/TOAST_MidWinterSale_Landing_HouseandHome_New.jpg');}
+.gwsHHtile5{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/950/TOAST_WinterSale_HomeLanding_4.jpg'); padding-top: 128%;}
+.gwsHHtile1 .tileTitle .landingTileTxt, .gwsHHtile2 .tileTitle .landingTileTxt{font-size: 28px;}
+div.gwsHHtile1 div.tileTitle span, div.gwsHHtile2 div.tileTitle span{padding-bottom: 0px;}
+
+/*GWS Sale*/
+.saleSpan{display: block; margin-bottom: 40px;}
+.saleLink{text-align: center;border-bottom: 1px solid white; margin-top: 20px}
+
+/*GWS Sale HnH*/
+.lwsStile1{background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/768/TOAST_ChristmasLanding_1.jpg');}
+.saleTile{text-align: center;margin-bottom: 40px;}
+.saleTile span{text-transform: uppercase;letter-spacing: 1px; font-size: 14px;font-weight: 500; text-align: center; border-bottom: 1px solid black; padding-bottom: 2px;}
+.saleTile img{margin-bottom: 30px;}
+.littleWinterSaleSub{letter-spacing: 2px;font-size: 22px;padding-top: 0px;margin-bottom: 40px;}
+.shopTxt.littleWinterBannerTxt{margin-top: 34px;color:white;border-bottom:1px solid white;padding-bottom: 2px;text-transform: uppercase;margin-left:20px;margin-right: 20px;}
 
 @media only screen and (max-width: 1024px) 
 {
@@ -739,6 +776,14 @@ li.main-link.sale a { color: red}
     /*Little Winter Sale - Sale */
     .littleWinterSaleSub{margin-top: 20px;}
     .shopTxt.littleWinterBannerTxt{margin-top: 0px;}
+    
+    /*Grand Winter Sale*/
+    /*GWS Homepage*/
+    .tileTitleMid.oasTopTile.gwsTile{margin-top: 0px;}
+    
+    /*GWS Sale*/
+    .littleWinterSaleSub{margin-top: 20px;}
+    .shopTxt.littleWinterBannerTxt{margin-top: 0px;}
 }
 @media only screen and (max-width: 768px) 
 {
@@ -851,6 +896,19 @@ li.main-link.sale a { color: red}
     .shopTxt.littleWinterBannerTxt{font-size: 14px;}
     .littleWinterSaleSub{margin: 0px; padding: 0px;font-size: 14px;letter-spacing: 1px;}
     
+    /*Grand Winter Sale*/
+    /*GWS Homepage*/
+    .gwsTile a{display: block;font-size: 14px;}
+    .mainTitle.textSemibold.landingTileTxt.midtitle.gwsTitle{font-size: 20px;}
+    span.mainTitle.textSemibold.gwsSub{margin-bottom: 0px;margin-top: 10px;font-size: 16px;}
+    .gwsTile {text-align: center; margin-bottom: 40px;}
+    span.shopTxt.gwsBtn{margin-top: 40px;}
+    
+    /*GWS Sale*/
+    .littleWinterSaleBanner h1.mainTitle{font-size: 20px;}
+    .littleWinterSaleBanner .tileTitleMid{top: 10%;}
+    .shopTxt.littleWinterBannerTxt{font-size: 14px;}
+    .littleWinterSaleSub{margin: 0px; padding: 0px;font-size: 14px;letter-spacing: 1px;}
 }
 @media only screen and (max-width: 767px) 
 {
@@ -931,6 +989,11 @@ li.main-link.sale a { color: red}
     .littleWinterShopTile{font-size: 22px;line-height: 36px;}
     .littleWinterMidTitle{font-size: 20px; padding-bottom: 85px;padding-bottom: 55px;}
     .littleWinterShopTxt{line-height: 24px; font-size: 14px;}
+
+    /*Grand Winter Sale*/
+    /*GWS Homepage*/
+    .tileTitleMid.oasTopTile.gwsTile{top: 12%;}
+    span.shopTxt.gwsBtn{margin-top: 10px;font-size: 14px;}
 }
 
 
@@ -979,15 +1042,29 @@ li.main-link.sale a { color: red}
     .littleWinterSaleBanner .tileTitleMid{top: 0%;}
     .littleWinterSaleBannerTile a{display: block;padding-top: 0px;padding-bottom: 0px;}
     .littleWinterSaleSub{display: none;}
+    
+    /*Grand Winter Sale*/
+    /*GWS Homepage*/
+    .tileTitleMid.oasTopTile.gwsTile{top: 12%;}
+    span.shopTxt.gwsBtn{margin-top: 10px;font-size: 14px;}
+    
+    /*GWS Women*/
+    .lwsWtile1 div.lwsWtitle.tileTitle{top: 62%;}
+    
+    /*GWS House and Home*/
+    .lwsHHtile2 div.tileTitle{top: 62%;}
+    
+    /*GWS Sale*/
+    .littleWinterSaleBannerTile a{display: block;padding-top: 0px;padding-bottom: 0px;}
+    .littleWinterSaleSub.gwsSaleSub{display: none;}
+    .littleWinterSaleSub{display: block;}
 }  
 
 @media only screen and (max-width: 395px){
-    
+
     /*archive sale page*/
     .archive h1{top:14%;}
-    .archiveSub{top: 38%;}
-    
-        
+    .archiveSub{top: 38%;}    
     .longDescTop{top: 36%}
 }
 @media only screen and (max-width: 320px) 
@@ -998,5 +1075,4 @@ li.main-link.sale a { color: red}
     /*Swatches Tom Dev*/
     .category-product-items .product{margin-bottom: 40%;}
 }
-0
-0Looking
+
