@@ -586,7 +586,7 @@ div.lwsStile1.littleWinterSaleBanner{padding-top: 38.828%; background-image: url
 .shopTxt.littleWinterBannerTxt{margin-top: 34px;color:white;border-bottom:1px solid white;padding-bottom: 2px;text-transform: uppercase;margin-left:20px;margin-right: 20px}
 
 /* Sale price */
-li.main-link.sale a {color:red}
+li.main-link.sale a {color:#db2424}
 
 /*GWS Homepage */
 .gwshlTile1 {background-image: url('//d117fiyhpld8f9.cloudfront.net/content-images/aw16/1200/TOAST_WinterSale_Homepage_1.jpg');padding-top: 62.916%}
