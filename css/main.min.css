@@ -24,8 +24,6 @@
 
 .topNavSale {color:#db2424}
 
-#basket-upsell {display: none}
-
 /*Swatches Tom Dev*/
 .category-product-items .product{margin-bottom: 188px}
 
@@ -305,14 +303,14 @@
 .pinToWin .mainTitle{font-size: 20px}
 
 /*Sitemap*/
-.sitemapTitle {font-family: 'HelveticaNeueLT-MediumCond', 'pragmatica-web-condensed', arial, sans-serif;letter-spacing: 1px; text-transform: uppercase;border-bottom: 3px solid #909090;font-size: 26px;padding-top: 30px;margin-bottom: 30px} 
-.smTileTitle {font-family: 'HelveticaNeueLT-LightCond', 'pragmatica-web-condensed', arial, sans-serif;font-size: 22px;font-weight: 300}
-.sitemapSub {font-family: 'HelveticaNeueLT-LightCond', 'pragmatica-web-condensed', arial, sans-serif;text-transform: uppercase;border-bottom: 1px solid #909090;font-size: 22px;margin-bottom: 30px}
-.sitemapSSub {font-family: 'HelveticaNeueLT-LightCond', 'pragmatica-web-condensed', arial, sans-serif;margin-top: 30px;font-weight: 100;font-size: 22px;text-transform: uppercase;border-bottom: 1px solid #909090;margin-bottom: 30px}
-.sitemapSecondaryTitle {font-family: 'HelveticaNeueLT-MediumCond', 'pragmatica-web-condensed', arial, sans-serif;font-weight: 400;font-size: 16px;display: block;text-transform: uppercase;margin-bottom: 20px}
+.sitemapTitle {letter-spacing: 1px; text-transform: uppercase;border-bottom: 3px solid #909090;font-size: 26px;padding-top: 30px;margin-bottom: 30px} 
+.smTileTitle {font-size: 22px;font-weight: 300}
+.sitemapSub {text-transform: uppercase;border-bottom: 1px solid #909090;font-size: 22px;margin-bottom: 30px}
+.sitemapSSub {margin-top: 30px;font-weight: 100;font-size: 22px;text-transform: uppercase;border-bottom: 1px solid #909090;margin-bottom: 30px}
+.sitemapSecondaryTitle {font-weight: 400;font-size: 16px;display: block;text-transform: uppercase;margin-bottom: 20px}
 .sitemapClear {margin-top: 30px}
-.smRow ul li a {line-height: 24px;font-size: 16px;font-family: 'HelveticaNeueLT-LightCond', 'pragmatica-web-condensed', arial, sans-serif}
-.smhalfCol{padding-left: 0px!important}
+.smRow ul li a {line-height: 24px;font-size: 16px;}
+.smhalfCol{padding-left: 0px!important;}
 
 /* Footer */
 .bootstrapFooter h3 {font-weight: 300; font-size: 22px; text-transform: uppercase}
@@ -761,8 +759,11 @@ span.shopTxt.gwsBtn {margin-top: 40px}
     .tileTitleMid.oasTopTile.gwsTile{margin-top: 0px}
     
     /*GWS Sale*/
-    .littleWinterSaleSub{margin-top: 20px}
+    .littleWinterSaleSub{margin-top: 5px; margin-bottom: 10px;}
     .shopTxt.littleWinterBannerTxt{margin-top: 0px}
+    .littleWinterSaleBannerTile .tileTitleMid{top: 20%;}
+
+    
 }
 @media only screen and (max-width: 768px) 
 {
@@ -882,12 +883,15 @@ span.shopTxt.gwsBtn {margin-top: 40px}
     span.mainTitle.textSemibold.gwsSub{margin-bottom: 0px;margin-top: 10px;font-size: 16px}
     .gwsTile {text-align: center; margin-bottom: 40px}
     span.shopTxt.gwsBtn{margin-top: 40px}
+    .gwshlTile1 .tileTitleMid.oasTopTile.gwsTile{top: 20%;}
     
     /*GWS Sale*/
-    .littleWinterSaleBanner h1.mainTitle{font-size: 20px}
+    .littleWinterSaleBanner h1.mainTitle{font-size: 20px; line-height: 24px;}
     .littleWinterSaleBanner .tileTitleMid{top: 10%}
     .shopTxt.littleWinterBannerTxt{font-size: 14px}
     .littleWinterSaleSub{margin: 0px; padding: 0px;font-size: 14px;letter-spacing: 1px}
+    .littleWinterSaleSub .gwsSaleSub{top: 4%;}
+    div.tileTitleMid.oasTopTile.otherGWS.littleWinterSaleBannerTile{top: 35%;}
 }
 @media only screen and (max-width: 767px) 
 {
@@ -973,6 +977,7 @@ span.shopTxt.gwsBtn {margin-top: 40px}
     /*GWS Homepage*/
     .tileTitleMid.oasTopTile.gwsTile{top: 12%}
     span.shopTxt.gwsBtn{margin-top: 10px;font-size: 14px}
+    div.tileTitleMid.oasTopTile.otherGWS.littleWinterSaleBannerTile{top: 25%;}
 }
 
 
@@ -1026,6 +1031,7 @@ span.shopTxt.gwsBtn {margin-top: 40px}
     /*GWS Homepage*/
     .tileTitleMid.oasTopTile.gwsTile{top: 0%}
     span.shopTxt.gwsBtn{margin-top: 10px;font-size: 14px}
+    .gwshlTile1 .tileTitleMid.oasTopTile.gwsTile{top: 0%;}
     
     /*GWS Women*/
     .lwsWtile1 div.lwsWtitle.tileTitle{top: 55%}
@@ -1034,7 +1040,7 @@ span.shopTxt.gwsBtn {margin-top: 40px}
     .lwsHHtile2 div.tileTitle{top: 62%}
     
     /*GWS Sale*/
-    .littleWinterSaleBannerTile a{display: block;padding-top: 0px;padding-bottom: 0px}
+    .littleWinterSaleBannerTile a{display: block;padding-top: 0px;padding-bottom: 0px;line-height: 28px;}
     .littleWinterSaleSub.gwsSaleSub{display: none}
     .littleWinterSaleSub{display: block}
 }  
@@ -1045,6 +1051,7 @@ span.shopTxt.gwsBtn {margin-top: 40px}
     .archive h1{top:14%}
     .archiveSub{top: 38%}    
     .longDescTop{top: 36%}
+    div.tileTitleMid.oasTopTile.otherGWS.littleWinterSaleBannerTile{top: 0%;line-height:34px;}
 }
 @media only screen and (max-width: 320px) 
 
@@ -1054,4 +1061,3 @@ span.shopTxt.gwsBtn {margin-top: 40px}
     /*Swatches Tom Dev*/
     .category-product-items .product{margin-bottom: 40%}
 }
-
